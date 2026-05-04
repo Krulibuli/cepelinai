@@ -1,0 +1,45 @@
+/* Industries section */
+body{
+    background-image: url("../../img/uniqueBackground.png");
+    background-repeat: repeat;
+}
+
+
+.industries {
+  padding-left: 40px;
+}
+
+.industries .header  {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.industries .item {
+  display: inline-block;
+  width: 23%;
+  vertical-align: top;
+  padding: 15px;
+}
+
+.industries img {
+  width: 40px;
+  height: 40px;
+}
+
+.industries h2 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.industries hr {
+  width: 90%;
+  border: none;
+  height: 0.5px;
+  background-color: black;
+  margin: 10px 0;
+}
+
+.industries p {
+  font-size: 10px;
+  color: lightgray;
+}
