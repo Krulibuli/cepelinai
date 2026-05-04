@@ -1,0 +1,50 @@
+/* Industries section */
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+
+.industries {
+  padding-left: 40px;
+      /* background-image: url("../../img/uniqueBackground.png"); */
+    /* background-repeat: repeat; */
+  min-height: 100dvh;
+}
+
+.industries .title  {
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.industries .item {
+  display: inline-block;
+  width: 23%;
+  vertical-align: top;
+  padding: 15px;
+}
+
+.industries img {
+  width: 40px;
+  height: 40px;
+}
+
+.industries h2 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.industries hr {
+  width: 90%;
+  border: none;
+  height: 0.5px;
+  background-color: black;
+  margin: 10px 0;
+}
+
+.industries p {
+  font-size: 10px;
+  color: lightgray;
+}
