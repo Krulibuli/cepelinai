@@ -1,0 +1,103 @@
+@font-face {
+  font-family: myFont;
+  src: url("../../Fonts/NeueMaChina-Light.otf");
+}
+
+body{
+    font-family: myFont;
+    color: white;
+}
+
+.touch-with-us {
+    justify-content: center;
+  align-items: center;
+  min-width: 1860px;
+  background: #5e5be6;
+  border-radius: 100px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  padding: 80px;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  font-family: myFont;
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+.registration {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+.registration input {
+    background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  padding: 10px 0;
+  color: #9291ed;
+  font-size: 20px;
+}
+
+.submitt {
+  width: 160px;
+  height: 60px;
+  background-color: white;
+  color: #2E2BD0;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+
+.upload-right {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.upload-right p {
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.upload-right input{
+    font-family:myFont;
+    background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  padding: 12px 0;
+  color: white;
+}
+
+.download {
+    width: 250px;
+    height: 60px;
+background: transparent;
+  padding: 15px 30px;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.px{
+    font-size: 20px;
+}
+
+
