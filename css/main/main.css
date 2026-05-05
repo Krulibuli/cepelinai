@@ -1,0 +1,19 @@
+/* General */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* Header */
+.header-section {
+    background-image: url(../../img/background_header.png);
+    min-height: 100dvh;
+}
+.header-section p {
+    z-index: 100;
+}
+.blue-box-area {
+    z-index: 1;
+}
+.estimate-project {
+    
+}
