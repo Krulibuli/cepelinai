@@ -4,16 +4,220 @@ body {
     padding: 0px;
 }
 /* Header */
+.header p {
+  margin: none;
+}
 .header-section {
     background-image: url(../../img/background_header.png);
     min-height: 100dvh;
 }
 .header-section p {
-    z-index: 100;
+  z-index: 100;
+  /* Developing IT solutions to scale up your business */
+
+position: absolute;
+width: 892px;
+height: 130px;
+left: 150px;
+top: 365px;
+
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 130%;
+/* or 65px */
+
+/* Main | White */
+color: #FFFFFF;
+
+
 }
 .blue-box-area {
-    z-index: 1;
+  z-index: 1;
+  position: absolute;
+  width: 876px;
+  height: 65px;
+  left: 150px;
+  top: 447px;
+  background: #2E2BD0;
+
 }
 .estimate-project {
-    
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  left: 150px;
+  top: 645px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 100%;
 }
+.estimate-project a {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 130%;
+  /* or 39px */
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  width: 160px;
+  height: 78px;
+  left: 60px;
+  top: 101px;
+}
+/* Industries section */
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+
+.industries {
+  padding-left: 40px;
+      /* background-image: url("../../img/uniqueBackground.png"); */
+    /* background-repeat: repeat; */
+  min-height: 100dvh;
+}
+
+.industries .title  {
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.industries .item {
+  display: inline-block;
+  width: 23%;
+  vertical-align: top;
+  padding: 15px;
+}
+
+.industries img {
+  width: 40px;
+  height: 40px;
+}
+
+.industries h2 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.industries hr {
+  width: 90%;
+  border: none;
+  height: 0.5px;
+  background-color: black;
+  margin: 10px 0;
+}
+
+.industries p {
+  font-size: 10px;
+  color: lightgray;
+}
+@font-face {
+  font-family: myFont;
+  src: url("../../Fonts/NeueMaChina-Light.otf");
+}
+
+body{
+    font-family: myFont;
+    color: white;
+}
+
+.touch-with-us {
+    justify-content: center;
+  align-items: center;
+  min-width: 1860px;
+  background: #5e5be6;
+  border-radius: 100px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  padding: 80px;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  font-family: myFont;
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+.registration {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+.registration input {
+    background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  padding: 10px 0;
+  color: #9291ed;
+  font-size: 20px;
+}
+
+.submitt {
+  width: 160px;
+  height: 60px;
+  background-color: white;
+  color: #2E2BD0;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+
+.upload-right {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.upload-right p {
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.upload-right input{
+    font-family:myFont;
+    background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  padding: 12px 0;
+  color: white;
+}
+
+.download {
+    width: 250px;
+    height: 60px;
+background: transparent;
+  padding: 15px 30px;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.px{
+    font-size: 20px;
+}
+
+
