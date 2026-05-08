@@ -3,6 +3,10 @@ body {
     margin: 0px;
     padding: 0px;
 }
+@font-face {
+  font-family: myFont;
+  src: url("../../Fonts/NeueMaChina-Light.otf");
+}
 /* Header */
 .header p {
   margin: none;
@@ -13,24 +17,16 @@ body {
 }
 .header-section p {
   z-index: 100;
-  /* Developing IT solutions to scale up your business */
-
-position: absolute;
-width: 892px;
-height: 130px;
-left: 150px;
-top: 365px;
-
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 130%;
-/* or 65px */
-
-/* Main | White */
-color: #FFFFFF;
-
-
+  position: absolute;
+  width: 892px;
+  height: 130px;
+  left: 150px;
+  top: 365px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 130%;
+  color: #FFFFFF;
 }
 .blue-box-area {
   z-index: 1;
@@ -40,7 +36,6 @@ color: #FFFFFF;
   left: 150px;
   top: 447px;
   background: #2E2BD0;
-
 }
 .estimate-project {
   position: absolute;
@@ -59,7 +54,6 @@ color: #FFFFFF;
   font-weight: 400;
   font-size: 30px;
   line-height: 130%;
-  /* or 39px */
   text-align: center;
   text-transform: uppercase;
   position: absolute;
@@ -68,6 +62,7 @@ color: #FFFFFF;
   left: 60px;
   top: 101px;
 }
+
 /* Industries section */
 body{
     margin: 0;
@@ -118,10 +113,7 @@ body{
   font-size: 10px;
   color: lightgray;
 }
-@font-face {
-  font-family: myFont;
-  src: url("../../Fonts/NeueMaChina-Light.otf");
-}
+
 
 body{
     font-family: myFont;
