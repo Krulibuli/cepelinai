@@ -4,18 +4,16 @@
     margin: 0;
     padding: 0px 20px;
     display: flex;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 
 
 .left-side {
     display: flex;
-    border-right: 1px solid white;
     width: 70%;
     align-items: center;
     justify-content: space-between;
-    padding-right: 30px;
 }
 
 .left-side img {
@@ -41,12 +39,21 @@
 
 
 
+.white-line {
+    width: 1px;
+    background-color: white;
+    margin: 0px 30px;
+}
+
+
+
 .right-side {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 15%;
-    padding-left: 15px;
+    justify-content: left;
+    width: 30%;
+    padding: 35px 0px;
+    gap: 35px;
 }
 
 .right-side .language {
@@ -60,7 +67,6 @@
 
 .right-side .button-div {
     display: flex;
-    margin-left: 20px;
 }
 
 
@@ -78,4 +84,9 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+    cursor: pointer;
+}
+
+.nav-bar p img {
+    cursor: pointer;
 }
