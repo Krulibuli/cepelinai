@@ -1,7 +1,21 @@
 .nav-bar {
     background-color: black;
-    border-bottom: 4px solid gray;
-    margin: 25px;
+    border-bottom: 1px solid white;
+    margin: 0;
+    padding: 0px 20px;
+    display: flex;
+    font-size: 24px;
+}
+
+
+
+.left-side {
+    display: flex;
+    border-right: 1px solid white;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
 }
 
 .left-side img {
@@ -11,5 +25,57 @@
 .left-side ul {
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
+    gap: 50px;
+    
+}
+
+.nav-bar a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+    padding-left: 15px;
+}
+
+.right-side .language {
+    display: flex;
+    align-items: center;
+}
+
+.right-side .language p {
+    margin-right: 6px;
+}
+
+.right-side .button-div {
+    display: flex;
+    margin-left: 20px;
+}
+
+
+
+.nav-bar button {
+    height: 59px;
+    width: 254px;
+    border: 0;
+    background-color: #2E2BD0;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: myFont;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
