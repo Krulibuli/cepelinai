@@ -1,16 +1,16 @@
 .nav-bar {
+    height: 120px;
     border-bottom: 1px solid white;
-    margin: 0;
-    padding: 0px 20px;
+    margin: 0px 20px;
     display: flex;
     font-size: 22px;
-    position: fixed;
+    position: absolute;
 }
 
 
 .left-side {
     display: flex;
-    width: 90rem;
+    width: 87rem;
     align-items: center;
     justify-content: space-between;
 }
