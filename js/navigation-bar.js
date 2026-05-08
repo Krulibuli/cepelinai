@@ -1,7 +1,8 @@
 "use strict";
 
-function toggleDiv(divID) {
-    const div = document.getElementById(divID)
-    div.style.display = (div.style.display === "none")
-}
+let btn = document.getElementById("lang-sel");
 
+btn.addEventListener("click", () => {
+    const div = document.getElementById("language-selector")
+    div.style.display = (div.style.display === "none" || div.style.display === "") ? "block" : "none";
+})
