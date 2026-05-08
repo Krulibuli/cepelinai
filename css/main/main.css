@@ -1,7 +1,119 @@
+/* General */
+body {
+    margin: 0px;
+    padding: 0px;
+}
 @font-face {
   font-family: myFont;
   src: url("../../Fonts/Neue\ Machina\ Regular\ 400.otf");
 }
+/* Header */
+.header p {
+  margin: none;
+}
+.header-section {
+    background-image: url(../../img/background_header.png);
+    min-height: 100dvh;
+}
+.header-section p {
+  z-index: 100;
+  position: absolute;
+  width: 892px;
+  height: 130px;
+  left: 150px;
+  top: 365px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+.blue-box-area {
+  z-index: 1;
+  position: absolute;
+  width: 876px;
+  height: 65px;
+  left: 150px;
+  top: 447px;
+  background: #2E2BD0;
+}
+.estimate-project {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  left: 150px;
+  top: 645px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+.estimate-project a {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  width: 160px;
+  height: 78px;
+  left: 60px;
+  top: 101px;
+}
+
+/* Industries section */
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+
+.industries {
+  padding-left: 40px;
+      /* background-image: url("../../img/uniqueBackground.png"); */
+    /* background-repeat: repeat; */
+  min-height: 100dvh;
+}
+
+.industries .title  {
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.industries .item {
+  display: inline-block;
+  width: 23%;
+  vertical-align: top;
+  padding: 15px;
+}
+
+.industries img {
+  width: 40px;
+  height: 40px;
+}
+
+.industries h2 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.industries hr {
+  width: 90%;
+  border: none;
+  height: 0.5px;
+  background-color: black;
+  margin: 10px 0;
+}
+
+.industries p {
+  font-size: 10px;
+  color: lightgray;
+}
+
 
 body {
   font-family: myFont;
