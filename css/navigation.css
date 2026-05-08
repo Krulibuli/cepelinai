@@ -1,4 +1,15 @@
-header {
-    background-image: url(../img/background.png);
-    height: 100vh;
+.nav-bar {
+    background-color: black;
+    border-bottom: 4px solid gray;
+    margin: 25px;
+}
+
+.left-side img {
+    width: 204px;
+}
+
+.left-side ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
 }
