@@ -14,6 +14,7 @@ body {
 .header-section {
     background-image: url(../../img/background_header.png);
     min-height: 100dvh;
+    background-repeat: no-repeat;
 }
 .header-section p {
   z-index: 100;
