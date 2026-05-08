@@ -13,7 +13,9 @@ body {
 }
 .header-section {
     background-image: url(../../img/background_header.png);
-    min-height: 100dvh;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1920px;
 }
 .header-section p {
   z-index: 100;
