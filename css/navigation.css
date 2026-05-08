@@ -77,6 +77,18 @@
 
 
 
+#lang-sel .languages {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#lang-sel .languages p {
+    margin-right: 7px;
+}
+
+
+
 .nav-bar button {
     height: 59px;
     width: 254px;
@@ -93,6 +105,3 @@
     cursor: pointer;
 }
 
-.nav-bar p img {
-    cursor: pointer;
-}
