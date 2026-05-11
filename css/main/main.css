@@ -114,22 +114,6 @@ body{
   color: lightgray;
 }
 
-
-body {
-  font-family: myFont;
-  color: white;
-}
-
-.touch-with-us {
-  width: 100%;
-  max-width: 1900px;
-  background: #5e5be6;
-  border-radius: 80px;
-  padding: 60px;
-  box-sizing: border-box;
-}
- 
- 
 .left-side {
   display: flex;
   justify-content: space-between;
@@ -137,96 +121,120 @@ body {
   gap: 80px;
   flex-wrap: wrap;
 }
- 
- 
-.left {
-  min-width: 300px;
+
+body {
+  font-family: myFont;
+  color: white;
 }
- 
+
+
+.touch-with-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+  width: 100%;
+  max-width: 1900px;
+  padding: 80px;
+  background: linear-gradient(135deg, #5e5be6, #6c68f3);
+  border-radius: 80px;
+}
+
+
+.left {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .left h1 {
+  min-width: 700px  ;
   font-size: 100px;
   line-height: 1.1;
   color: white;
-  margin-bottom: 50px;
-  font-family: myFont;
 }
- 
-.registration {
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
+
+
+.down {
+  min-width: 700px;
+  min-height: 61.5px;
+  font-size: 24px;
+  width: 48%;
 }
- 
-.registration input {
-  width: 100%;
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid rgba(255,255,255,0.5);
-  padding-bottom: 12px;
-  font-size: 30px;
+
+.left p {
+  margin-top: 100px;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #c3c0f4;
+}
+
+.left strong {
   color: white;
 }
- 
-.registration input::placeholder {
-  color: #a9a7f2;
-}
- 
-.submitt {
-  width: 200px;
-  height: 60px;
-  background: white;
-  border: none;
-  border-radius: 8px;
-  color: #2e2bd0;
-  cursor: pointer;
-}
- 
- 
-.right-block {
-  flex: 1;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
- 
-.righttext p {
-  font-size: 30px;
-  line-height: 1.6;
-  color: rgba(255,255,255,0.85);
-}
- 
- 
+
 .download {
-  width: 340px;
-  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 300px;
+  height: 55px;
   background: transparent;
-  border: 1px solid rgba(255,255,255,0.3);
+  border: 1px solid rgba(255,255,255,0.4);
   border-radius: 10px;
   color: white;
   cursor: pointer;
-  margin-top: 30px;
+  font-size: 18px;
+  gap: 12px;
 }
- 
- 
-.righttext1 {
+
+.upload-right {
+  display: flex;
+  gap: 60px;
+  width: 100%;
+}
+
+
+.registration,.column1 {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
+  width: 50%;
 }
- 
+
+.registration input,
 .px {
   width: 100%;
   background: transparent;
   border: none;
   border-bottom: 1px solid rgba(255,255,255,0.5);
-  padding-bottom: 12px;
-  font-size: 30px;
+  padding: 10px 0;
+  font-size: 32px;
   color: white;
   outline: none;
 }
- 
-.px::placeholder {
+
+.registration input::placeholder,.px::placeholder {
   color: #a9a7f2;
 }
+
+.submitt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 55px;
+  margin-top: 20px;
+  background: white;
+  border: none;
+  border-radius: 10px;
+  color: #2e2bd0;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+}
+
+
 
