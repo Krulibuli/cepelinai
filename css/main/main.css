@@ -75,6 +75,73 @@ body {
   top: 101px;
 }
 
+/* Why choose us? */
+
+.why-choose-us h1, h2 {
+  color: black;
+  margin-left: 84px;
+}
+
+.why-choose-us p {
+  color: gray;
+  margin-left: 84px;
+}
+
+.why-choose-us .container {
+  display: flex;
+}
+
+.gray-bar {
+  width: 2.5px;
+  height: 502.5px;
+  background-color: gray;
+
+}
+
+.text-box {
+  border: 1px solid gray;
+  border-radius: 35px;
+  margin-left: 84px;
+  width: 1116px;
+  height: 459px;
+  font-size: 25px;
+  justify-content: right;
+}
+
+.why-choose-us h2 {
+  margin-left: 80px;
+}
+
+.why-choose-us .team-bar {
+  background-color: #2E2BD0;
+  height: 85px;
+  width: 5px;
+  position: relative;
+  right: 1.2px;
+  border-radius: 85px;
+}
+
+.why-choose-us .sumarize {
+  margin-bottom: 65px;
+}
+
+.why-choose-us .teams {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: -25px;
+}
+
+.why-choose-us .menu-section {
+  margin-left: 84px;
+}
+
+.why-choose-us .team-section * {
+  color: #2E2BD0;
+}
+
+
 /* Industries section */
 
 .industries {
