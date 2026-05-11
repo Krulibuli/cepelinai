@@ -77,6 +77,14 @@ body {
 
 /* Why choose us? */
 
+.why-choose-us {
+  height: 100dvh;
+}
+
+.why-choose-us .teams p {
+  color: lightgray;
+}
+
 .why-choose-us h1, h2 {
   color: black;
   margin-left: 84px;
@@ -94,22 +102,52 @@ body {
 .gray-bar {
   width: 2.5px;
   height: 502.5px;
-  background-color: gray;
-
+  background-color: lightgray;
+  border-radius: 15px;
 }
 
-.text-box {
+.text-box .team-text{
   border: 1px solid gray;
   border-radius: 35px;
   margin-left: 84px;
   width: 1116px;
   height: 459px;
   font-size: 25px;
-  justify-content: right;
+}
+
+.text-box .communication-text {
+  border: 1px solid gray;
+  border-radius: 35px;
+  margin-left: 84px;
+  width: 1116px;
+  height: 459px;
+  font-size: 25px;
+  display: none;
+}
+
+.text-box .solution-text {
+  border: 1px solid gray;
+  border-radius: 35px;
+  margin-left: 84px;
+  width: 1116px;
+  height: 459px;
+  font-size: 25px;
+  display: none;
+}
+
+.text-box .quality-text {
+  border: 1px solid gray;
+  border-radius: 35px;
+  margin-left: 84px;
+  width: 1116px;
+  height: 459px;
+  font-size: 25px;
+  display: none;
 }
 
 .why-choose-us h2 {
   margin-left: 80px;
+  color: #2E2BD0;
 }
 
 .why-choose-us .team-bar {
@@ -120,6 +158,41 @@ body {
   right: 1.2px;
   border-radius: 85px;
 }
+
+.why-choose-us .communication-bar {
+  background-color: #2E2BD0;
+  height: 85px;
+  width: 5px;
+  position: relative;
+  right: 1.2px;
+  border-radius: 85px;
+  top: 55px;
+  display: none;
+}
+
+.why-choose-us .solution-bar {
+  background-color: #2E2BD0;
+  height: 85px;
+  width: 5px;
+  position: relative;
+  right: 1.2px;
+  border-radius: 85px;
+  top: 112px;
+  display: none;
+}
+
+.why-choose-us .quality-bar {
+  background-color: #2E2BD0;
+  height: 85px;
+  width: 5px;
+  position: relative;
+  right: 1.2px;
+  border-radius: 85px;
+  top: 165px;
+  display: none;
+}
+
+
 
 .why-choose-us .sumarize {
   margin-bottom: 65px;
@@ -137,9 +210,12 @@ body {
   margin-left: 84px;
 }
 
-.why-choose-us .team-section * {
+.why-choose-us .team-section p {
   color: #2E2BD0;
 }
+
+
+
 
 
 /* Industries section */
