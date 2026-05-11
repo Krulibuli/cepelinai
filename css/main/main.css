@@ -74,10 +74,10 @@ body {
   color: #2E2BD0;
 }
 
-.first-goal {grid-area: g1;  border: 1px solid gray; min-width: 540px; min-height: 500px;}
-.second-goal {grid-area: g2; border: 1px solid gray; min-width: 540px; min-height: 500px;}
-.third-goal {grid-area: g3;  border: 1px solid gray; min-width: 540px; min-height: 500px;}
-.fourth-goal {grid-area: g4; border: 1px solid gray; min-width: 540px; min-height: 500px;}
+.first-goal {grid-area: g1;  border: 1px solid gray; border-radius: 70px; min-width: 540px; min-height: 500px;}
+.second-goal {grid-area: g2; border: 1px solid gray; border-radius: 70px; min-width: 540px; min-height: 500px;}
+.third-goal {grid-area: g3;  border: 1px solid gray; border-radius: 70px; min-width: 540px; min-height: 500px;}
+.fourth-goal {grid-area: g4; border: 1px solid gray; border-radius: 70px; min-width: 540px; min-height: 500px;}
 .waog-pic1 {grid-area: pic1; min-width: 540px; min-height: 500px;}
 .waog-pic2 {grid-area: pic2; min-width: 540px; min-height: 500px;}
 .waog-pic3 {grid-area: pic3; min-width: 540px; min-height: 500px;}
