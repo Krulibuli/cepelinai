@@ -158,15 +158,14 @@ body {
 /* IT Support Group trough the years */
 
 .sGTab {
-    margin-top: 297px;
+    margin-top: 300px;
+    margin-bottom: 300px;
     height: 1195px;
 }
 
 #sGTab {
-    position: absolute;
     width: 540px;
-    height: 180px;
-    left: 150px;
+    padding-left: 150px;
     font-family: "Neue Machina";
     font-size: 60px;
     line-height: 150%;
@@ -266,6 +265,8 @@ body {
 }
 
 .sGList {
+    /* List in bottom of div */
+
     position: absolute;
     width: 650px;
     height: 180px;
@@ -275,4 +276,115 @@ body {
     font-size: 24px;
     line-height: 36px;
     color: white;
+}
+
+
+/* What our clients say about us */
+
+.rVTab {
+    height: 1011px;
+}
+
+#rVTab {
+    padding-left: 150px;
+    font-family: "Neue Machina";
+    font-size: 60px;
+    line-height: 150%;
+    color: var(--dark_grey)
+}
+
+.reviews {
+    width: 1644px;
+    height: 703px;
+    margin: 0 auto;
+}
+
+.rVBox {
+    height: 703px;
+    width: 540px;
+    border: 1px solid var(--blue);
+    border-radius: 46px;
+    float: left;
+}
+
+.rVBoxMid {
+    border-left: 0;
+    border-right: 0;
+}
+
+.rVImg {
+    width: 90px;
+    height: 90px;
+    padding: 100px 400px 0px 50px;
+}
+
+.rVBoxElem {
+    font-family: 'Neue Machina';
+    margin: 0px;
+    padding-left: 50px;
+
+}
+
+.rVHl {
+    font-family: 'Neue Machina';
+    font-size: 26px;
+    width: 205px;
+    line-height: 150%;
+    color: var(--blue);
+}
+
+.rVPos {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.rVQt {
+    padding-top: 50px;
+    font-family: 'Gilroy';
+    font-size: 30px;
+    line-height: 150%;
+}
+
+.rVBtn {
+    cursor: pointer;
+    margin: 114px 0px 0px 50px;
+    height: 58px;
+    width: 318px;
+    border-radius: 10px;
+    border: 1px solid var(--blue);
+    font-family: 'Neue Machina';
+    font-size: 20px;
+    line-height: 19px;
+    color: var(--blue);
+}
+
+.fa-solid .rVBoxElem {
+    padding-left: 20px;
+}
+
+.rVPages {
+    width: 246px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 104px;
+    display: flex;
+}
+
+.rVSlct {
+    cursor: pointer;
+    height: 42px;
+    width: 39px;
+    text-align: center;
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    font-size: 20px;
+    color: var(--blue);
+}
+
+#rVInd {
+    margin: 0px 50px 0px 50px;
+    font-family: 'Neue Machina';
+    font-size: 32px;
+    line-height: 150%;
 }
