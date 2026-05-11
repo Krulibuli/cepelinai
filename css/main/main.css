@@ -70,10 +70,6 @@ body {
     max-width: 1920px;
     overflow-x: hidden;
 }
-
-  .html {
-    max-width: 1920px;
-  }
 @font-face {
         font-family: 'Gilroy';
         src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot');
@@ -116,14 +112,12 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* margin-left: 65px; */
   margin-left: 5vh
 }
 
 .industries .item {
   min-width: 740px;
   height: 460px;
-  /* padding: 15px; */
   padding: 30px;
   margin: 0;
   display: flex;
@@ -272,3 +266,28 @@ background: transparent;
 }
 
 
+
+
+/* Used technologies */
+.used-technologies {
+  display: flex;
+}
+.technologies-title h2 {
+  color: black;
+  font-weight: 300;
+  font-size: 45px;
+  margin: 0;
+  margin-left: 100px;
+}
+
+.technologies-description {
+  display: flex;
+}
+
+
+
+.technologies-description p {
+  color: gray;
+  font-size: 24px;
+  display: flex;
+}
