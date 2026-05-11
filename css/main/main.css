@@ -2,6 +2,9 @@
 body {
     margin: 0px;
     padding: 0px;
+    display: block;
+    font-family: myFont;
+    color: white;
 }
 @font-face {
   font-family: myFont;
@@ -64,27 +67,6 @@ body {
 }
 
 /* Industries section */
-body {
-    margin: 0;
-    padding: 0;
-    max-width: 1920px;
-    overflow-x: hidden;
-}
-
-  .html {
-    max-width: 1920px;
-  }
-@font-face {
-        font-family: 'Gilroy';
-        src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot');
-        src: local('Gilroy Light'), local('Gilroy-Light'),
-        url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.ttf') format('truetype');
-        font-weight: 300;
-        font-style: normal;
-    }
-
 
 .industries {
   padding-left: 0;
@@ -163,21 +145,6 @@ body {
 }
 
 
-hr {
-  background-color: black;
-}
-
-
-
-@font-face {
-  font-family: myFont;
-  src: url("../../Fonts/NeueMaChina-Light.otf");
-}
-
-body{
-    font-family: myFont;
-    color: white;
-}
 
 .touch-with-us {
     justify-content: center;
