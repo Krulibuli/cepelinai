@@ -1,23 +1,29 @@
 /* General */
 body {
-    margin: 0px;
-    padding: 0px;
-    display: block;
-    font-family: myFont;
-    color: white;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  font-family: myFont;
+  color: white;
 }
+
+
 @font-face {
   font-family: myFont;
   src: url("../../Fonts/NeueMaChina-Light.otf");
 }
+
 /* Header */
 .header p {
   margin: none;
 }
+
 .header-section {
-    background-image: url(../../img/background_header.png);
-    min-height: 100dvh;
+  background-image: url(../../img/background_header.png);
+  min-height: 100dvh;
+  background-repeat: no-repeat;
 }
+
 .header-section p {
   z-index: 100;
   position: absolute;
@@ -31,6 +37,7 @@ body {
   line-height: 130%;
   color: #FFFFFF;
 }
+
 .blue-box-area {
   z-index: 1;
   position: absolute;
@@ -40,6 +47,7 @@ body {
   top: 447px;
   background: #2E2BD0;
 }
+
 .estimate-project {
   position: absolute;
   width: 280px;
@@ -50,6 +58,7 @@ body {
   box-sizing: border-box;
   border-radius: 100%;
 }
+
 .estimate-project a {
   text-decoration: none;
   color: white;
@@ -79,14 +88,14 @@ body {
 }
 
 .industries .title {
-    padding-left: 6vh;
-    font-size: 60px;
-    margin: 0px;
-    padding-bottom: 80px;
-    font-weight: 1000;
-    width: 100%;
-    text-align: left;
-    margin-top: 40px;
+  padding-left: 6vh;
+  font-size: 60px;
+  margin: 0px;
+  padding-bottom: 80px;
+  font-weight: 1000;
+  width: 100%;
+  text-align: left;
+  margin-top: 40px;
 }
 
 .flex-container {
@@ -111,7 +120,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  
+
 }
 
 .industries img {
@@ -132,7 +141,7 @@ body {
 
 .industries hr {
   width: 100%;
-    background-color: black;
+  background-color: black;
 }
 
 .industries p {
@@ -147,7 +156,7 @@ body {
 
 
 .touch-with-us {
-    justify-content: center;
+  justify-content: center;
   align-items: center;
   min-width: 1860px;
   background: #5e5be6;
@@ -178,9 +187,9 @@ h1 {
 }
 
 .registration input {
-    background: transparent;
+  background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
   padding: 10px 0;
   color: #9291ed;
   font-size: 20px;
@@ -214,28 +223,26 @@ h1 {
   opacity: 0.85;
 }
 
-.upload-right input{
-    font-family:myFont;
-    background: transparent;
+.upload-right input {
+  font-family: myFont;
+  background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
   padding: 12px 0;
   color: white;
 }
 
 .download {
-    width: 250px;
-    height: 60px;
-background: transparent;
+  width: 250px;
+  height: 60px;
+  background: transparent;
   padding: 15px 30px;
-  border: 1px solid rgba(255,255,255,0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 8px;
   color: white;
   cursor: pointer;
 }
 
-.px{
-    font-size: 20px;
+.px {
+  font-size: 20px;
 }
-
-
