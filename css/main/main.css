@@ -5,7 +5,7 @@ body {
 }
 @font-face {
   font-family: myFont;
-  src: url("../../Fonts/Neue\ Machina\ Regular\ 400.otf");
+  src: url("../../Fonts/NeueMaChina-Light.otf");
 }
 /* Header */
 .header p {
@@ -13,10 +13,7 @@ body {
 }
 .header-section {
     background-image: url(../../img/background_header.png);
-    background-repeat: no-repeat;
-    height: 1004px;
-    width: 1920px;
-
+    min-height: 100dvh;
 }
 .header-section p {
   z-index: 100;
@@ -183,51 +180,50 @@ body{
 }
 
 .touch-with-us {
-  justify-content: space-around;
+    justify-content: center;
   align-items: center;
-  max-width: 1900px;
+  min-width: 1860px;
   background: #5e5be6;
-  border-radius: 80px;
+  border-radius: 100px;
   color: white;
   display: flex;
-  flex-direction: column;
-  gap: 100px;
-  padding: 30px;
+  flex-direction: row;
+  gap: 120px;
+  padding: 80px;
   box-sizing: border-box;
-  min-height: 754px;
 }
+
 
 h1 {
   font-family: myFont;
-  font-size: 100px;
+  font-size: 50px;
   margin-bottom: 40px;
-  line-height: 130%;
-
+  margin-left: 50px;
 }
 
 .registration {
-  min-width: 700px;
+  width: 700px;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-right: 140px;
+  margin-left: 50px;
+  margin-top: 80px;
 }
 
 .registration input {
-  background: transparent;
+    background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
   padding: 10px 0;
   color: #9291ed;
-  font-size: 30px;
-  font-family: myFont;
+  font-size: 20px;
 }
 
 .submitt {
-  width: 205px;
-  height: 58px;
+  width: 160px;
+  height: 60px;
   background-color: white;
-  color: #2e2bd0;
+  color: #2E2BD0;
   border: none;
   border-radius: 6px;
   font-size: 14px;
@@ -236,82 +232,43 @@ h1 {
   align-items: center;
   gap: 8px;
   justify-content: center;
-  font-family: myFont;
 }
 
+
 .upload-right {
+  max-width: 700px;
   display: flex;
-  flex-direction: row;
-  gap: 40px;
-  margin-top: 260px;
+  flex-direction: column;
+  gap: 21px;
 }
 
 .upload-right p {
-  margin-bottom: 30px;
-  font-size: 30px;
   line-height: 1.6;
-  color: rgba(255,255,255,0.8);
-  max-width: 700px;
-
+  opacity: 0.85;
 }
 
-.upload-right input {
-  font-family: myFont;
-  background: transparent;
+.upload-right input{
+    font-family:myFont;
+    background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-  color: #9291ed;
-  font-size: 30px;
-}
-
-.upload-right input::placeholder{
-  color: #9291ed;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  padding: 12px 0;
+  color: white;
 }
 
 .download {
-  width: 350px;
-  height: 58px;
-  background: transparent;
-  padding: 17px 40px;
-  border: 1px solid #8683eb;
+    width: 250px;
+    height: 60px;
+background: transparent;
+  padding: 15px 30px;
+  border: 1px solid rgba(255,255,255,0.5);
   border-radius: 8px;
   color: white;
   cursor: pointer;
-  font-size: 20px;
-  margin-top: 50px;
 }
 
-.px {
-  font-size: 20px;
-  margin-left: 35px;
-  margin-top: 17.9px;
+.px{
+    font-size: 20px;
 }
 
-.righttext {
-  display: flex;
-  flex-direction: column;
-  min-width: 700px;
-  max-height: 180px;
-  margin-top: 100px;
-  margin-left: 225px;
-  font-size: 24px;
-}
 
-.left-side {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 60px;
-}
-
-.upload-right {
-  margin-top: 50px;
-}
-
-.righttext1 {
-  min-width: 750px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-   margin-right: 80px;
-}
