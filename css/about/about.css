@@ -359,7 +359,7 @@ body {
     color: var(--blue);
 }
 
-.fa-solid .rVBoxElem {
+.rVBtn .fa-solid{
     padding-left: 20px;
 }
 
