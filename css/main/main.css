@@ -106,7 +106,7 @@ body {
   border-radius: 15px;
 }
 
-.text-box .team-text{
+.text-box .team-text {
   border: 1px solid gray;
   border-radius: 35px;
   margin-left: 84px;
@@ -166,7 +166,7 @@ body {
   position: relative;
   right: 1.2px;
   border-radius: 85px;
-  top: 55px;
+  top: 140px;
   display: none;
 }
 
@@ -177,7 +177,7 @@ body {
   position: relative;
   right: 1.2px;
   border-radius: 85px;
-  top: 112px;
+  top: 280px;
   display: none;
 }
 
@@ -188,7 +188,7 @@ body {
   position: relative;
   right: 1.2px;
   border-radius: 85px;
-  top: 165px;
+  top: 420px;
   display: none;
 }
 
@@ -214,7 +214,12 @@ body {
   color: #2E2BD0;
 }
 
-
+.team-name,
+.communication-name,
+.solution-name,
+.quality-name {
+  cursor: pointer;
+}
 
 
 
