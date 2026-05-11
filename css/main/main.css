@@ -2,6 +2,9 @@
 body {
     margin: 0px;
     padding: 0px;
+    display: block;
+    font-family: myFont;
+    color: white;
 }
 @font-face {
   font-family: myFont;
@@ -68,12 +71,6 @@ body {
 }
 
 /* Industries section */
-body{
-    margin: 0;
-    padding: 0;
-    display: block;
-}
-
 
 .industries {
   padding-left: 40px;
@@ -119,10 +116,6 @@ body{
 }
 
 
-body {
-  font-family: myFont;
-  color: white;
-}
 
 .touch-with-us {
   justify-content: space-around;
