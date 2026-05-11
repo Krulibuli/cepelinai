@@ -67,7 +67,6 @@ body {
 body {
     margin: 0;
     padding: 0;
-    max-width: 1920px;
     overflow-x: hidden;
 }
 @font-face {
@@ -154,12 +153,6 @@ body {
   font-family: 'Gilroy';
   letter-spacing: 3px;
 }
-
-
-hr {
-  background-color: black;
-}
-
 
 
 @font-face {
@@ -268,25 +261,47 @@ background: transparent;
 
 
 /* Used technologies */
+
+body {
+  margin: 0;
+}
+
+
 .used-technologies {
-  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.technologies-title {
+  margin-left: 158px;
 }
 .technologies-title h2 {
   color: black;
   font-weight: 300;
-  font-size: 45px;
+  font-size: 58px;
   margin: 0;
-  margin-left: 100px;
+  margin-top: 0px;
+  letter-spacing: 1.20px;
+  width: 100%
 }
 
-.technologies-description {
-  display: flex;
+.technologies-title {
+  width: 556px;
+  height: 58px;
 }
-
-
 
 .technologies-description p {
   color: gray;
   font-size: 24px;
-  display: flex;
+  line-height: 2.5rem;
+  width: 634px;
+  font-family: 'Gilroy';
+  margin-left: 75rem;
+  margin-top: 10rem;
+}
+
+.line hr {
+  width: 100%;
+  background-color: gray;
+  margin-top: 10rem;
 }
