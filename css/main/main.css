@@ -75,6 +75,154 @@ body {
   top: 101px;
 }
 
+/* Why choose us? */
+
+.why-choose-us {
+  height: 100dvh;
+}
+
+.why-choose-us .teams p {
+  color: lightgray;
+}
+
+.why-choose-us h1, h2 {
+  color: black;
+  margin-left: 84px;
+}
+
+.why-choose-us p {
+  color: gray;
+  margin-left: 84px;
+}
+
+.why-choose-us .container {
+  display: flex;
+}
+
+.gray-bar {
+  width: 2.5px;
+  height: 502.5px;
+  background-color: lightgray;
+  border-radius: 15px;
+}
+
+.text-box .team-text {
+  border: 1px solid gray;
+  border-radius: 35px;
+  margin-left: 84px;
+  width: 1116px;
+  height: 459px;
+  font-size: 25px;
+}
+
+.text-box .communication-text {
+  border: 1px solid gray;
+  border-radius: 35px;
+  margin-left: 84px;
+  width: 1116px;
+  height: 459px;
+  font-size: 25px;
+  display: none;
+}
+
+.text-box .solution-text {
+  border: 1px solid gray;
+  border-radius: 35px;
+  margin-left: 84px;
+  width: 1116px;
+  height: 459px;
+  font-size: 25px;
+  display: none;
+}
+
+.text-box .quality-text {
+  border: 1px solid gray;
+  border-radius: 35px;
+  margin-left: 84px;
+  width: 1116px;
+  height: 459px;
+  font-size: 25px;
+  display: none;
+}
+
+.why-choose-us h2 {
+  margin-left: 80px;
+  color: #2E2BD0;
+}
+
+.why-choose-us .team-bar {
+  background-color: #2E2BD0;
+  height: 85px;
+  width: 5px;
+  position: relative;
+  right: 1.2px;
+  border-radius: 85px;
+}
+
+.why-choose-us .communication-bar {
+  background-color: #2E2BD0;
+  height: 85px;
+  width: 5px;
+  position: relative;
+  right: 1.2px;
+  border-radius: 85px;
+  top: 140px;
+  display: none;
+}
+
+.why-choose-us .solution-bar {
+  background-color: #2E2BD0;
+  height: 85px;
+  width: 5px;
+  position: relative;
+  right: 1.2px;
+  border-radius: 85px;
+  top: 280px;
+  display: none;
+}
+
+.why-choose-us .quality-bar {
+  background-color: #2E2BD0;
+  height: 85px;
+  width: 5px;
+  position: relative;
+  right: 1.2px;
+  border-radius: 85px;
+  top: 420px;
+  display: none;
+}
+
+
+
+.why-choose-us .sumarize {
+  margin-bottom: 65px;
+}
+
+.why-choose-us .teams {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: -25px;
+}
+
+.why-choose-us .menu-section {
+  margin-left: 84px;
+}
+
+.why-choose-us .team-section p {
+  color: #2E2BD0;
+}
+
+.team-name,
+.communication-name,
+.solution-name,
+.quality-name {
+  cursor: pointer;
+}
+
+
+
 /* Industries section */
 
 .industries {
