@@ -86,7 +86,11 @@ body {
 
 .why-choose-us {
   height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .why-choose-us .teams p {
   color: lightgray;
