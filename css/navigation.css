@@ -1,29 +1,32 @@
 .nav-bar {
-    height: 120px;
+    height: 155px;
     border-bottom: 1px solid white;
-    margin: 0px 20px;
+    margin: 0px 30px;
     display: flex;
-    font-size: 22px;
+    font-size: 34px;
     position: absolute;
+    width: 100%;
 }
 
 
 .left-side {
     display: flex;
-    width: 87rem;
+    width: 73%;
     align-items: center;
     justify-content: space-between;
 }
 
 .left-side img {
-    width: 204px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 285px;
 }
 
 .left-side ul {
     display: flex;
     list-style-type: none;
-    gap: 50px;
-    
+    gap: 135px;
 }
 
 .links {
@@ -45,7 +48,7 @@
 .white-line {
     width: 1px;
     background-color: white;
-    margin: 0px 30px;
+    margin: 0px 100px;
 }
 
 
@@ -54,9 +57,9 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    width: 30%;
+    width: 27%;
     padding: 35px 0px;
-    gap: 35px;
+    gap: 130px;
 }
 
 .right-side .language {
@@ -86,6 +89,11 @@
 }
 
 
+#lang-sel .languages img {
+    width: 28px;
+    position: relative;
+    top: 2px;
+}
 
 #lang-sel .languages {
     display: flex;
@@ -94,7 +102,8 @@
 }
 
 #lang-sel .languages p {
-    margin-right: 7px;
+    margin: 0;
+    margin-right: 12px;
 }
 
 #language-selector p {
@@ -108,13 +117,13 @@
 
 
 .nav-bar button {
-    height: 59px;
-    width: 254px;
+    height: 80px;
+    width: 340px;
     border: 0;
     background-color: #2E2BD0;
     color: white;
-    border-radius: 10px;
-    font-size: 24px;
+    border-radius: 15px;
+    font-size: 27px;
     font-family: myFont;
     display: flex;    
     justify-content: center;
@@ -123,3 +132,6 @@
     cursor: pointer;
 }
 
+.nav-bar button img {
+    width: 30px;
+}

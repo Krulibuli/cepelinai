@@ -21,7 +21,9 @@ body {
 .header-section {
   background-image: url(../../img/background_header.png);
   min-height: 100dvh;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover
 }
 
 .header-section p {
