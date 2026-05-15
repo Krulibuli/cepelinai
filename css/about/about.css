@@ -188,6 +188,7 @@ body {
 
 .sGCard {
     position: absolute;
+    margin-left: 25px;
     height: 757px;
     width: 1860px;
     top: 2667px;
