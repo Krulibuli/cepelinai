@@ -26,6 +26,10 @@
     
 }
 
+.links {
+    user-select: none;
+}
+
 .nav-bar a:link {
     color: white;
     text-decoration: none;
@@ -68,6 +72,39 @@
     display: flex;
 }
 
+.right-side #language-selector {
+    display: none;
+    position: absolute;
+    top: 85px;
+    right: 423px;
+    z-index: 1;
+    width: 70px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    backdrop-filter: blur(3px);
+}
+
+
+
+#lang-sel .languages {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#lang-sel .languages p {
+    margin-right: 7px;
+}
+
+#language-selector p {
+    cursor: pointer;
+}
+
+#lang-sel {
+    user-select: none;
+}
+
 
 
 .nav-bar button {
@@ -86,6 +123,3 @@
     cursor: pointer;
 }
 
-.nav-bar p img {
-    cursor: pointer;
-}
