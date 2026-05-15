@@ -398,21 +398,36 @@ body {
   margin-bottom: 28px;
   z-index: -1;
   margin-top: 7px;
+  cursor: pointer;
+  transition: background 0.2s ease;
 }
 
+.timeline-item.active .dot {
+  background: #2E2BD0;
+  box-shadow: 0 0 0 6px rgba(46, 43, 208, 0.15), 0 0 14px 4px rgba(46, 43, 208, 0.25);
+}
 .tech-title {
   font-size: 18px;
   line-height: 130%;
   color: #6b6b6b;
   font-weight: 300;
   width: 163px;
+  cursor: pointer;
+  transition: font-size 0.2s ease, color 0.2s ease;
 }
-.firstTitle {
+
+.timeline-item.active .tech-title {
   font-size: 26px;
   color: black;
   font-weight: 300;
   width: 220px;
   font-family: myFont;
+}
+
+.firstTitle {
+  font-size: 18px;
+  width: 220px;
+  font-family: Gilroy;
 }
 
 .icon-box {
