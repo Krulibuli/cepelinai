@@ -4,7 +4,7 @@ body {
   padding: 0px;
   font-family: myFont;
   color: white;
-  max-width: 1920px;
+  width: 100%;
 }
 @font-face {
   font-family: myFont;
@@ -67,11 +67,6 @@ body {
 }
 
 /* Industries section */
-body {
-  margin: 0;
-  padding: 0;
-  /* overflow-x: hidden; */
-}
 @font-face {
   font-family: "Gilroy";
   src: url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot");
@@ -99,7 +94,7 @@ body {
 }
 
 .industries .title {
-  padding-left: 6vh;
+  padding-left: 21vh;
   font-size: 60px;
   margin: 0px;
   padding-bottom: 80px;
@@ -107,6 +102,7 @@ body {
   width: 100%;
   text-align: left;
   margin-top: 40px;
+
 }
 
 .flex-container {
@@ -129,6 +125,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding-left: 14vh;
 }
 
 .industries img {
