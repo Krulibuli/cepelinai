@@ -434,7 +434,7 @@ body {
 
 
 /* Get in touch with us */
-  .touch-with-us {
+.touch-with-us {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -444,6 +444,7 @@ body {
   padding: 80px;
   background: linear-gradient(135deg, #5e5be6, #6c68f3);
   border-radius: 80px;
+  margin: 0 auto;
 }
  
  
@@ -530,40 +531,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.upload-right {
-  max-width: 700px;
-  display: flex;
-  flex-direction: column;
-  gap: 21px;
-}
-
-.upload-right p {
-  line-height: 1.6;
-  opacity: 0.85;
-}
-
-.upload-right input {
-  font-family: myFont;
-  background: transparent;
+  width: 180px;
+  height: 55px;
+  margin-top: 20px;
+  background: white;
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-  padding: 12px 0;
-  color: white;
-}
-
-.download {
-  width: 250px;
-  height: 60px;
-  background: transparent;
-  padding: 15px 30px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 8px;
-  color: white;
+  border-radius: 10px;
+  color: #2e2bd0;
   cursor: pointer;
-}
-
-.px {
-  font-size: 20px;
+  text-align: center;
+  font-size: 18px;
 }
