@@ -1,0 +1,77 @@
+@media (max-width: 1080px) {
+.touch-with-us {
+    display: block;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  * {
+    box-sizing: border-box;
+}
+  footer{
+    flex-direction: column;
+  }
+
+  .left,.upload-right {
+    width: 100%;
+    max-width: 750px;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+  }
+  .left p{
+    width: 100%;
+  }
+
+ 
+ .upload-right {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+ .registration {
+  display: contents;
+}
+
+
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+  }
+
+  input {
+    width: 100%;
+  }
+  
+.down {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+
+ .submitt {
+    display: none;
+  }
+
+  .submitt1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    margin-top: 40px;
+    align-self: flex-start;
+    order: 10;
+  }
+  .logotipe{
+    width: 100%;
+    flex-direction: column;
+  }
+}
