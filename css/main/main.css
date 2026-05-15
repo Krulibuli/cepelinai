@@ -42,7 +42,7 @@ body {
   font-weight: 800;
   font-size: 50px;
   line-height: 130%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .blue-box-area {
@@ -52,7 +52,7 @@ body {
   height: 65px;
   left: 150px;
   top: 447px;
-  background: #2E2BD0;
+  background: #2e2bd0;
 }
 
 .estimate-project {
@@ -61,7 +61,7 @@ body {
   height: 280px;
   left: 150px;
   top: 645px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   box-sizing: border-box;
   border-radius: 100%;
 }
@@ -235,6 +235,27 @@ body {
 
 
 /* Industries section */
+@font-face {
+        font-family: 'Gilroy';
+        src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot');
+        src: local('Gilroy Light'), local('Gilroy-Light'),
+        url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+
+
+
+.section-industries {
+  max-width: 1920px;
+  min-height: 100vh;
+  position: relative;
+}
+
+
 
 .industries {
   padding-left: 0;
@@ -247,7 +268,7 @@ body {
 }
 
 .industries .title {
-  padding-left: 6vh;
+  padding-left: 21vh;
   font-size: 60px;
   margin: 0px;
   padding-bottom: 80px;
@@ -266,20 +287,18 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* margin-left: 65px; */
-  margin-left: 5vh
+  margin-left: 5vh;
 }
 
 .industries .item {
-  min-width: 740px;
+  max-width: 506px;
   height: 460px;
-  /* padding: 15px; */
   padding: 30px;
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
+  padding-left: 14vh;
 }
 
 .industries img {
@@ -296,6 +315,7 @@ body {
   font-weight: 100;
   padding-top: 25px;
   line-height: 150%;
+  margin-left: 0;
 }
 
 .industries hr {
@@ -314,6 +334,133 @@ body {
 
 
 
+
+/* Used technologies */
+
+.section {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 60px 70px 80px;
+  min-height: 100vh;
+  position: relative;
+}
+
+.title-technologies {
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 70px;
+  letter-spacing: -1px;
+  width: 556px;
+  height: 58px;
+  color: black;
+}
+
+.top-content {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 110px;
+}
+
+.description {
+  width: 634px;
+  height: 144px;  
+  color: #8d8d8d;
+  font-size: 20px;
+  line-height: 1.9;
+  font-weight: 300;
+  margin-right: 18rem;
+  font-family: Gilroy;
+}
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1620px;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #d4d4d4;
+  z-index: 1;
+}
+
+.timeline-items {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 25px;
+  position: relative;
+  z-index: 2;
+}
+
+.timeline-item {
+  position: relative;
+  width: 163px;
+  height: 93px;
+  font-family: Gilroy;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #8f8f8f;
+  margin-bottom: 28px;
+  z-index: -1;
+  margin-top: 7px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.timeline-item.active .dot {
+  background: #2E2BD0;
+  box-shadow: 0 0 0 6px rgba(46, 43, 208, 0.15), 0 0 14px 4px rgba(46, 43, 208, 0.25);
+}
+.tech-title {
+  font-size: 18px;
+  line-height: 130%;
+  color: #6b6b6b;
+  font-weight: 300;
+  width: 163px;
+  cursor: pointer;
+  transition: font-size 0.2s ease, color 0.2s ease;
+}
+
+.timeline-item.active .tech-title {
+  font-size: 26px;
+  color: black;
+  font-weight: 300;
+  width: 220px;
+  font-family: myFont;
+}
+
+.firstTitle {
+  font-size: 18px;
+  width: 220px;
+  font-family: Gilroy;
+}
+
+.icon-box {
+  width: 80px;
+  height: 80px;
+  border: 1.5px solid #5b4dff;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.icon-box img {
+  width: 60px;
+  height: 60px;
+}
+
+
+
+/* Get in touch with us */
 .touch-with-us {
   display: flex;
   flex-wrap: wrap;
