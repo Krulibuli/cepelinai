@@ -289,6 +289,7 @@ h1 {
   line-height: 1.9;
   font-weight: 300;
   margin-right: 18rem;
+  font-family: Gilroy;
 }
 .timeline {
   position: relative;
@@ -318,6 +319,7 @@ h1 {
   position: relative;
   width: 163px;
   height: 93px;
+  font-family: Gilroy;
 }
 
 .dot {
@@ -342,11 +344,12 @@ h1 {
   color: black;
   font-weight: 300;
   width: 220px;
+  font-family: myFont;
 }
 
 .icon-box {
-  width: 58px;
-  height: 58px;
+  width: 80px;
+  height: 80px;
   border: 1.5px solid #5b4dff;
   border-radius: 16px;
   display: flex;
@@ -356,6 +359,6 @@ h1 {
 }
 
 .icon-box img {
-  width: 28px;
-  height: 28px;
+  width: 60px;
+  height: 60px;
 }
