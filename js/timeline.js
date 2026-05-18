@@ -1,13 +1,21 @@
 "use strict";
 
-const timelineItems = document.querySelectorAll(".timeline-item");
+const items = document.querySelectorAll('.timeline-item');
+const timelineItems = document.querySelector('.timeline-items'); // add this
+const iconBox = document.createElement('div');
+iconBox.className = 'icon-box';
+iconBox.innerHTML = '<img src="img/jscript.png" alt="JS" />';
 
-timelineItems.forEach((item) => {
-  item.addEventListener("click", () => {
-    // Remove active from all items
-    timelineItems.forEach((el) => el.classList.remove("active"));
+items.forEach((item) => {
+  item.addEventListener('click', () => {
+    items.forEach(i => i.classList.remove('active'));
+    item.classList.add('active');
 
-    // Set clicked item as active
-    item.classList.add("active");
+    timelineItems.classList.add('expanded'); // add this
+
+    if (iconBox.parentElement) {
+      iconBox.parentElement.removeChild(iconBox);
+    }
+    item.appendChild(iconBox);
   });
 });
