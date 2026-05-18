@@ -310,14 +310,14 @@ body {
 }
 
 .industries .item {
-  max-width: 506px;
+  width: 506px;
   height: 460px;
   padding: 30px;
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-left: 14vh;
+  padding-left: 16vh;
 }
 
 .industries img {
@@ -349,6 +349,7 @@ body {
   letter-spacing: 2px;
   font-family: Gilroy;
   letter-spacing: 3px;
+  width: 506px;
 }
 
 
