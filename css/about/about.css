@@ -14,6 +14,7 @@ body {
 
 :root {
     --blue: #2e2bd0;
+    --light_Blue: #CBCAF3;
     --dark_grey: #2f353f;
     --grey: #2f353fb3;
     --light_grey: #ffffff80;
@@ -303,7 +304,7 @@ body {
 .rVBox {
     height: 703px;
     width: 540px;
-    border: 1px solid var(--blue);
+    border: 1px solid #909398;
     border-radius: 46px;
     float: left;
 }
@@ -382,19 +383,19 @@ body {
 
 .rVSlct {
     cursor: pointer;
-    height: 42px;
-    width: 39px;
+    height: 41px;
+    width: 41px;
     text-align: center;
-    border: 1px solid var(--blue);
+    border: 2px solid var(--light_Blue);
     border-radius: 10px;
     font-size: 20px;
-    color: var(--blue);
+    color: var(--light_Blue);
     transition: 0.3s;
 }
 
 .rVSlct:hover {
-    background-color: var(--blue);
-    color: var(--white);
+    border-color: var(--blue);
+    color: var(--blue);
 }
 
 #rVInd {
@@ -402,4 +403,5 @@ body {
     font-family: 'Neue Machina';
     font-size: 32px;
     line-height: 150%;
+    width: 60px;
 }
