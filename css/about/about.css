@@ -29,20 +29,32 @@ body {
     height: 545.3125rem;
 }
 
+.nav-bar {
+    position: absolute;
+    top: 0;
+}
+
+/* Who we are */
+.wWTab {
+    height: 61.1875rem;
+    margin-top: 16.8125rem;
+}
+
+/* Our Team */
 
 /* Our Team */
 
 .oTTab {
+    margin-top: 16.8125rem;
     height: 120.5625rem;
 }
 
 /* Our Team Top*/
 #oTTab {
-    position: absolute;
     width: 17.625rem;
     height: 5.625rem;
-    left: 9.375rem;
-    top: 0rem;
+    padding-left: 9.375rem;
+    margin: 0rem;
     font-family: "Neue Machina";
     font-size: 3.75rem;
     line-height: 150%;
@@ -51,11 +63,9 @@ body {
 
 /* Text under "Our Team" */
 #oTTopTxt {
-    position: absolute;
     width: 44.6875rem;
     height: 6.75rem;
-    left: 56.25rem;
-    top: 8.75rem;
+    margin: 3.125rem 0rem 6.25rem 56.25rem;
     font-family: "Gilroy";
     font-size: 1.5rem;
     line-height: 2.25rem;
@@ -65,11 +75,9 @@ body {
 /* Image */
 .oTImg {
     box-sizing: border-box;
-    position: absolute;
     width: 116.25rem;
     height: 57.0625rem;
-    left: 1.875rem;
-    top: 21.75rem;
+    margin: 0 auto;
     background: url(../../img/our_team.png);
     background-size: cover;
     border: .125rem solid var(--blue);
@@ -77,33 +85,23 @@ body {
 }
 
 /* Cards */
+.oTCard{
+    top: 2746px;
+    height: 25.5rem;
+    position: absolute;
+    width: 28.75rem;
+}
 .oTCard1 {
     /* 1 */
-    position: absolute;
-    width: 25.6875rem;
-    height: 23rem;
     left: 9.375rem;
-    top: 91.3125rem;
 }
-
 .oTCard2 {
     /* 2 */
-
-    position: absolute;
-    width: 25.5rem;
-    height: 23rem;
     left: 45.4375rem;
-    top: 91.3125rem;
 }
-
 .oTCard3 {
     /* 3 */
-
-    position: absolute;
-    width: 29.25rem;
-    height: 23rem;
     left: 81.375rem;
-    top: 91.3125rem;
 }
 
 #oTLine1 {
@@ -112,7 +110,7 @@ body {
     width: 0rem;
     height: 35.5rem;
     left: 40.25rem;
-    top: 85.0625rem;
+    top: 162.92rem;
     border: .0625rem solid var(--blue);
 }
 
@@ -122,7 +120,7 @@ body {
     width: 0rem;
     height: 35.5rem;
     left: 76.125rem;
-    top: 85.0625rem;
+    top: 162.92rem;
     border: .0625rem solid var(--blue);
 }
 
@@ -132,8 +130,7 @@ body {
     font-family: "Neue Machina";
     font-size: 3.75rem;
     line-height: 2.875rem;
-    position: absolute;
-    top: -6.25rem;
+    margin: 0rem 0rem 7.125rem 0rem;
 }
 
 .oTCardMiddle {
@@ -141,19 +138,17 @@ body {
     font-family: "Neue Machina";
     font-size: 3.75rem;
     line-height: 2.875rem;
-    position: absolute;
-    top: 3.125rem;
+    margin: 0 0 4.25rem 0;
     color: var(--dark_grey)
 }
 
 .oTCardBottom {
     /* bottom part of a card */
-    position: absolute;
-    top: 12.5rem;
     font-family: "Gilroy";
     font-size: 1.875rem;
     line-height: 2.875rem;
     color: var(--grey);
+    margin: 0;
 }
 
 
@@ -176,11 +171,9 @@ body {
 }
 
 #sGTop {
-    position: absolute;
     width: 44.6875rem;
     height: 6.75rem;
-    left: 56.25rem;
-    top: 152.1875rem;
+    margin: 3.125rem 0rem 6rem 56.25rem;
     font-family: "Gilroy";
     font-size: 1.5rem;
     line-height: 2.25rem;
@@ -188,11 +181,9 @@ body {
 }
 
 .sGCard {
-    position: absolute;
-    margin-left: 1.5625rem;
+    margin: auto;
     height: 47.3125rem;
     width: 116.25rem;
-    top: 166.6875rem;
     border: .0625rem solid var(--blue);
     border-radius: 4.375rem;
     background-color: var(--blue);
@@ -200,10 +191,10 @@ body {
 
 #hLYear {
     /* 2018 */
+    top: 256rem;
     margin: 0;
     position: absolute;
     left: 55.5625rem;
-    top: 9.375rem;
     font-family: 'Neue Machina';
     font-size: 5rem;
     line-height: 4.8125rem;
@@ -212,10 +203,9 @@ body {
 
 #kk13 {
     /* 2013 */
-
+    top:  256rem;
     position: absolute;
     left: 12.1875rem;
-    top: 6.8125rem;
     font-family: 'Neue Machina';
     font-size: 3.75rem;
     line-height: 3.625rem;
@@ -224,10 +214,9 @@ body {
 
 #kk15 {
     /* 2015 */
-
+    top:  256rem;
     position: absolute;
     left: 34.5rem;
-    top: 6.8125rem;
     font-family: 'Neue Machina';
     font-size: 3.75rem;
     line-height: 3.625rem;
@@ -236,10 +225,9 @@ body {
 
 #kk20 {
     /* 2020 */
-
+    top:  256rem;
     position: absolute;
     left: 79.1875rem;
-    top: 6.8125rem;
     font-family: 'Neue Machina';
     font-size: 3.75rem;
     line-height: 3.625rem;
@@ -248,10 +236,9 @@ body {
 
 #kk22 {
     /* 2022 */
-
+    top:  256rem;
     position: absolute;
     left: 98.0625rem;
-    top: 6.8125rem;
     font-family: 'Neue Machina';
     font-size: 3.75rem;
     line-height: 3.625rem;
@@ -260,7 +247,7 @@ body {
 
 #sGImg {
     left: 9.375rem;
-    top: 17.3125rem;
+    top: 78.5rem;
     height: 9.375rem;
     width: 97.5rem;
     position: absolute;
@@ -273,7 +260,7 @@ body {
     width: 40.625rem;
     height: 11.25rem;
     left: 60.9375rem;
-    top: 29.8125rem;
+    top: 91rem;
     font-family: 'Gilroy';
     font-size: 1.5rem;
     line-height: 2.25rem;
