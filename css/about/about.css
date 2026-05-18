@@ -1,4 +1,5 @@
 body {
+    background-color: #CBCAF3;
     margin: 0;
 }
 
@@ -21,6 +22,14 @@ body {
     --white: #FFFFFF;
 }
 
+#tabNames {
+    margin: 0 0 0 9.375rem;
+    font-family: "Neue Machina";
+    font-size: 3.75rem;
+    line-height: 150%;
+    color: var(--dark_grey)
+}
+
 /* Main box */
 .aboutBox {
     position: relative;
@@ -35,37 +44,20 @@ body {
 }
 
 /* Who we are */
-.wWTab {
-    height: 61.1875rem;
-    margin-top: 16.8125rem;
-}
+
+
 
 /* Our Team */
-
-/* Our Team */
-
 .oTTab {
-    margin-top: 16.8125rem;
+    margin-top: 18.75rem;
     height: 120.5625rem;
-}
-
-/* Our Team Top*/
-#oTTab {
-    width: 17.625rem;
-    height: 5.625rem;
-    padding-left: 9.375rem;
-    margin: 0rem;
-    font-family: "Neue Machina";
-    font-size: 3.75rem;
-    line-height: 150%;
-    color: var(--dark_grey)
 }
 
 /* Text under "Our Team" */
 #oTTopTxt {
     width: 44.6875rem;
     height: 6.75rem;
-    margin: 3.125rem 0rem 6.25rem 56.25rem;
+    margin: 1.125rem 0rem 6.25rem 56.25rem;
     font-family: "Gilroy";
     font-size: 1.5rem;
     line-height: 2.25rem;
@@ -85,42 +77,21 @@ body {
 }
 
 /* Cards */
-.oTCard{
-    top: 2746px;
+.oTCards {
+    margin: 6.25rem auto 0 auto;
+    justify-content: space-around;
+    display: flex;
+}
+
+.oTCard {
     height: 25.5rem;
-    position: absolute;
-    width: 28.75rem;
-}
-.oTCard1 {
-    /* 1 */
-    left: 9.375rem;
-}
-.oTCard2 {
-    /* 2 */
-    left: 45.4375rem;
-}
-.oTCard3 {
-    /* 3 */
-    left: 81.375rem;
+    margin-top: 6.25rem;
 }
 
-#oTLine1 {
+#oTLine {
     /* Line */
-    position: absolute;
     width: 0rem;
     height: 35.5rem;
-    left: 40.25rem;
-    top: 162.92rem;
-    border: .0625rem solid var(--blue);
-}
-
-#oTLine2 {
-    /* Line */
-    position: absolute;
-    width: 0rem;
-    height: 35.5rem;
-    left: 76.125rem;
-    top: 162.92rem;
     border: .0625rem solid var(--blue);
 }
 
@@ -153,21 +124,9 @@ body {
 
 
 /* IT Support Group trough the years */
-
 .sGTab {
     margin-top: 18.75rem;
-    margin-bottom: 18.75rem;
     height: 74.6875rem;
-}
-
-#sGTab {
-    width: 33.75rem;
-    padding-left: 9.375rem;
-    font-family: "Neue Machina";
-    font-size: 3.75rem;
-    line-height: 150%;
-    color: var(--dark_grey);
-    margin: 0rem;
 }
 
 #sGTop {
@@ -189,23 +148,24 @@ body {
     background-color: var(--blue);
 }
 
+.sGYears {
+    margin: 6.25rem 0 6.25rem 0;
+    display: flex;
+    width: 97.5rem;
+}
+
 #hLYear {
-    /* 2018 */
-    top: 256rem;
-    margin: 0;
-    position: absolute;
-    left: 55.5625rem;
+    margin: 3.75rem 10.9375rem 0 11.4375rem;
     font-family: 'Neue Machina';
     font-size: 5rem;
+    height: 4.8125rem;
     line-height: 4.8125rem;
     color: white;
 }
 
 #kk13 {
-    /* 2013 */
-    top:  256rem;
-    position: absolute;
-    left: 12.1875rem;
+    height: 3.625rem;
+    margin: 3.75rem 12.75rem 0 12.1875rem;
     font-family: 'Neue Machina';
     font-size: 3.75rem;
     line-height: 3.625rem;
@@ -213,10 +173,8 @@ body {
 }
 
 #kk15 {
-    /* 2015 */
-    top:  256rem;
-    position: absolute;
-    left: 34.5rem;
+    margin: 3.75rem 0 0 0;
+    height: 3.625rem;
     font-family: 'Neue Machina';
     font-size: 3.75rem;
     line-height: 3.625rem;
@@ -224,10 +182,8 @@ body {
 }
 
 #kk20 {
-    /* 2020 */
-    top:  256rem;
-    position: absolute;
-    left: 79.1875rem;
+    margin: 3.75rem 0 0 0;
+    height: 3.625rem;
     font-family: 'Neue Machina';
     font-size: 3.75rem;
     line-height: 3.625rem;
@@ -235,10 +191,8 @@ body {
 }
 
 #kk22 {
-    /* 2022 */
-    top:  256rem;
-    position: absolute;
-    left: 98.0625rem;
+    margin: 3.75rem 0 0 8.5rem;
+    height: 3.625rem;
     font-family: 'Neue Machina';
     font-size: 3.75rem;
     line-height: 3.625rem;
@@ -246,21 +200,17 @@ body {
 }
 
 #sGImg {
-    left: 9.375rem;
-    top: 78.5rem;
+    margin-left: 9.375rem;
     height: 9.375rem;
     width: 97.5rem;
-    position: absolute;
+
 }
 
 .sGList {
     /* List in bottom of div */
-
-    position: absolute;
+    margin: 0 0 0 60.9375rem;
     width: 40.625rem;
     height: 11.25rem;
-    left: 60.9375rem;
-    top: 91rem;
     font-family: 'Gilroy';
     font-size: 1.5rem;
     line-height: 2.25rem;
@@ -269,23 +219,15 @@ body {
 
 
 /* What our clients say about us */
-
 .rVTab {
+    margin-top: 18.75rem;
     height: 63.1875rem;
-}
-
-#rVTab {
-    padding-left: 9.375rem;
-    font-family: "Neue Machina";
-    font-size: 3.75rem;
-    line-height: 150%;
-    color: var(--dark_grey)
 }
 
 .reviews {
     width: 102.75rem;
     height: 43.9375rem;
-    margin: 0 auto;
+    margin: 6.25rem auto 0 auto;
 }
 
 .rVBox {
@@ -363,8 +305,7 @@ body {
 .rVPages {
     width: 15.375rem;
     height: 2.625rem;
-    margin: 0 auto;
-    margin-top: 6.5rem;
+    margin: 6.25rem auto 0 auto;
     display: flex;
 }
 
