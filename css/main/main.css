@@ -1,55 +1,131 @@
 /* How we work? */
 .box1{
-    height: 300px;
+    height: 450px;
     width: 1800px;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background: white;
-    padding: 32px;
     position: relative;
     font-family: 'Neue Machina';
 }
 .box2{
     background: #6a5cff;
     color: white;
+
     font-family: 'Neue Machina';
     font-size: 500px;
+
     width: 600px;
     
 }
 .box3{
     border: 1px solid black;
     border-radius: 100%;
+
     width: 200px;
     height: 200px;
+
     font-size: 25px;
+
     display: flex;
+
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Neue Machina';
 }
-span{
-    color: white;
-}
 
-.box1 div {
+ span{
+    color: white;
+} 
+
+ .box1 div {
   padding: 10px;
+
   font-size: 30px;
+
   text-align: center;
-}
-.gri{
+} 
+ .gri{
     border-radius: 28px;
+
     border: solid gray 1px;
+
+    width: 600px;
+
+    padding: 32px;
 }
 .grid{
     text-align: center;
+
     margin-top: 50px;
 }
 .title{
 font-size: 400%;
+
 font-family: 'Neue Machina';
+} 
+
+
+ .purple-box {
+  width: 600px;
+  padding: 32px;
+
+  border-radius: 28px;
+
+  background: #5b4dff;
+
+  color: white;
 }
-body{
-    font-family: 'Neue Machina';
+
+.purple-box h3 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 500;
 }
+
+.purple-box p {
+  margin: 8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box1 {grid-area: box1; background-color: green;}
+.box2 {grid-area: box2; background-color: lightgreen;}
+.box3 {grid-area: box3; background-color: cadetblue;}
+.box4 {grid-area: box4; background-color: magenta;}
+.box5 {grid-area: box5; background-color: lime;}
+.box6 {grid-area: box6; background-color:#5b4dff;}
+
+.box{border-radius: 10px;}
+
+.container {
+    min-height: 98dvh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 10px;
+    grid-template-areas:
+    'box1 box1 box1 box1  box2 box2 box2 box2  box3 box3 box3 box3'
+    'box1 box1 box1 box1  box2 box2 box2 box2  box3 box3 box3 box3'
+    'box1 box1 box1 box1  box2 box2 box2 box2  box3 box3 box3 box3'
+    'box1 box1 box1 box1  box2 box2 box2 box2  box3 box3 box3 box3'
+
+    'box4 box4 box4 box4  box5 box5 box5 box5  box6 box6 box6 box6'
+    'box4 box4 box4 box4  box5 box5 box5 box5  box6 box6 box6 box6'
+    'box4 box4 box4 box4  box5 box5 box5 box5  box6 box6 box6 box6'
+    'box4 box4 box4 box4  box5 box5 box5 box5  box6 box6 box6 box6'
+    
+
+
+} */
