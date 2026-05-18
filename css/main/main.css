@@ -369,7 +369,7 @@ body {
   font-size: 20px;
   line-height: 1.9;
   font-weight: 300;
-  margin-right: 35rem;
+  margin-right: 30rem;
   font-family: Gilroy;
 }
 .timeline {
@@ -429,7 +429,7 @@ body {
   line-height: 130%;
   color: #6b6b6b;
   font-weight: 300;
-  width: auto;
+  width: 202px;
   cursor: pointer;
   transition: font-size 0.2s ease, color 0.2s ease;
 }
