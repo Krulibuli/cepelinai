@@ -1,33 +1,32 @@
     /* How we work? */
     .koko1{
-        height: 450px;
+        height: 480px;
         width: 1800px;
-
+        margin: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         background: white;
         position: relative;
-        font-family: 'Neue Machina';
+        font-family: myFont;
     }
     .koko3{
         border: 1px solid black;
         border-radius: 100%;
-
+        font-family: myFont;
         width: 200px;
         height: 200px;
-
         font-size: 25px;
-
         display: flex;
-
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-family: 'Neue Machina';
+        color: black;
     }
-
+    .koko1 p{
+        color: gray;
+    }
     span{
-        color: white;
+        color: rgb(187, 187, 187);
     } 
 
     .koko1 div {
@@ -39,44 +38,47 @@
     } 
     .gri{
         border-radius: 28px;
-
         border: solid gray 1px;
-
         width: 600px;
-
+        color: black;
         padding: 32px;
+        font-family: myFont;
     }
     .grid{
+        color: black;   
         text-align: center;
-
+        font-family: myFont;
         margin-top: 50px;
     }
     .tilt{
     font-size: 400%;
-
-    font-family: 'Neue Machina';
+    color: black;
+    font-family: myFont;
+    
     } 
 
 
     .purple-box {
     width: 600px;
     padding: 32px;
-
     border-radius: 28px;
+    border: solid gray 1px;
+    color: black;
 
-    background: #5b4dff;
-
-    color: white;
     }
 
     .purple-box h3 {
     margin-bottom: 20px;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 500;
+    font-family: myFont;
+    color: black;
     }
 
     .purple-box p {
+    font-family: myFont;
     margin: 8px 0;
+    font-size: 28px;
     }
 /* General */
 body {
