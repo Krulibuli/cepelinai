@@ -96,11 +96,6 @@ body {
   color: lightgray;
 }
 
-.why-choose-us h1 {
-  color: black;
-  margin-left: 84px;
-}
-
 .why-choose-us p {
   color: gray;
   margin-left: 84px;
@@ -110,6 +105,8 @@ body {
 .why-choose-us .h1-name {
   font-size: 80px;
   font-weight: bolder;
+  color: black;
+  margin-left: 84px;
 }
 
 .why-choose-us .container {
