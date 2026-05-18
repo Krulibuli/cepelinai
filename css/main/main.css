@@ -94,6 +94,7 @@ body {
 
 .why-choose-us .teams p {
   color: lightgray;
+  font-size: larger;
 }
 
 .why-choose-us p {
@@ -109,29 +110,36 @@ body {
   margin-left: 84px;
 }
 
+.why-choose-us .text-box p {
+  margin: 0;
+  margin-top: 30px;
+  font-size: 37px;
+}
+
+.why-choose-us .text-box h2 {
+  margin: 0;
+  font-size: 45px;
+}
+
 .why-choose-us .container {
   display: flex;
 }
 
 .gray-bar {
   width: 2.5px;
-  height: 502.5px;
+  height: 100%;
   background-color: lightgray;
   border-radius: 15px;
 }
 
-.text-box {
-  margin-left: 600px;
+.why-choose-us .text-box {
+  margin-left: 150px;
 }
 
-.text-box p,
-.text-box h2 {
-  margin: 0;
-}
 
 .text-box .team-text {
   border: 1px solid gray;
-  border-radius: 35px;
+  border-radius: 80px;
   margin-left: 84px;
   width: 1116px;
   height: 459px;
@@ -139,37 +147,17 @@ body {
   padding: 45px;
 }
 
-.text-box .communication-text {
-  border: 1px solid gray;
-  border-radius: 35px;
-  margin-left: 84px;
-  width: 1116px;
-  height: 459px;
-  font-size: 25px;
-  display: none;
-  padding: 45px;
-}
-
-.text-box .solution-text {
-  border: 1px solid gray;
-  border-radius: 35px;
-  margin-left: 84px;
-  width: 1116px;
-  height: 459px;
-  font-size: 25px;
-  display: none;
-  padding: 45px;
-}
-
+.text-box .communication-text,
+.text-box .solution-text,
 .text-box .quality-text {
   border: 1px solid gray;
-  border-radius: 35px;
+  border-radius: 80px;
   margin-left: 84px;
   width: 1116px;
   height: 459px;
   font-size: 25px;
-  display: none;
   padding: 45px;
+  display: none;
 }
 
 .why-choose-us h2 {
@@ -177,37 +165,10 @@ body {
   color: #2E2BD0;
 }
 
-.why-choose-us .team-bar {
-  background-color: #2E2BD0;
-  height: 85px;
-  width: 5px;
-  position: relative;
-  right: 1.2px;
-  border-radius: 85px;
-}
 
-.why-choose-us .communication-bar {
-  background-color: #2E2BD0;
-  height: 85px;
-  width: 5px;
-  position: relative;
-  right: 1.2px;
-  border-radius: 85px;
-  top: 140px;
-  display: none;
-}
-
-.why-choose-us .solution-bar {
-  background-color: #2E2BD0;
-  height: 85px;
-  width: 5px;
-  position: relative;
-  right: 1.2px;
-  border-radius: 85px;
-  top: 280px;
-  display: none;
-}
-
+.why-choose-us .team-bar,
+.why-choose-us .communication-bar,
+.why-choose-us .solution-bar,
 .why-choose-us .quality-bar {
   background-color: #2E2BD0;
   height: 85px;
@@ -215,10 +176,20 @@ body {
   position: relative;
   right: 1.2px;
   border-radius: 85px;
-  top: 420px;
   display: none;
 }
 
+.why-choose-us .communication-bar {
+  top: 155px;
+}
+
+.why-choose-us .solution-bar {
+  top: 310px;
+}
+
+.why-choose-us .quality-bar {
+  top: 467px;
+}
 
 
 .why-choose-us .sumarize {
@@ -247,6 +218,11 @@ body {
 .quality-name {
   cursor: pointer;
 }
+
+.why-choose-us .gilroy-text {
+  font-family: 'Gilroy';
+}
+
 
 
 
