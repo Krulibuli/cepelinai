@@ -1,5 +1,4 @@
 body {
-    background-color: #CBCAF3;
     margin: 0;
 }
 
@@ -44,7 +43,9 @@ body {
 }
 
 /* Who we are */
-
+.wWTab{
+    height: 61.1875rem;
+}
 
 
 /* Our Team */
