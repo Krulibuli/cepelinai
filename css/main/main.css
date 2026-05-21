@@ -124,34 +124,41 @@ body {
 
   color: rgba(47, 53, 63, 0.7);
 }
+.waog-title-header {grid-area: title;}
+.first-goal {grid-area: g1;  border: 1px solid gray; border-radius: 70px; min-height: 500px;}
+.second-goal {grid-area: g2; border: 1px solid gray; border-radius: 70px; min-height: 500px;}
+.third-goal {grid-area: g3;  border: 1px solid gray; border-radius: 70px; min-height: 500px;}
+.fourth-goal {grid-area: g4; border: 1px solid gray; border-radius: 70px; min-height: 500px;}
 
-.first-goal {grid-area: g1;  border: 1px solid gray; border-radius: 70px; min-width: 540px; min-height: 500px;}
-.second-goal {grid-area: g2; border: 1px solid gray; border-radius: 70px; min-width: 540px; min-height: 500px;}
-.third-goal {grid-area: g3;  border: 1px solid gray; border-radius: 70px; min-width: 540px; min-height: 500px;}
-.fourth-goal {grid-area: g4; border: 1px solid gray; border-radius: 70px; min-width: 540px; min-height: 500px;}
-.waog-pic1 {grid-area: pic1; min-width: 540px; min-height: 500px; background-size: contain;}
-.waog-pic1 img {border-radius: 70px; }
-.waog-pic2 {grid-area: pic2; min-width: 540px; min-height: 500px;}
-.waog-pic3 {grid-area: pic3; min-width: 540px; min-height: 500px;}
+.waog-pic1 {grid-area: pic1; min-height: 500px;}
+.waog-pic2 {grid-area: pic2; min-height: 500px;}
+.waog-pic3 {grid-area: pic3; min-height: 500px;}
+
+.waog-pic1 img, 
+.waog-pic2 img, 
+.waog-pic3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 70px; 
+}
 
 .waog-container {
   display: grid;
-  grid-template-columns: repeat(6, max(270px, 1fr));
-  grid-template-rows: repeat(7, max(250px, auto));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: auto repeat(6, minmax(250px, auto));
 
   max-width: 1620px;
   margin: 0 auto;
 
-
   grid-template-areas: 
-  'g1   g1     g2   g2     pic1 pic1 pic1'
-  'g1   g1     g2   g2     pic1 pic1 pic1'
-
-  'pic2 pic2   pic2 g3     g3 g3 g3'
-  'pic2 pic2   pic2 g3     g3 g3 g3'
-  
-  'g4   g4     g4   g4     pic3 pic3 pic3'
-  'g4   g4     g4   g4     pic3 pic3 pic3'
+  'title title title title title title'
+  'g1   g1     g2   g2     pic1 pic1'
+  'g1   g1     g2   g2     pic1 pic1'
+  'pic2 pic2   pic2 g3     g3   g3'
+  'pic2 pic2   pic2 g3     g3   g3'
+  'g4   g4     g4   g4     pic3 pic3'
+  'g4   g4     g4   g4     pic3 pic3'
   ;
 }
 
