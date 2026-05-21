@@ -1,4 +1,7 @@
 /* General */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -23,7 +26,7 @@ body {
 
 /* Header */
 .header p {
-  margin: none;
+  margin: 0;
 }
 
 .header-section {
@@ -361,7 +364,7 @@ body {
   max-width: 1920px;
   display: flex;
   flex-direction: column;
-  width: 1920px;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
@@ -382,7 +385,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 0;
-  width: 1920px;
+  width: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
