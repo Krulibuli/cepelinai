@@ -1,13 +1,14 @@
     /* How we work? */
     .koko1{
         height: 480px;
-        width: 1800px;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         background: white;
         position: relative;
         font-family: myFont;
+        gap: 22px;
+        max-width: 1800px;
     }
     .koko3{
         border: 1px solid black;
@@ -64,6 +65,7 @@
     border-radius: 28px;
     border: solid gray 1px;
     color: black;
+    background-color:#6462E5
 
     }
 
@@ -73,12 +75,14 @@
     font-weight: 500;
     font-family: myFont;
     color: black;
+    color: white;
     }
 
     .purple-box p {
     font-family: myFont;
     margin: 8px 0;
     font-size: 28px;
+    color: rgb(216, 216, 216);
     }
 /* General */
 body {
