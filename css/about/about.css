@@ -11,15 +11,17 @@ body {
     font-family: Gilroy;
     src: url(../../Fonts/Gilroy-Light.otf);
 }
-
+.nav-bar{
+    top: 0;
+}
 
 /* common */
 :root {
     --blue: #2e2bd0;
     --light_Blue: #CBCAF3;
     --dark_grey: #2f353f;
-    --grey: #2f353fb3;
-    --light_grey: #ffffff80;
+    --grey: #2F353F;
+    --light_grey: #c1c2c5;
     --white: #FFFFFF;
 }
 
@@ -27,7 +29,7 @@ body {
     margin: 0 0 0 9.375rem;
     font-family: "Neue Machina";
     font-size: 3.75rem;
-    line-height: 150%;
+    line-height: 3.75rem;
     color: var(--dark_grey)
 }
 
@@ -46,9 +48,94 @@ body {
 
 /* Who we are */
 .wWTab {
-    height: 61.1875rem;
+    margin-top: 16.8125rem;
+    height: 62rem;
 }
 
+.wWMain{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 12.5rem;
+}
+
+.wWText{
+    margin-left: 9.375rem;
+    font-family: "Gilroy";
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: var(--grey);
+}
+.wWText p{
+    width: 47rem;
+}
+.wWInfo{
+    margin-left: 9.375rem;
+    flex-wrap: wrap;
+    display: flex;
+    font-family: "Gilroy";
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: var(--grey);
+}
+
+.info{
+    border: 1px solid var(--grey);
+    border-radius: 2.5rem;
+    height: 14.6875rem;
+    width: 22.375rem;
+}
+.wWInfoText{
+ margin-left: 3.125rem;
+ font-family: "Gilroy";
+}
+.wWInfoTop{
+    margin: 3.125rem 0 0 3.125rem;
+    color: var(--blue);
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+}
+.wWInfoBottom{
+    margin-top: 2.625rem;
+    color: var(--grey);
+}
+.wWBtm{
+    margin-top:  1.5rem;
+}
+.decoration{
+    margin-left: 160px;
+    display: flex;
+    height: 11.25rem;
+}
+
+.wWBall{
+    width: 11.25rem;
+    height: 11.25rem;
+    border: 3px solid var(--white);
+    border-radius: 100%;
+    margin-left: -3.0625rem;
+}
+
+.wWBallBlue{
+    background-color: var(--blue);
+}
+
+.wWBallBlack{
+    background-color: var(--dark_grey);
+}
+
+.wWBallGrey{
+    background-color: var(--light_grey);
+}
+
+.wWBallLast{
+    cursor: pointer;
+    background-color: #9995e5;
+    text-align: center;
+}
+
+.wWPlus{
+    margin-top: 20%;
+}
 
 
 
@@ -83,7 +170,7 @@ body {
 
 /* Cards */
 .oTCards {
-    margin: 6.25rem auto 0 auto;
+    margin: 9.375rem auto 0 auto;
     justify-content: space-around;
     display: flex;
 }
@@ -133,13 +220,13 @@ body {
 /* IT Support Group trough the years */
 .sGTab {
     margin-top: 18.75rem;
-    height: 74.6875rem;
+    height: 71.3rem;
 }
 
 #sGTop {
     width: 44.6875rem;
     height: 6.75rem;
-    margin: 3.125rem 0rem 6rem 56.25rem;
+    margin: 3.125rem 0rem 6.25rem 56.25rem;
     font-family: "Gilroy";
     font-size: 1.5rem;
     line-height: 2.25rem;
