@@ -1,7 +1,7 @@
 /* General */
-*, *::before, *::after {
+/* *, *::before, *::after {
   box-sizing: border-box;
-}
+} */
 body {
   margin: 0px;
   padding: 0px;
@@ -332,6 +332,7 @@ body {
 
 
 .industries {
+  box-sizing: border-box;
   padding-left: 0;
   max-width: 1920px;
   display: flex;
@@ -546,6 +547,7 @@ body{
 
 /* Get in touch with us */
 .touch-with-us {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
