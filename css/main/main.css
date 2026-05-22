@@ -562,12 +562,13 @@ body{
 .left {
   width: 100%;
   display: flex;
+  gap: 15px;
   flex-direction: row;
   justify-content: space-between;
 }
  
 .left h1 {
-  min-width: 700px  ;
+  min-width: 700px;
   font-size: 100px;
   line-height: 1.1;
   color: white;
@@ -582,6 +583,7 @@ body{
 }
  
 .left p {
+  width: 100%;
   margin-top: 100px;
   font-size: 20px;
   line-height: 1.1;
@@ -623,7 +625,7 @@ body{
 }
  
 .registration input,
-.px {
+.px, .px-download {
   width: 100%;
   background: transparent;
   border: none;
@@ -634,9 +636,26 @@ body{
   outline: none;
 }
  
-.registration input::placeholder,.px::placeholder {
+.registration input::placeholder,.px::placeholder, .px-download::placeholder {
   color: #a9a7f2;
 }
+
+
+.px-download {
+  width: 100%;
+  display: flex;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  padding: 10px 0;
+  font-size: 32px;
+  color: #a9a7f2;
+}
+
+.px-download::placeholder{
+  font-family: myFont;
+}
+
  
 .submitt {
   display: flex;
@@ -652,4 +671,25 @@ body{
   cursor: pointer;
   text-align: center;
   font-size: 18px;
+}
+
+.submitt1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 55px;
+  margin-top: 20px;
+  background: white;
+  border: none;
+  border-radius: 10px;
+  color: #2e2bd0;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  display: none;
+}
+
+.support-logo{
+  display: none;
 }
