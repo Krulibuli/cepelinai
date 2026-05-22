@@ -1,4 +1,7 @@
 /* General */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -7,10 +10,13 @@ body {
   color: white;
 }
 
-
 @font-face {
   font-family: myFont;
   src: url("../../Fonts/NeueMaChina-Light.otf");
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../Fonts/Gilroy-Light.otf);
 }
 
 @font-face{
@@ -20,7 +26,7 @@ body {
 
 /* Header */
 .header p {
-  margin: none;
+  margin: 0;
 }
 
 .header-section {
@@ -48,7 +54,7 @@ body {
 .blue-box-area {
   z-index: 1;
   position: absolute;
-  width: 876px;
+  width: 816px;
   height: 65px;
   left: 150px;
   top: 447px;
@@ -80,6 +86,83 @@ body {
   height: 78px;
   left: 60px;
   top: 101px;
+}
+/* What are our goals */
+.what-are-our-goals {
+  font-family: MyFont;
+  min-height: 100dvh;
+  margin: 12.5rem 9.375rem;
+}
+.waog-title-header {
+  margin: 0 0 6.25rem 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.750rem;
+  line-height: 3.625rem;
+  color: #2F353F;
+}
+.waog-num {
+  margin: 3.125rem 0 0 3.125rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 2.438;
+  color: #2E2BD0;
+}
+.woag-title {
+  margin: 12.5rem 0 0 3.125rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #2F353F;
+}
+.woag-text {
+  margin: 0 0 0 3.125rem ;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+
+  color: rgba(47, 53, 63, 0.7);
+}
+.waog-title-header {grid-area: title;}
+.first-goal {grid-area: g1;  border: 1px solid gray; border-radius: 70px; min-height: 500px;}
+.second-goal {grid-area: g2; border: 1px solid gray; border-radius: 70px; min-height: 500px;}
+.third-goal {grid-area: g3;  border: 1px solid gray; border-radius: 70px; min-height: 500px;}
+.fourth-goal {grid-area: g4; border: 1px solid gray; border-radius: 70px; min-height: 500px;}
+
+.waog-pic1 {grid-area: pic1; min-height: 500px;}
+.waog-pic2 {grid-area: pic2; min-height: 500px;}
+.waog-pic3 {grid-area: pic3; min-height: 500px;}
+
+.waog-pic1 img, 
+.waog-pic2 img, 
+.waog-pic3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 70px; 
+}
+
+.waog-container {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: auto repeat(6, minmax(250px, auto));
+
+  max-width: 1620px;
+  margin: 0 auto;
+
+  grid-template-areas: 
+  'title title title title title title'
+  'g1   g1     g2   g2     pic1 pic1'
+  'g1   g1     g2   g2     pic1 pic1'
+  'pic2 pic2   pic2 g3     g3   g3'
+  'pic2 pic2   pic2 g3     g3   g3'
+  'g4   g4     g4   g4     pic3 pic3'
+  'g4   g4     g4   g4     pic3 pic3'
+  ;
 }
 
 /* Why choose us? */
@@ -253,7 +336,7 @@ body {
   max-width: 1920px;
   display: flex;
   flex-direction: column;
-  width: 1920px;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
@@ -274,7 +357,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 0;
-  width: 1920px;
+  width: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -325,6 +408,9 @@ body {
 }
 
 
+body{
+    font-family: myFont;
+}
 
 
 /* Used technologies */
@@ -361,7 +447,7 @@ body {
   font-size: 20px;
   line-height: 1.9;
   font-weight: 300;
-  margin-right: 30rem;
+  margin-right: 15rem;
   font-family: Gilroy;
 }
 .timeline {
