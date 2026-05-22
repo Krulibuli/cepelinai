@@ -196,10 +196,6 @@ body {
     .koko1 p{
         color: gray;
     }
-    /* span{
-        color: rgb(187, 187, 187);
-    } */
- 
     .koko1 div {
     padding: 10px;
  
@@ -254,6 +250,8 @@ body {
     font-size: 28px;
     color: rgb(216, 216, 216);
     }
+
+ 
 
 /* Why choose us? */
 
