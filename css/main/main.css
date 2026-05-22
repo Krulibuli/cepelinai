@@ -1,7 +1,5 @@
+
 /* General */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
 body {
   margin: 0px;
   padding: 0px;
@@ -20,7 +18,7 @@ body {
 }
 
 @font-face{
-  font-family: Gilroy;
+  font-family: Gilroy;  
   src: url(../../Fonts/Gilroy-Light.otf);
 }
 
@@ -164,6 +162,92 @@ body {
   'g4   g4     g4   g4     pic3 pic3'
   ;
 }
+    /* How we work? */
+    .koko1{
+        height: 480px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background: white;
+        position: relative;
+        font-family: myFont;
+        gap: 22px;
+        max-width: 1800px;
+    }
+    .koko3{
+        border: 1px solid black;
+        border-radius: 100%;
+        font-family: myFont;
+        width: 200px;
+        height: 200px;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: black;
+    }
+    .koko1 p{
+        color: gray;
+    }
+    /* span{
+        color: rgb(187, 187, 187);
+    } */
+ 
+    .koko1 div {
+    padding: 10px;
+ 
+    font-size: 30px;
+ 
+    text-align: center;
+    }
+    .gri{
+        border-radius: 28px;
+        border: solid gray 1px;
+        width: 600px;
+        color: black;
+        padding: 32px;
+        font-family: myFont;
+    }
+    .grid{
+        color: black;  
+        text-align: center;
+        font-family: myFont;
+        margin-top: 50px;
+    }
+    .tilt{
+    font-size: 400%;
+    color: black;
+    font-family: myFont;
+   
+    }
+ 
+ 
+    .purple-box {
+    width: 600px;
+    padding: 32px;
+    border-radius: 28px;
+    border: solid gray 1px;
+    color: black;
+    background-color:#6462E5
+ 
+    }
+ 
+    .purple-box h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: myFont;
+    color: black;
+    color: white;
+    }
+ 
+    .purple-box p {
+    font-family: myFont;
+    margin: 8px 0;
+    font-size: 28px;
+    color: rgb(216, 216, 216);
+    }
 
 /* Why choose us? */
 
@@ -188,7 +272,7 @@ body {
 
 .why-choose-us .h1-name {
   font-size: 80px;
-  font-weight: bolder;
+  font-weight: normal;
   color: black;
   margin-left: 84px;
 }
@@ -325,13 +409,14 @@ body {
 
 .section-industries {
   max-width: 1920px;
-  min-height: 100vh;
+  margin-bottom: 250px;
   position: relative;
 }
 
 
 
 .industries {
+  box-sizing: border-box;
   padding-left: 0;
   max-width: 1920px;
   display: flex;
@@ -357,7 +442,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 0;
-  width: 100%;
+  width: min(100%, 506px);
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -415,12 +500,12 @@ body{
 
 /* Used technologies */
 
-.section {
+.section-ut {
   max-width: 1920px;
-  margin: 0 auto;
-  padding: 60px 70px 80px;
-  min-height: 100vh;
+  margin: 250px 150px;
   position: relative;
+  height: 620px;
+  padding: 0px 150px;
 }
 
 .title-technologies {
@@ -430,6 +515,7 @@ body{
   letter-spacing: -1px;
   width: 556px;
   height: 58px;
+  margin-left: -15px;
   color: black;
 }
 
@@ -446,13 +532,13 @@ body{
   font-size: 20px;
   line-height: 1.9;
   font-weight: 300;
-  margin-right: 18rem;
+  margin-right: 30rem;
   font-family: Gilroy;
 }
 .timeline {
   position: relative;
-  width: 100%;
-  max-width: 1620px;
+  width: 100%; 
+  overflow: hidden;
 }
 
 .timeline-line {
@@ -467,16 +553,21 @@ body{
 
 .timeline-items {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 25px;
+  grid-template-columns: repeat(8, 1fr); 
+  gap: 0;
   position: relative;
   z-index: 2;
+  transition: gap 0.3s ease;
+}
+
+.timeline-items.expanded {
+  gap: 20px; 
 }
 
 .timeline-item {
   position: relative;
-  width: 163px;
-  height: 93px;
+  width: auto; 
+  height: auto; 
   font-family: Gilroy;
 }
 
@@ -494,14 +585,14 @@ body{
 
 .timeline-item.active .dot {
   background: #2E2BD0;
-  box-shadow: 0 0 0 6px rgba(46, 43, 208, 0.15), 0 0 14px 4px rgba(46, 43, 208, 0.25);
+  box-shadow: 0 0 0 6px #2E2BD026, 0 0 14px 4px #2E2BD040
 }
 .tech-title {
   font-size: 18px;
   line-height: 130%;
   color: #6b6b6b;
   font-weight: 300;
-  width: 163px;
+  width: 202px;
   cursor: pointer;
   transition: font-size 0.2s ease, color 0.2s ease;
 }
@@ -510,7 +601,7 @@ body{
   font-size: 26px;
   color: black;
   font-weight: 300;
-  width: 220px;
+  width: 255px;
   font-family: myFont;
 }
 
@@ -528,7 +619,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 26px;
+  margin-top: 40px;
 }
 
 .icon-box img {
@@ -540,6 +631,7 @@ body{
 
 /* Get in touch with us */
 .touch-with-us {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
