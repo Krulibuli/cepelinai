@@ -12,6 +12,9 @@ body {
     src: url(../../Fonts/Gilroy-Light.otf);
 }
 
+
+
+/* common */
 :root {
     --blue: #2e2bd0;
     --light_Blue: #CBCAF3;
@@ -20,7 +23,7 @@ body {
     --light_grey: #ffffff80;
     --white: #FFFFFF;
 }
-/* common */
+
 #tabNames {
     margin: 0 0 0 9.375rem;
     font-family: "Neue Machina";
