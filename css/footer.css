@@ -101,11 +101,13 @@ h4{
     margin: 0 auto;
 }
 
-.lineslogo{
-    padding: 20px;
-}
+
 
 a{
     display: flex;
+}
+
+.size-logo1{
+ display: none  ;
 }
 

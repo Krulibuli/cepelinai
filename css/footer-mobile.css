@@ -1,13 +1,21 @@
 @media (max-width: 1080px){
-.logotipe{
+/* Footer */
+  .logotipe{
     width: 100%;
     flex-direction: column;
-    gap: 25px;
   }
 
   .size-logo{
     display: none;
-}
+    width: 350px;
+    height: 100px;
+  }
+
+  .size-logo1{
+    display: flex;
+    width: 300px;
+    height: 100px;
+  }
   .support-logo{
     display: flex;
     align-items: flex-start;
@@ -18,7 +26,7 @@
   }
 
   .logotipe{
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width: 100%;
     max-width: 1080px;
@@ -34,11 +42,7 @@
     font-size: 24px;
     display: flex;
     align-self: flex-end;
-  }
-
-  .lineslogo{
-    margin-left: 20px;
-  }
+  } 
 
   .information3 {
     display: flex;
@@ -46,6 +50,29 @@
     flex-direction: row;
     max-width: 1080px;
   }
-  
-  
+  .row_line{
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .lineslogo{
+    width: 100%;
+    max-width: 1080px;
+  }
+  .gmail_it{
+    display: flex;
+    align-items: flex-end;
+  }
+  .row_lines{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .rightt1{
+    margin-left: 40px;
+  }
 }
