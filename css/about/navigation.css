@@ -1,0 +1,146 @@
+.nav-bar * {
+    font-family: 'Neue Machina';
+}
+
+
+.nav-bar {
+    height: 155px;
+    border-bottom: 1px solid gray;
+    margin: 0px;
+    display: flex;
+    font-size: 34px;
+    position: absolute;
+
+}
+
+
+.left-side {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side img {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 65px;
+}
+
+.left-side ul {
+    display: flex;
+    list-style-type: none;
+    gap: 135px;
+    color: black;
+}
+
+.left-side li * {
+    color: black;
+    font-family: 'Neue Machina';
+}
+
+.links {
+    user-select: none;
+}
+
+.nav-bar a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.white-line {
+    width: 1px;
+    background-color: gray;
+    margin: 0px 100px;
+}
+
+
+
+.right-side {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 35px 0px;
+    gap: 130px;
+}
+
+.right-side .language {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.right-side .button-div {
+    display: flex;
+}
+
+.right-side #language-selector {
+    display: none;
+    position: absolute;
+    top: 85px;
+    right: 423px;
+    z-index: 1;
+    width: 70px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    backdrop-filter: blur(3px);
+}
+
+
+#lang-sel .languages img {
+    width: 28px;
+    position: relative;
+    top: 2px;
+}
+
+#lang-sel .languages {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#lang-sel .languages p {
+    margin: 0;
+    margin-right: 12px;
+}
+
+#language-selector p {
+    cursor: pointer;
+}
+
+#lang-sel {
+    user-select: none;
+}
+
+
+
+.nav-bar button {
+    height: 80px;
+    width: 340px;
+    border: 0;
+    background-color: #2E2BD0;
+    color: white;
+    border-radius: 15px;
+    font-size: 27px;
+    font-family: myFont;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    font-family: 'Neue Machina';
+}
+
+.nav-bar button img {
+    width: 30px;
+}
