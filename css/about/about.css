@@ -14,265 +14,329 @@ body {
 
 :root {
     --blue: #2e2bd0;
+    --light_Blue: #CBCAF3;
     --dark_grey: #2f353f;
     --grey: #2f353fb3;
     --light_grey: #ffffff80;
+    --white: #FFFFFF;
 }
+/* common */
+#tabNames {
+    margin: 0 0 0 9.375rem;
+    font-family: "Neue Machina";
+    font-size: 3.75rem;
+    line-height: 150%;
+    color: var(--dark_grey)
+}
+
+
+
 
 /* Main box */
 .aboutBox {
     position: relative;
     margin: 0 auto;
-    width: 1920px;
-    height: 8725px;
+    width: 120rem;
 }
+
+
+
+
+/* Who we are */
+.wWTab {
+    height: 61.1875rem;
+}
+
+
 
 
 /* Our Team */
-
 .oTTab {
-    height: 1929px;
-}
-
-/* Our Team Top*/
-#oTTab {
-    position: absolute;
-    width: 282px;
-    height: 90px;
-    left: 150px;
-    top: 0px;
-    font-family: "Neue Machina";
-    font-size: 60px;
-    line-height: 150%;
-    color: var(--dark_grey)
+    margin-top: 18.75rem;
+    height: 120.5625rem;
 }
 
 /* Text under "Our Team" */
 #oTTopTxt {
-    position: absolute;
-    width: 715px;
-    height: 108px;
-    left: 900px;
-    top: 140px;
+    width: 44.6875rem;
+    height: 6.75rem;
+    margin: 1.125rem 0rem 6.25rem 56.25rem;
     font-family: "Gilroy";
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
     color: var(--grey);
 }
 
 /* Image */
 .oTImg {
     box-sizing: border-box;
-    position: absolute;
-    width: 1860px;
-    height: 913px;
-    left: 30px;
-    top: 348px;
+    width: 116.25rem;
+    height: 57.0625rem;
+    margin: 0 auto;
     background: url(../../img/our_team.png);
     background-size: cover;
-    border: 2px solid var(--blue);
-    border-radius: 70px;
+    border: .125rem solid var(--blue);
+    border-radius: 4.375rem;
 }
 
 /* Cards */
-.oTCard1 {
-    /* 1 */
-    position: absolute;
-    width: 411px;
-    height: 368px;
-    left: 150px;
-    top: 1461px;
+.oTCards {
+    margin: 6.25rem auto 0 auto;
+    justify-content: space-around;
+    display: flex;
 }
 
-.oTCard2 {
-    /* 2 */
-
-    position: absolute;
-    width: 408px;
-    height: 368px;
-    left: 727px;
-    top: 1461px;
+.oTCard {
+    height: 25.5rem;
+    margin-top: 6.25rem;
 }
 
-.oTCard3 {
-    /* 3 */
-
-    position: absolute;
-    width: 468px;
-    height: 368px;
-    left: 1302px;
-    top: 1461px;
-}
-
-#oTLine1 {
+#oTLine {
     /* Line */
-    position: absolute;
-    width: 0px;
-    height: 568px;
-    left: 644px;
-    top: 1361px;
-    border: 1px solid var(--blue);
-}
-
-#oTLine2 {
-    /* Line */
-    position: absolute;
-    width: 0px;
-    height: 568px;
-    left: 1218px;
-    top: 1361px;
-    border: 1px solid var(--blue);
+    width: 0rem;
+    height: 35.5rem;
+    border: .0625rem solid var(--blue);
 }
 
 .oTCardTop {
     /* top part of a card */
     color: var(--blue);
     font-family: "Neue Machina";
-    font-size: 60px;
-    line-height: 46px;
-    position: absolute;
-    top: -100px;
+    font-size: 3.75rem;
+    line-height: 2.875rem;
+    margin: 0rem 0rem 7.125rem 0rem;
 }
 
 .oTCardMiddle {
     /* middle part of a card */
     font-family: "Neue Machina";
-    font-size: 60px;
-    line-height: 46px;
-    position: absolute;
-    top: 50px;
+    font-size: 3.75rem;
+    line-height: 2.875rem;
+    margin: 0 0 4.25rem 0;
     color: var(--dark_grey)
 }
 
 .oTCardBottom {
     /* bottom part of a card */
-    position: absolute;
-    top: 200px;
     font-family: "Gilroy";
-    font-size: 30px;
-    line-height: 46px;
+    font-size: 1.875rem;
+    line-height: 2.875rem;
     color: var(--grey);
+    margin: 0;
 }
+
+
 
 
 /* IT Support Group trough the years */
-
 .sGTab {
-    margin-top: 297px;
-    height: 1195px;
-}
-
-#sGTab {
-    position: absolute;
-    width: 540px;
-    height: 180px;
-    left: 150px;
-    font-family: "Neue Machina";
-    font-size: 60px;
-    line-height: 150%;
-    color: var(--dark_grey);
-    margin: 0px;
+    margin-top: 18.75rem;
+    height: 74.6875rem;
 }
 
 #sGTop {
-    position: absolute;
-    width: 715px;
-    height: 108px;
-    left: 900px;
-    top: 2435px;
+    width: 44.6875rem;
+    height: 6.75rem;
+    margin: 3.125rem 0rem 6rem 56.25rem;
     font-family: "Gilroy";
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
     color: var(--grey);
 }
 
 .sGCard {
-    position: absolute;
-    margin-left: 25px;
-    height: 757px;
-    width: 1860px;
-    top: 2667px;
-    border: 1px solid var(--blue);
-    border-radius: 70px;
+    margin: auto;
+    height: 47.3125rem;
+    width: 116.25rem;
+    border: .0625rem solid var(--blue);
+    border-radius: 4.375rem;
     background-color: var(--blue);
 }
 
+.sGYears {
+    margin: 6.25rem 0 6.25rem 0;
+    display: flex;
+    width: 97.5rem;
+}
+
 #hLYear {
-    /* 2018 */
-    margin: 0;
-    position: absolute;
-    left: 889px;
-    top: 150px;
+    margin: 3.75rem 10.9375rem 0 11.4375rem;
     font-family: 'Neue Machina';
-    font-size: 80px;
-    line-height: 77px;
+    font-size: 5rem;
+    height: 4.8125rem;
+    line-height: 4.8125rem;
     color: white;
 }
 
 #kk13 {
-    /* 2013 */
-
-    position: absolute;
-    left: 195px;
-    top: 109px;
+    height: 3.625rem;
+    margin: 3.75rem 12.75rem 0 12.1875rem;
     font-family: 'Neue Machina';
-    font-size: 60px;
-    line-height: 58px;
+    font-size: 3.75rem;
+    line-height: 3.625rem;
     color: var(--light_grey);
 }
 
 #kk15 {
-    /* 2015 */
-
-    position: absolute;
-    left: 552px;
-    top: 109px;
+    margin: 3.75rem 0 0 0;
+    height: 3.625rem;
     font-family: 'Neue Machina';
-    font-size: 60px;
-    line-height: 58px;
+    font-size: 3.75rem;
+    line-height: 3.625rem;
     color: var(--light_grey);
 }
 
 #kk20 {
-    /* 2020 */
-
-    position: absolute;
-    left: 1267px;
-    top: 109px;
+    margin: 3.75rem 0 0 0;
+    height: 3.625rem;
     font-family: 'Neue Machina';
-    font-size: 60px;
-    line-height: 58px;
+    font-size: 3.75rem;
+    line-height: 3.625rem;
     color: var(--light_grey);
 }
 
 #kk22 {
-    /* 2022 */
-
-    position: absolute;
-    left: 1569px;
-    top: 109px;
+    margin: 3.75rem 0 0 8.5rem;
+    height: 3.625rem;
     font-family: 'Neue Machina';
-    font-size: 60px;
-    line-height: 58px;
+    font-size: 3.75rem;
+    line-height: 3.625rem;
     color: var(--light_grey);
 }
 
 #sGImg {
-    left: 150px;
-    top: 277px;
-    height: 150px;
-    width: 1560px;
-    position: absolute;
+    margin-left: 9.375rem;
+    height: 9.375rem;
+    width: 97.5rem;
+
 }
 
 .sGList {
-    position: absolute;
-    width: 650px;
-    height: 180px;
-    left: 975px;
-    top: 477px;
+    /* List in bottom of div */
+    margin: 0 0 0 60.9375rem;
+    width: 40.625rem;
+    height: 11.25rem;
     font-family: 'Gilroy';
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
     color: white;
+}
+
+
+
+
+/* What our clients say about us */
+.rVTab {
+    margin-top: 18.75rem;
+    height: 63.1875rem;
+}
+
+.reviews {
+    width: 102.75rem;
+    height: 43.9375rem;
+    margin: 6.25rem auto 0 auto;
+}
+
+.rVBox {
+    height: 43.9375rem;
+    width: 33.75rem;
+    border: .0625rem solid #909398;
+    border-radius: 2.875rem;
+    float: left;
+}
+
+.rVBoxMid {
+    border-left: 0;
+    border-right: 0;
+}
+
+.rVImg {
+    border: .0625rem solid var(--blue);
+    border-radius: 6.25rem;
+    width: 5.625rem;
+    height: 5.625rem;
+    margin: 6.25rem 25rem 0rem 3.125rem;
+}
+
+.rVBoxElem {
+    font-family: 'Neue Machina';
+    margin: 0rem;
+    padding-left: 3.125rem;
+
+}
+
+.rVHl {
+    font-family: 'Neue Machina';
+    font-size: 1.625rem;
+    width: 12.8125rem;
+    line-height: 150%;
+    color: var(--blue);
+}
+
+.rVPos {
+    font-family: 'Gilroy';
+    font-size: 1.25rem;
+    line-height: 130%;
+}
+
+.rVQt {
+    padding-top: 3.125rem;
+    font-family: 'Gilroy';
+    font-size: 1.875rem;
+    line-height: 150%;
+}
+
+.rVBtn {
+    cursor: pointer;
+    margin: 7.125rem 0rem 0rem 3.125rem;
+    height: 3.625rem;
+    width: 19.875rem;
+    border-radius: .625rem;
+    border: .0625rem solid var(--blue);
+    font-family: 'Neue Machina';
+    font-size: 1.25rem;
+    line-height: 1.1875rem;
+    color: var(--blue);
+}
+
+.rVBtn .fa-solid {
+    padding-left: 1.25rem;
+}
+
+.rVBtn:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.rVPages {
+    width: 15.375rem;
+    height: 2.625rem;
+    margin: 6.25rem auto 0 auto;
+    display: flex;
+}
+
+.rVSlct {
+    cursor: pointer;
+    height: 2.5625rem;
+    width: 2.5625rem;
+    text-align: center;
+    border: .125rem solid var(--light_Blue);
+    border-radius: .625rem;
+    font-size: 1.25rem;
+    color: var(--light_Blue);
+    transition: 0.3s;
+}
+
+.rVSlct:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+#rVInd {
+    margin: 0rem 3.125rem 0rem 3.125rem;
+    font-family: 'Neue Machina';
+    font-size: 2rem;
+    line-height: 150%;
+    width: 3.75rem;
 }
