@@ -1,13 +1,12 @@
 .nav-bar {
     height: 155px;
     border-bottom: 1px solid white;
-    margin: 0px 30px;
     display: flex;
     font-size: 34px;
     position: absolute;
-    width: 100%;
+    left: 30px;
+    right: 30px;
 }
-
 
 .left-side {
     display: flex;
@@ -43,15 +42,11 @@
     text-decoration: none;
 }
 
-
-
 .white-line {
     width: 1px;
     background-color: white;
     margin: 0px 100px;
 }
-
-
 
 .right-side {
     display: flex;
@@ -88,7 +83,6 @@
     backdrop-filter: blur(3px);
 }
 
-
 #lang-sel .languages img {
     width: 28px;
     position: relative;
@@ -114,18 +108,16 @@
     user-select: none;
 }
 
-
-
 .nav-bar button {
     height: 80px;
     width: 340px;
     border: 0;
-    background-color: #2E2BD0;
+    background-color: #2e2bd0;
     color: white;
     border-radius: 15px;
     font-size: 27px;
     font-family: myFont;
-    display: flex;    
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
