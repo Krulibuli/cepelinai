@@ -1,0 +1,51 @@
+@media (max-width: 1080px){
+.logotipe{
+    width: 100%;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .size-logo{
+    display: none;
+}
+  .support-logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    max-width: 350px;
+    max-height: 100px;
+  }
+
+  .logotipe{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1080px;
+
+  }
+
+  .leftt{
+    width: 100%;
+    max-width: 1080px;
+  }
+
+  .link-email{
+    font-size: 24px;
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .lineslogo{
+    margin-left: 20px;
+  }
+
+  .information3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 1080px;
+  }
+  
+  
+}
