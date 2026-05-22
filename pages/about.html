@@ -4,93 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f98b1926a7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/about/about.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/about/navigation.css">
     <script src="../js/navigation-bar.js" defer></script>
+    <script src="../js/about.js" defer></script>
 </head>
 
 <body>
-
-    <!-- Header -->
-    <header>
-        <!-- Navigation bar -->
-        <nav class="nav-bar">
-            <div class="left-side">
-                <a href="../index.html">
-                    <img src="../img/Logo.svg" alt="logo">
-                </a>
-
-                <ul>
-                    <li><a href="../pages/about.html"><span class="links">about</span></a></li>
-                    <li><a href=""><span class="links">our services</span></a></li>
-                    <li><a href=""><span class="links">job openings</span></a></li>
-                </ul>
-            </div>
-            <div class="white-line">
-
-            </div>
-            <div class="right-side">
-                <div id="lang-sel">
-                    <div class="languages">
-                        <p>EN</p>
-                        <img src="../img/arrow-square-down-black.svg" alt="arrow">
-                    </div>
-                    <div id="language-selector">
-                        <p>EN</p>
-                        <p>LT</p>
-                    </div>
-                </div>
-
-                <div class="button-div">
-                    <button class="contact">CONTACT US <img src="../img/Send.svg" alt="send"></button>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-
     <div class="aboutBox">
-        <!-- Our Team -->
+        <!-- Header -->
+        <header>
+            <!-- Navigation bar -->
+            <nav class="nav-bar">
+                <div class="left-side">
+                    <a href="../index.html">
+                        <img src="../img/Logo.svg" alt="logo">
+                    </a>
 
+                    <ul>
+                        <li><a href="../pages/about.html"><span class="links">about</span></a></li>
+                        <li><a href=""><span class="links">our services</span></a></li>
+                        <li><a href=""><span class="links">job openings</span></a></li>
+                    </ul>
+                </div>
+                <div class="white-line">
+
+                </div>
+                <div class="right-side">
+                    <div id="lang-sel">
+                        <div class="languages">
+                            <p>EN</p>
+                            <img src="../img/arrow-square-down-black.svg" alt="arrow">
+                        </div>
+                        <div id="language-selector">
+                            <p>EN</p>
+                            <p>LT</p>
+                        </div>
+                    </div>
+
+                    <div class="button-div">
+                        <button class="contact">CONTACT US <img src="../img/Send.svg" alt="send"></button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+
+        <!-- Who we are? -->
+        <div class="wWTab">
+            <p id="tabNames">Who we are?</p>
+        </div>
+
+
+
+        <!-- Our Team -->
         <div class="oTTab">
-            <p id="oTTab">Our Team</p>
+            <p id="tabNames">Our Team</p>
             <p id="oTTopTxt">We started our way with the idea of creating innovative<br>
                 products, and we have been following this trend since 2013<br>
                 and continue to build technological solutions for our customers.</p>
             <div class="oTImg"></div>
             <div class="oTCards">
-                <div class="oTCard oTCard1">
+                <div class="oTCard">
                     <p class="oTCardTop">[ 01 ]</p>
                     <p class="oTCardMiddle">Honesty</p>
                     <p class="oTCardBottom">We want people to trust what<br>we say and trust what we do</p>
                 </div>
-                <div id="oTLine1"></div>
-                <div class="oTCard oTCard2">
+                <div id="oTLine"></div>
+                <div class="oTCard">
                     <p class="oTCardTop">[ 02 ]</p>
                     <p class="oTCardMiddle">Punctuality</p>
                     <p class="oTCardBottom">We keep out agreements and<br>do exactly waht we agreed</p>
                 </div>
-                <div id="oTLine2"></div>
-                <div class="oTCard oTCard3">
+                <div id="oTLine"></div>
+                <div class="oTCard">
                     <p class="oTCardTop">[ 03 ]</p>
                     <p class="oTCardMiddle">Precision</p>
                     <p class="oTCardBottom">We are careful so that what we<br>do doesn't have to be dug up again</p>
                 </div>
             </div>
         </div>
+
+
+
+        <!-- IT Support trough the years -->
         <div class="sGTab">
-            <p id="sGTab">IT Support Group<br>trough the years</p>
+            <p id="tabNames">IT Support Group<br>trough the years</p>
             <p id="sGTop">We started our way with the idea of creating innovative<br>
                 products, and we have been following this trend since 2013<br>
                 and continue to build technological solutions for our customers.</p>
             <div class="sGCard">
-                <p id="kk13">2013</p>
-                <p id="kk15">2015</p>
-                <p id="hLYear">2018</p>
-                <p id="kk20">2020</p>
-                <p id="kk22">2022</p>
+                <div class="sGYears">
+                    <p id="kk13">2013</p>
+                    <p id="kk15">2015</p>
+                    <p id="hLYear">2018</p>
+                    <p id="kk20">2020</p>
+                    <p id="kk22">2022</p>
+                </div>
                 <img id="sGImg" src="../img/All_Lines.png" alt="">
                 <ul class="sGList">
                     <li>We hire our 10th developers</li>
@@ -100,69 +114,262 @@
                 </ul>
             </div>
         </div>
-    </div>
-    <!-- FOOTER -->
-    <br><br><br><br><br><br>
-            <div class="footer-line"></div>
-            <footer>
-            
-                <div class="leftt">
-                    <div class="logotipe">
-                        <img src="../img/Logo.png" class="size-logo">
-                        <a href="#">
-                            <div>itsupportgroup@gmail.com</div>
-                        </a>
-                        <div class="lineslogo">
-                            <img src="../img/instragam.png">
-                            <img src="../img/viber.png">
-                            <img src="../img/facebook.png">
-                            <img src="../img/linkedIn.png">
-                        </div>
-                        <button class="contact-us">CONTACT US
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="centerr">
-                    <div class="ouroffice">
-                        <h2>our offices</h2>
-                        <div class="information1">
-                            <h3>In Minsk</h3>
-                            <strong>
-                                <p>+ 375 (29) 675-12-22</p>
-                                <p>44 Karl Liebknecht Street, floor 5, office 522</p>
-                            </strong>
-                        </div>
-                        <div class="information2">
-                            <h3>In Vilnius</h3>
-                            <strong>
-                                <p>+370 (52) 654-280-28</p>
-                                <p>44 Karl Liebknecht Street, floor 5, office 522</p>
-                            </strong>
-                        </div>
-                    </div>
-                </div>
-                <div class="rightt">
-                    <div class="servicess">
-                        <h2>services</h2>
-                        <div>
-                            <h3>Technical Support</h3>
-                            <h3>Frontend Development</h3>
-                            <h3>Backend Development</h3>
-                            <h3>Mobile app development</h3>
-                            <h3>UI/UX Design</h3>
-                            <h3>Software Development</h3>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <div class="footer-line"></div>
-            <div class="information3">
-    <h4>Development by IT Support Group.</h4>
-    <h4>Data Privacy.</h4>
-    <h4>© 2023 IT Support Group</h4>
-            </div>
 
+
+
+        <!-- What our clients say about us -->
+        <div class="rVTab">
+            <!-- slide 1 -->
+            <p id="tabNames">What out clients say about us</p>
+            <div class="reviews">
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/danielSmith.png" alt="danielSmith">
+                    <p class="rVHl rVBoxElem">Daniel Smith</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"They are very professional and<br>
+                        are always interested in<br>
+                        understanding the problem that<br>
+                        we are solving."</p>
+                    <button class="rVBtn">VIEW THE PROJECT <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/tomPeters.png" alt="tomPeters">
+                    <p class="rVHl rVBoxElem">Tom Peters</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">“Through our case<br>
+                        engagement, LLI has demonstrated professionalism<br>
+                        and initiative in interactions. I...”</p>
+                    <button class="rVBtn">VIEW THE PROJECT <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/annHidlton.png" alt="annHidlton">
+                    <p class="rVHl rVBoxElem">Ann Hidlton</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"After several years, they've<br>
+                        proven that they deliver quality<br>
+                        work in the context that we<br>
+                        use."</p>
+                    <button class="rVBtn">VIEW THE PROJECT<i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+            <!-- slide 2 -->
+            <div class="reviews">
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/profile4.png" alt="justin">
+                    <p class="rVHl rVBoxElem">Justin Green</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"Innovation requires courage and
+                        persistence, even when results
+                        aren’t immediately obvious
+                        in practice."</p>
+                    <button class="rVBtn">VIEW THE PROJECT <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/profile5.png" alt="victor">
+                    <p class="rVHl rVBoxElem">Victor Peterson</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"The team consistently
+                        demonstrates creativity and
+                        reliability under the pressures
+                        of complex projects."</p>
+                    <button class="rVBtn">VIEW THE PROJECT <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/profile6.png" alt="charles">
+                    <p class="rVHl rVBoxElem">Charles Lamar</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"Over time, experience has
+                        shown that thoughtful planning
+                        leads to sustainable outcomes
+                        in all scenarios."</p>
+                    <button class="rVBtn">VIEW THE PROJECT<i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+            <!-- slide 3 -->
+            <div class="reviews">
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/rick.png" alt="rick">
+                    <p class="rVHl rVBoxElem">Rick Grimes</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"Effective collaboration fosters
+                        progress, ensuring goals are <br>
+                        met with both quality
+                        and efficiency."</p>
+                    <button class="rVBtn">VIEW THE PROJECT <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/carol.png" alt="carol">
+                    <p class="rVHl rVBoxElem">Carol Peletier</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"Through continuous effort <br> and
+                        learning, they maintain a
+                        standard of excellence
+                        across diverse tasks."</p>
+                    <button class="rVBtn">VIEW THE PROJECT <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/daryl.png" alt="daryl">
+                    <p class="rVHl rVBoxElem">Daryl Dixon</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"Commitment to detail and <br>
+                        careful execution have become
+                        hallmarks of success
+                        in this environment.""</p>
+                    <button class="rVBtn">VIEW THE PROJECT<i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+            <!-- slide 4 -->
+            <div class="reviews">
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/profile7.png" alt="james">
+                    <p class="rVHl rVBoxElem">James West</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"Clear communication and
+                        shared understanding often
+                        result in measurable
+                        improvements over time."</p>
+                    <button class="rVBtn">VIEW THE PROJECT <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/profile8.png" alt="kendrick">
+                    <p class="rVHl rVBoxElem">Jane South</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"Years of dedication prove that
+                        consistency and skill
+                        together create reliable
+                        results under any conditions."</p>
+                    <button class="rVBtn">VIEW THE PROJECT <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/profile9.png" alt="Jane">
+                    <p class="rVHl rVBoxElem">Kendrick White</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"Adaptability and resourcefulness
+                        allow the group to thrive
+                        even when facing
+                        unexpected challenges."</p>
+                    <button class="rVBtn">VIEW THE PROJECT<i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+            <!-- slide 5 -->
+            <div class="reviews">
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/profile10.png" alt="Lucas">
+                    <p class="rVHl rVBoxElem">Lucas Combs</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"Dedication to improvement and
+                        perseverance through obstacles
+                        ensures progress continues
+                        in every endeavor."</p>
+                    <button class="rVBtn">VIEW THE PROJECT <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/profile11.png" alt="Murray">
+                    <p class="rVHl rVBoxElem">Murray East</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"Strategic thinking combined with
+                        practical action produces results
+                        that consistently meet
+                        expected standards."</p>
+                    <button class="rVBtn">VIEW THE PROJECT <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+                <div class="rVBox">
+                    <img class="rVImg" src="../img/profile12.png" alt="Chloe">
+                    <p class="rVHl rVBoxElem">Chloe Litleton</p>
+                    <p class="rVPos rVBoxElem">Position & Company Title</p>
+                    <p class="rVQt rVBoxElem">"By fostering engagement and
+                        attentiveness, the team achieves
+                        outcomes that reliably
+                        exceed ordinary expectations."</p>
+                    <button class="rVBtn">VIEW THE PROJECT<i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+            <div class="rVPages">
+                <button class="rVSlct rVSlct1"><i class="fa-solid fa-angle-left"></i></button>
+                <p id="rVInd">1/5</p>
+                <button class="rVSlct rVSlct2"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+
+
+
+        <!-- FOOTER -->
+        <br><br><br><br><br><br>
+        <div class="footer-line"></div>
+        <footer>
+
+            <div class="leftt">
+                <div class="logotipe">
+                    <img src="../img/Logo.png" class="size-logo">
+                    <a href="#">
+                        <div>itsupportgroup@gmail.com</div>
+                    </a>
+                    <div class="lineslogo">
+                        <img src="../img/instragam.png">
+                        <img src="../img/viber.png">
+                        <img src="../img/facebook.png">
+                        <img src="../img/linkedIn.png">
+                    </div>
+                    <button class="contact-us">CONTACT US
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="centerr">
+                <div class="ouroffice">
+                    <h2>our offices</h2>
+                    <div class="information1">
+                        <h3>In Minsk</h3>
+                        <strong>
+                            <p>+ 375 (29) 675-12-22</p>
+                            <p>44 Karl Liebknecht Street, floor 5, office 522</p>
+                        </strong>
+                    </div>
+                    <div class="information2">
+                        <h3>In Vilnius</h3>
+                        <strong>
+                            <p>+370 (52) 654-280-28</p>
+                            <p>44 Karl Liebknecht Street, floor 5, office 522</p>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="rightt">
+                <div class="servicess">
+                    <h2>services</h2>
+                    <div>
+                        <h3>Technical Support</h3>
+                        <h3>Frontend Development</h3>
+                        <h3>Backend Development</h3>
+                        <h3>Mobile app development</h3>
+                        <h3>UI/UX Design</h3>
+                        <h3>Software Development</h3>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-line"></div>
+        <div class="information3">
+            <h4>Development by IT Support Group.</h4>
+            <h4>Data Privacy.</h4>
+            <h4>© 2023 IT Support Group</h4>
+        </div>
+    </div>
 </body>
 
 </html>

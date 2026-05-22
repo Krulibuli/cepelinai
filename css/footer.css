@@ -4,12 +4,15 @@ footer{
     max-width: 1860px;
     width: 100%;
 }
-.leftt{
-    padding: 40px;
+.logotipe{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 50px;
     max-width: 350px;  
     max-height: 395px;
 }
-.logotipe{
+.leftt{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -54,7 +57,6 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    cursor: pointer;
 }
  
 .size-logo{
@@ -64,6 +66,7 @@ footer{
  
 h2{
     color: black;
+    margin-left: 0;
 }
  
 h3{
@@ -97,3 +100,12 @@ h4{
     background-color: #94969c;
     margin: 0 auto;
 }
+
+.lineslogo{
+    padding: 20px;
+}
+
+a{
+    display: flex;
+}
+
