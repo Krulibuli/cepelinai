@@ -78,10 +78,10 @@
 .right-side #language-selector {
     display: none;
     position: absolute;
-    top: 85px;
-    right: 423px;
+    top: 110px;
+    right: 525px;
     z-index: 1;
-    width: 70px;
+    width: 130px;
     text-align: center;
     border-radius: 10px;
     border: 1px solid white;
