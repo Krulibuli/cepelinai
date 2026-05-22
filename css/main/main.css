@@ -327,26 +327,28 @@ body {
   max-width: 1920px;
   margin-bottom: 250px;
   position: relative;
+  margin-left: -10rem;
 }
-
-
 
 .industries {
-  padding-left: 0;
-  max-width: 1920px;
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0;
+  /* width: 100%; */
+  max-width: 1920px;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  margin-left: 5vh;
 }
 
-.industries .title {
+.title {
   padding-left: 21vh;
   font-size: 60px;
   margin: 0px;
   padding-bottom: 80px;
-  font-weight: 1000;
+  font-weight: normal;
   width: 100%;
   text-align: left;
   margin-top: 40px;
@@ -405,11 +407,6 @@ body {
   font-family: Gilroy;
   letter-spacing: 3px;
   width: 506px;
-}
-
-
-body{
-    font-family: myFont;
 }
 
 
