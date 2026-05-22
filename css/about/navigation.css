@@ -1,12 +1,12 @@
 .nav-bar * {
-    font-family: Neue Machina;
+    font-family: 'Neue Machina';
 }
 
 .nav-bar {
     height: 155px;
     border-bottom: 1px solid gray;
     display: flex;
-    font-size: 34px;
+    font-size: 29px;
     position: absolute;
     left: 30px;
     right: 30px;
@@ -14,7 +14,7 @@
 
 .left-side {
     display: flex;
-    width: 73%;
+    width: 70%;
     align-items: center;
     justify-content: space-between;
 }
@@ -29,7 +29,7 @@
 .left-side ul {
     display: flex;
     list-style-type: none;
-    gap: 135px;
+    gap: 80px;
 }
 
 .links {
@@ -49,15 +49,14 @@
 .white-line {
     width: 1px;
     background-color: gray;
-    margin: 0px 100px;
+    margin: 0px 80px;
 }
 
 .right-side {
     display: flex;
     align-items: center;
-    justify-content: left;
-    width: 27%;
-    gap: 130px;
+    justify-content: space-between;
+    width: 30%;
 }
 
 .right-side .language {
@@ -87,7 +86,7 @@
     text-align: center;
     border-radius: 10px;
     border: 1px solid gray;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
 }
 
 #lang-sel .languages img {
@@ -113,18 +112,22 @@
 
 .nav-bar button {
     height: 80px;
-    width: 340px;
+    width: 330px;
     border: 0;
     background-color: #2e2bd0;
     color: white;
     border-radius: 15px;
     font-size: 27px;
-    font-family: Neue Machina;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
     cursor: pointer;
+}
+
+.nav-bar button span {
+    position: relative;
+    top: 4px;
 }
 
 .nav-bar button img {
