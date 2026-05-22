@@ -1,4 +1,7 @@
 /* General */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -7,10 +10,13 @@ body {
   color: white;
 }
 
-
 @font-face {
   font-family: myFont;
   src: url("../../Fonts/NeueMaChina-Light.otf");
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../Fonts/Gilroy-Light.otf);
 }
 
 @font-face{
@@ -20,7 +26,7 @@ body {
 
 /* Header */
 .header p {
-  margin: none;
+  margin: 0;
 }
 
 .header-section {
@@ -48,7 +54,7 @@ body {
 .blue-box-area {
   z-index: 1;
   position: absolute;
-  width: 876px;
+  width: 816px;
   height: 65px;
   left: 150px;
   top: 447px;
@@ -81,11 +87,88 @@ body {
   left: 60px;
   top: 101px;
 }
+/* What are our goals */
+.what-are-our-goals {
+  font-family: MyFont;
+  min-height: 100dvh;
+  margin: 12.5rem 9.375rem;
+}
+.waog-title-header {
+  margin: 0 0 6.25rem 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.750rem;
+  line-height: 3.625rem;
+  color: #2F353F;
+}
+.waog-num {
+  margin: 3.125rem 0 0 3.125rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 2.438;
+  color: #2E2BD0;
+}
+.woag-title {
+  margin: 12.5rem 0 0 3.125rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #2F353F;
+}
+.woag-text {
+  margin: 0 0 0 3.125rem ;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+
+  color: rgba(47, 53, 63, 0.7);
+}
+.waog-title-header {grid-area: title;}
+.first-goal {grid-area: g1;  border: 1px solid gray; border-radius: 70px; min-height: 500px;}
+.second-goal {grid-area: g2; border: 1px solid gray; border-radius: 70px; min-height: 500px;}
+.third-goal {grid-area: g3;  border: 1px solid gray; border-radius: 70px; min-height: 500px;}
+.fourth-goal {grid-area: g4; border: 1px solid gray; border-radius: 70px; min-height: 500px;}
+
+.waog-pic1 {grid-area: pic1; min-height: 500px;}
+.waog-pic2 {grid-area: pic2; min-height: 500px;}
+.waog-pic3 {grid-area: pic3; min-height: 500px;}
+
+.waog-pic1 img, 
+.waog-pic2 img, 
+.waog-pic3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 70px; 
+}
+
+.waog-container {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: auto repeat(6, minmax(250px, auto));
+
+  max-width: 1620px;
+  margin: 0 auto;
+
+  grid-template-areas: 
+  'title title title title title title'
+  'g1   g1     g2   g2     pic1 pic1'
+  'g1   g1     g2   g2     pic1 pic1'
+  'pic2 pic2   pic2 g3     g3   g3'
+  'pic2 pic2   pic2 g3     g3   g3'
+  'g4   g4     g4   g4     pic3 pic3'
+  'g4   g4     g4   g4     pic3 pic3'
+  ;
+}
 
 /* Why choose us? */
 
 .why-choose-us {
-  height: 100dvh;
+  margin: 250px 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,11 +177,7 @@ body {
 
 .why-choose-us .teams p {
   color: lightgray;
-}
-
-.why-choose-us h1 {
-  color: black;
-  margin-left: 84px;
+  font-size: larger;
 }
 
 .why-choose-us p {
@@ -110,6 +189,19 @@ body {
 .why-choose-us .h1-name {
   font-size: 80px;
   font-weight: bolder;
+  color: black;
+  margin-left: 84px;
+}
+
+.why-choose-us .text-box p {
+  margin: 0;
+  margin-top: 35px !important;
+  font-size: 37px;
+}
+
+.why-choose-us .text-box h2 {
+  margin: 0;
+  font-size: 45px;
 }
 
 .why-choose-us .container {
@@ -118,23 +210,18 @@ body {
 
 .gray-bar {
   width: 2.5px;
-  height: 502.5px;
+  height: 100%;
   background-color: lightgray;
   border-radius: 15px;
 }
 
-.text-box {
-  margin-left: 600px;
-}
-
-.text-box p,
-.text-box h2 {
-  margin: 0;
+.why-choose-us .text-box {
+  margin-left: 150px;
 }
 
 .text-box .team-text {
   border: 1px solid gray;
-  border-radius: 35px;
+  border-radius: 80px;
   margin-left: 84px;
   width: 1116px;
   height: 459px;
@@ -142,37 +229,17 @@ body {
   padding: 45px;
 }
 
-.text-box .communication-text {
-  border: 1px solid gray;
-  border-radius: 35px;
-  margin-left: 84px;
-  width: 1116px;
-  height: 459px;
-  font-size: 25px;
-  display: none;
-  padding: 45px;
-}
-
-.text-box .solution-text {
-  border: 1px solid gray;
-  border-radius: 35px;
-  margin-left: 84px;
-  width: 1116px;
-  height: 459px;
-  font-size: 25px;
-  display: none;
-  padding: 45px;
-}
-
+.text-box .communication-text,
+.text-box .solution-text,
 .text-box .quality-text {
   border: 1px solid gray;
-  border-radius: 35px;
+  border-radius: 80px;
   margin-left: 84px;
   width: 1116px;
   height: 459px;
   font-size: 25px;
-  display: none;
   padding: 45px;
+  display: none;
 }
 
 .why-choose-us h2 {
@@ -180,37 +247,10 @@ body {
   color: #2E2BD0;
 }
 
-.why-choose-us .team-bar {
-  background-color: #2E2BD0;
-  height: 85px;
-  width: 5px;
-  position: relative;
-  right: 1.2px;
-  border-radius: 85px;
-}
 
-.why-choose-us .communication-bar {
-  background-color: #2E2BD0;
-  height: 85px;
-  width: 5px;
-  position: relative;
-  right: 1.2px;
-  border-radius: 85px;
-  top: 140px;
-  display: none;
-}
-
-.why-choose-us .solution-bar {
-  background-color: #2E2BD0;
-  height: 85px;
-  width: 5px;
-  position: relative;
-  right: 1.2px;
-  border-radius: 85px;
-  top: 280px;
-  display: none;
-}
-
+.why-choose-us .team-bar,
+.why-choose-us .communication-bar,
+.why-choose-us .solution-bar,
 .why-choose-us .quality-bar {
   background-color: #2E2BD0;
   height: 85px;
@@ -218,10 +258,20 @@ body {
   position: relative;
   right: 1.2px;
   border-radius: 85px;
-  top: 420px;
   display: none;
 }
 
+.why-choose-us .communication-bar {
+  top: 155px;
+}
+
+.why-choose-us .solution-bar {
+  top: 310px;
+}
+
+.why-choose-us .quality-bar {
+  top: 467px;
+}
 
 
 .why-choose-us .sumarize {
@@ -250,6 +300,11 @@ body {
 .quality-name {
   cursor: pointer;
 }
+
+.why-choose-us .gilroy-text {
+  font-family: 'Gilroy';
+}
+
 
 
 
@@ -281,7 +336,7 @@ body {
   max-width: 1920px;
   display: flex;
   flex-direction: column;
-  width: 1920px;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
@@ -302,7 +357,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 0;
-  width: 1920px;
+  width: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -353,6 +408,9 @@ body {
 }
 
 
+body{
+    font-family: myFont;
+}
 
 
 /* Used technologies */
