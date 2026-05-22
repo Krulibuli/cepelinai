@@ -8,6 +8,12 @@ body {
 }
 
 @font-face {
+    font-family: nueue-machina-bold;
+    src: url("../../Fonts/neue-machina-bold.ttf");
+}
+
+
+@font-face {
   font-family: myFont;
   src: url("../../Fonts/NeueMachina-Light.otf");
 }
@@ -41,7 +47,7 @@ body {
   height: 130px;
   left: 150px;
   top: 365px;
-  font-family: myFont;
+  font-family: nueue-machina-bold;
   font-style: normal;
   font-weight: 800;
   font-size: 50px;
