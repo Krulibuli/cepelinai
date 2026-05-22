@@ -86,9 +86,9 @@
     }
  
 /* General */
-*, *::before, *::after {
+/* *, *::before, *::after {
   box-sizing: border-box;
-}
+} */
 body {
   margin: 0px;
   padding: 0px;
@@ -107,7 +107,7 @@ body {
 }
 
 @font-face{
-  font-family: Gilroy;
+  font-family: Gilroy;  
   src: url(../../Fonts/Gilroy-Light.otf);
 }
 
@@ -534,7 +534,7 @@ body{
   font-size: 20px;
   line-height: 1.9;
   font-weight: 300;
-  margin-right: 15rem;
+  margin-right: 30rem;
   font-family: Gilroy;
 }
 .timeline {
