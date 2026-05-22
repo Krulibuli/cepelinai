@@ -20,7 +20,7 @@ body {
     --light_grey: #ffffff80;
     --white: #FFFFFF;
 }
-
+/* common */
 #tabNames {
     margin: 0 0 0 9.375rem;
     font-family: "Neue Machina";
@@ -29,6 +29,9 @@ body {
     color: var(--dark_grey)
 }
 
+
+
+
 /* Main box */
 .aboutBox {
     position: relative;
@@ -36,15 +39,15 @@ body {
     width: 120rem;
 }
 
-.nav-bar {
-    position: absolute;
-    top: 0;
-}
+
+
 
 /* Who we are */
 .wWTab {
     height: 61.1875rem;
 }
+
+
 
 
 /* Our Team */
@@ -121,6 +124,8 @@ body {
     color: var(--grey);
     margin: 0;
 }
+
+
 
 
 /* IT Support Group trough the years */
@@ -216,6 +221,8 @@ body {
     line-height: 2.25rem;
     color: white;
 }
+
+
 
 
 /* What our clients say about us */
