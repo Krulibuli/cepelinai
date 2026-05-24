@@ -1,15 +1,18 @@
 footer{
     display: flex;
     justify-content: space-between;
-    max-width: 1860px;
+    align-items: flex-start;
     width: 100%;
+    max-width: 1860px;
+    margin: 0 auto;
 }
 .logotipe{
     display: flex;
     flex-direction: column;
     padding: 20px;
     gap: 50px;
-    max-width: 350px;  
+    width: 100%;
+    max-width: 450px;
     max-height: 395px;
 }
 .leftt{
@@ -39,9 +42,9 @@ footer{
 .rightt{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    width: 231px;
-    height: 363px;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
 }
  
 .contact-us{
@@ -101,7 +104,11 @@ h4{
     margin: 0 auto;
 }
 
-
+.row_line{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 
 a{
     display: flex;
@@ -110,4 +117,5 @@ a{
 .size-logo1{
  display: none  ;
 }
+
 
