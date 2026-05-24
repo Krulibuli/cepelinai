@@ -6,6 +6,7 @@ footer{
     max-width: 1860px;
     margin: 0 auto;
 }
+
 .logotipe{
     display: flex;
     flex-direction: column;
@@ -84,20 +85,20 @@ color: #94969c;
 color: #94969c;
 }
  
-.information3{
-    min-width: 1860px;
-    max-height: 60px;
+.information3 {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 1.5%;
+    padding: 20px 30px;
+    box-sizing: border-box;
 }
- 
+
 h4{
     color: #bcbdc1;
 }
  
-.footer-line{
+.footer-line {
     height: 2px;
     width: 97%;
     background-color: #94969c;
@@ -115,7 +116,22 @@ a{
 }
 
 .size-logo1{
- display: none  ;
+ display: none;
+}
+
+.lineslogo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 
+.linkedin,.facebook,
+  .viber,.instragam{
+    width: 60px;
+    height: 60px;
+  }
+
+.row_lineg {
+    display: contents;
+}
