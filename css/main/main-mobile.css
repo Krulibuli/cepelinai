@@ -51,7 +51,8 @@
   margin: 0;
   padding: 0 1rem;
   text-align: center;
-  font-size: clamp(12px 1vw 40px);
+  font-size: clamp(12px, 1vw,
+   40px);
 }
 /* What are our goals? */
 .what-are-our-goals {
