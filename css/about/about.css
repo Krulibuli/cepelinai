@@ -126,6 +126,7 @@ body {
     border-radius: 100%;
     margin-left: -2.5521vw;
 }
+
 .wWBallBlue {
     background-color: var(--blue);
 }
@@ -142,11 +143,11 @@ body {
     cursor: pointer;
     background-color: #9995e5;
     text-align: center;
-        display: flex;
+    display: flex;
     align-items: center;
 }
 
-.wWPlus{
+.wWPlus {
     color: #2e2bd0;
     text-align: center;
     padding-left: 1.5625vw;
