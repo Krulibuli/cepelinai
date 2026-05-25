@@ -2,15 +2,15 @@
     height: 155px;
     border-bottom: 1px solid white;
     display: flex;
-    font-size: 29px;
+    font-size: 32px;
     position: absolute;
-    left: 30px;
-    right: 30px;
+    left: 35px;
+    right: 35px;
 }
 
 .left-side {
     display: flex;
-    width: 70%;
+    width: 75%;
     align-items: center;
     justify-content: space-between;
 }
@@ -19,13 +19,14 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 285px;
+    width: 272px;
 }
 
 .left-side ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
-    gap: 80px;
+    gap: 160px;
 }
 
 .links {
@@ -45,7 +46,7 @@
 .white-line {
     width: 1px;
     background-color: white;
-    margin: 0px 80px;
+    margin: 0px 100px;
     align-self: stretch;
 }
 
@@ -53,7 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 30%;
+    width: 25%;
 }
 
 .right-side .language {
@@ -83,7 +84,7 @@
 }
 
 #lang-sel .languages img {
-    width: 28px;
+    width: 30px;
     position: static;
 }
 
