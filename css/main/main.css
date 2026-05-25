@@ -1,4 +1,12 @@
 /* General */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
 body {
   margin: 0px;
   padding: 0px;
@@ -27,16 +35,19 @@ body {
 }
 
 /* Header */
-.header p {
-  margin: 0;
-}
 
-.header-section {
-  background-image: url(../../img/background_header.png);
+header {
+  width: 100%;
   min-height: 100dvh;
+  background-image: url(../../img/background_header.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover
+}
+
+
+.header p {
+  margin: 0;
 }
 
 .header-section p {

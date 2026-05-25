@@ -2,33 +2,19 @@
     font-family: 'Neue Machina';
 }
 
-
 .nav-bar {
     height: 155px;
     border-bottom: 1px solid gray;
-<<<<<<< HEAD
-    margin: 0px 30px;
     display: flex;
-    font-size: 34px;
+    font-size: 29px;
     position: absolute;
-    width: 100%;
-=======
-    margin: 0px;
-    display: flex;
-    font-size: 34px;
-    position: absolute;
-
->>>>>>> main
+    left: 30px;
+    right: 30px;
 }
-
 
 .left-side {
     display: flex;
-<<<<<<< HEAD
-    width: 73%;
-=======
-
->>>>>>> main
+    width: 70%;
     align-items: center;
     justify-content: space-between;
 }
@@ -37,19 +23,13 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 65px;
+    width: 60px;
 }
 
 .left-side ul {
     display: flex;
     list-style-type: none;
-    gap: 135px;
-    color: black;
-}
-
-.left-side li * {
-    color: black;
-    font-family: 'Neue Machina';
+    gap: 80px;
 }
 
 .links {
@@ -57,35 +37,26 @@
 }
 
 .nav-bar a:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 .nav-bar a:visited {
-    color: white;
+    color: black;
     text-decoration: none;
 }
-
-
 
 .white-line {
     width: 1px;
     background-color: gray;
-    margin: 0px 100px;
+    margin: 0px 80px;
 }
-
-
 
 .right-side {
     display: flex;
     align-items: center;
-    justify-content: left;
-<<<<<<< HEAD
-    width: 27%;
-=======
->>>>>>> main
-    padding: 35px 0px;
-    gap: 130px;
+    justify-content: space-between;
+    width: 30%;
 }
 
 .right-side .language {
@@ -93,13 +64,9 @@
     align-items: center;
 }
 
-<<<<<<< HEAD
 .right-side .language p {
-    margin-right: 6px;
+    margin: 0;
 }
-=======
-
->>>>>>> main
 
 .right-side .button-div {
     display: flex;
@@ -108,32 +75,26 @@
 .right-side #language-selector {
     display: none;
     position: absolute;
-    top: 85px;
-    right: 423px;
+    top: 90px;
+    right: -26px;
     z-index: 1;
-    width: 70px;
+    width: 130px;
     text-align: center;
     border-radius: 10px;
-    border: 1px solid white;
-    backdrop-filter: blur(3px);
+    border: 1px solid gray;
+    backdrop-filter: blur(30px);
 }
-
 
 #lang-sel .languages img {
     width: 28px;
-    position: relative;
-    top: 2px;
+    position: static;
 }
 
 #lang-sel .languages {
     display: flex;
     align-items: center;
     cursor: pointer;
-}
-
-#lang-sel .languages p {
-    margin: 0;
-    margin-right: 12px;
+    gap: 8px;
 }
 
 #language-selector p {
@@ -142,25 +103,22 @@
 
 #lang-sel {
     user-select: none;
+    position: relative;
 }
-
-
 
 .nav-bar button {
     height: 80px;
-    width: 340px;
+    width: 330px;
     border: 0;
-    background-color: #2E2BD0;
+    background-color: #2e2bd0;
     color: white;
     border-radius: 15px;
     font-size: 27px;
-    font-family: myFont;
-    display: flex;    
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
     cursor: pointer;
-    font-family: 'Neue Machina';
 }
 
 .nav-bar button img {
