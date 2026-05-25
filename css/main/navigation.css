@@ -61,10 +61,6 @@
     align-items: center;
 }
 
-.nav-bar .main-lang {
-    padding-top: 7px;
-}
-    
 .right-side .language p {
     margin: 0;
 }
@@ -121,11 +117,6 @@
     align-items: center;
     gap: 15px;
     cursor: pointer;
-}
-
-.nav-bar button span {
-    position: relative;
-    top: 4px;
 }
 
 .nav-bar button img {
