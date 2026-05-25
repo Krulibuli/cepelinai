@@ -682,7 +682,7 @@ line-height: normal;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 60px;
-  width: 100%;
+  width: 97%;
   max-width: 1900px;
   padding: 80px;
   background: linear-gradient(135deg, #5e5be6, #6c68f3);
@@ -765,10 +765,23 @@ line-height: normal;
   padding: 10px 0;
   font-size: 32px;
   color: white;
-  outline: none;
+  font-family: myFont;
+}
+
+.Upload_file {
+  width: 100%;
+  display: block;
+  background: transparent;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  padding: 10px 0;
+  font-size: 32px;
+  color: #a9a7f2;
+  cursor: pointer;
+  font-family: myFont;
+
 }
  
-.registration input::placeholder,.px::placeholder, .px-download::placeholder {
+.registration input::placeholder,.px::placeholder, .px-download::placeholder,.Upload_file {
   color: #a9a7f2;
 }
 
