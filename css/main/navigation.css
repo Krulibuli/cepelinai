@@ -1,17 +1,16 @@
 .nav-bar {
     height: 155px;
     border-bottom: 1px solid white;
-    margin: 0px 30px;
     display: flex;
-    font-size: 34px;
+    font-size: 32px;
     position: absolute;
-    width: 100%;
+    left: 35px;
+    right: 35px;
 }
-
 
 .left-side {
     display: flex;
-    width: 73%;
+    width: 75%;
     align-items: center;
     justify-content: space-between;
 }
@@ -20,13 +19,14 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 285px;
+    width: 272px;
 }
 
 .left-side ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
-    gap: 135px;
+    gap: 160px;
 }
 
 .links {
@@ -43,23 +43,18 @@
     text-decoration: none;
 }
 
-
-
 .white-line {
     width: 1px;
     background-color: white;
     margin: 0px 100px;
+    align-self: stretch;
 }
-
-
 
 .right-side {
     display: flex;
     align-items: center;
-    justify-content: left;
-    width: 27%;
-    padding: 35px 0px;
-    gap: 130px;
+    justify-content: space-between;
+    width: 25%;
 }
 
 .right-side .language {
@@ -68,7 +63,7 @@
 }
 
 .right-side .language p {
-    margin-right: 6px;
+    margin: 0;
 }
 
 .right-side .button-div {
@@ -78,32 +73,26 @@
 .right-side #language-selector {
     display: none;
     position: absolute;
-    top: 110px;
-    right: 525px;
+    top: 90px;
+    right: -26px;
     z-index: 1;
     width: 130px;
     text-align: center;
     border-radius: 10px;
     border: 1px solid white;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
 }
 
-
 #lang-sel .languages img {
-    width: 28px;
-    position: relative;
-    top: 2px;
+    width: 30px;
+    position: static;
 }
 
 #lang-sel .languages {
     display: flex;
     align-items: center;
     cursor: pointer;
-}
-
-#lang-sel .languages p {
-    margin: 0;
-    margin-right: 12px;
+    gap: 8px;
 }
 
 #language-selector p {
@@ -112,20 +101,19 @@
 
 #lang-sel {
     user-select: none;
+    position: relative;
 }
-
-
 
 .nav-bar button {
     height: 80px;
-    width: 340px;
+    width: 330px;
     border: 0;
-    background-color: #2E2BD0;
+    background-color: #2e2bd0;
     color: white;
     border-radius: 15px;
     font-size: 27px;
     font-family: myFont;
-    display: flex;    
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
