@@ -46,6 +46,17 @@ header {
   background-size: cover
 }
 
+header::before {
+  content: '';
+  z-index: 1;
+  background: rgba(47, 53, 63, 0.40);
+  position: absolute;
+  inset: 0;
+}
+
+header * {
+  z-index: 2;
+}
 
 .header p {
   margin: 0;
