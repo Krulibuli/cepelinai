@@ -1,12 +1,13 @@
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
     max-width: 1860px;
     padding: 20px 40px;
+    margin: 0 auto;
 }
 
-.logotipe{
+.logotipe {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -15,39 +16,40 @@ footer{
     max-width: 450px;
     max-height: 395px;
 }
-.leftt{
+
+.leftt {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 50px;
     padding: 20px;
-    max-width: 350px;  
+    max-width: 350px;
     max-height: 395px;
 }
- 
+
 .centerr {
     max-width: 400px;
     max-height: 300px;
 }
- 
-.ouroffice{
+
+.ouroffice {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     max-width: 400px;
     max-height: 300px;
 }
- 
-.rightt{
+
+.rightt {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     width: auto;
     height: auto;
 }
- 
-.contact-us{
+
+.contact-us {
     width: 254px;
     height: 59px;
     border: 0;
@@ -61,29 +63,26 @@ footer{
     align-items: center;
     gap: 15px;
 }
- 
-.size-logo{
+
+.size-logo {
     width: 39px;
     height: 40px;
 }
- 
-h2{
+
+h2 {
     color: black;
     margin-left: 0;
 }
- 
-h3{
+
+h3 {
     color: #2E2BD0;
 }
- 
-.information1 p{
-color: #94969c;
+
+.information p {
+    color: #94969c;
+    font-family: myFont;
 }
- 
-.information2 p{
-color: #94969c;
-}
- 
+
 .information3 {
     width: 100%;
     display: flex;
@@ -91,12 +90,13 @@ color: #94969c;
     align-items: center;
     padding: 20px 30px;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
-h4{
+h4 {
     color: #bcbdc1;
 }
- 
+
 .footer-line {
     height: 2px;
     width: 97%;
@@ -104,32 +104,34 @@ h4{
     margin: 0 auto;
 }
 
-.row_line{
+.row_line {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-a{
+a {
     display: flex;
 }
 
-.size-logo1{
- display: none;
+.size-logo1 {
+    display: none;
 }
 
-.lineslogo{
+.lineslogo {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
 
-.linkedin,.facebook,
-  .viber,.instragam{
+.linkedin,
+.facebook,
+.viber,
+.instragam {
     width: 60px;
     height: 60px;
-  }
+}
 
 .row_lineg {
     display: contents;

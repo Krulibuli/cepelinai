@@ -1,20 +1,38 @@
-@media (max-width: 1080px){
-/* Footer */
-  .logotipe{
+@media (max-width: 1080px) {
+  /* Footer */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logotipe {
     width: 100%;
     flex-direction: column;
   }
 
-  .size-logo{
+  .rightt {
+    display: flex;
+    margin: 2rem 40px;
+    width: 100%;
+    max-width: 1080px;
+
+  }
+
+  .size-logo {
     display: none;
   }
 
-  .size-logo1{
+  .size-logo1 {
     display: flex;
     width: 300px;
     height: 100px;
   }
-  .support-logo{
+
+  .support-logo {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -23,7 +41,7 @@
     max-height: 100px;
   }
 
-  .logotipe{
+  .logotipe {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
@@ -31,35 +49,36 @@
 
   }
 
-  .leftt{
+  .leftt {
     width: 100%;
     max-width: 1080px;
   }
 
-  .link-email{
+  .link-email {
     font-size: 24px;
     display: flex;
     align-self: flex-end;
-  } 
+  }
 
   .information3 {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    padding: 20px;
-    }
+    margin: 0 40px;
+    padding: 0;
+  }
 
   .information3 h4 {
     font-size: 30px;
-    }
+  }
 
   .row_lineg {
     display: flex;
-    width: 100%;
+    width: 92%;
     justify-content: space-between;
-    }
+  }
 
-  .row_line{
+  .row_line {
     width: 100%;
     max-width: 1080px;
     display: flex;
@@ -67,32 +86,101 @@
     justify-content: space-between;
   }
 
-  .lineslogo{
+  .lineslogo {
     display: flex;
     gap: 22px;
     width: 100%;
     max-width: 1080px;
   }
 
-  .linkedin,.facebook,
-  .viber,.instragam{
+  .linkedin,
+  .facebook,
+  .viber,
+  .instragam {
     width: 80px;
     height: 80px;
   }
 
-  .gmail_it{
+  .gmail_it {
     display: flex;
     align-items: flex-end;
     font-size: 24px;
   }
 
-  .row_lines{
+  .space_btw {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  .rightt1{
-    margin-left: 40px;
+  .space_btw h3 {
+    width: 48%;
+    margin-bottom: 20px;
+    font-size: 35px;
   }
+
+
+  .space_btw1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .space_btw2 h3,
+  .space_btw2 p {
+    margin-bottom: 10px;
+    font-size: 27px;
+  }
+
+  .information3 h4{
+    margin-top: 15px;
+  }
+
+  .ouroffice {
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    padding: 0;
+    margin: 0 40px;
+    box-sizing: border-box;
+  }
+
+  .space_btw2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+  }
+
+  .information {
+    color: #646668;
+    font-family: myFont;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1rem 12rem 0 0;
+  }
+
+  .row_lines{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ouroffice h2, .servicess h2 {
+    font-size: 40px;
+    margin: 5rem 0;
+    position: relative;
+    top: 1rem;
+  }
+  .information h3 {
+    margin: 0;
+  }
+
+  .footer-line{
+    max-width: 1000px;
+  }
+
 }
+
+
