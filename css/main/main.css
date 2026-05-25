@@ -439,27 +439,31 @@ header * {
   max-width: 1920px;
   margin-bottom: 250px;
   position: relative;
+  margin-left: -10rem;
 }
-
-
 
 .industries {
   box-sizing: border-box;
   padding-left: 0;
   max-width: 1920px;
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0;
+  /* width: 100%; */
+  max-width: 1920px;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  margin-left: 5vh;
 }
 
-.industries .title {
+.title {
   padding-left: 21vh;
   font-size: 60px;
   margin: 0px;
   padding-bottom: 80px;
-  font-weight: 1000;
+  font-weight: normal;
   width: 100%;
   text-align: left;
   margin-top: 40px;
@@ -521,30 +525,26 @@ header * {
 }
 
 
-body{
-    font-family: myFont;
-}
-
-
 /* Used technologies */
 
 .section-ut {
   max-width: 1920px;
-  margin: 250px 150px;
+  margin: 23.15vh 5.9vw;
   position: relative;
-  height: 620px;
-  padding: 0px 150px;
+  height: auto;        
+  padding: 0;          
 }
 
 .title-technologies {
-  font-size: 60px;
+  font-size: 81px;
   font-weight: 400;
   margin-bottom: 70px;
-  letter-spacing: -1px;
-  width: 556px;
+  width: 44vw;
   height: 58px;
-  margin-left: -15px;
+  margin-top: 1.5vh;
+  margin-left: 3.5vh;
   color: black;
+line-height: normal;
 }
 
 .top-content {
@@ -554,29 +554,26 @@ body{
 }
 
 .description {
-  width: 634px;
-  height: 144px;  
+  width: 32.03vw;
   color: #8d8d8d;
-  font-size: 20px;
-  line-height: 1.9;
+  font-size: 1.2vw;        
+  line-height: 1.5;        
   font-weight: 300;
-  margin-right: 30rem;
+  margin-right: 4.3vh;
+  margin-top: 8.5vh;
   font-family: Gilroy;
 }
 .timeline {
-  position: relative;
-  width: 100%; 
-  overflow: hidden;
+  width: 83.8vw;        
+  overflow: visible;  
+  margin-left: 5vh;
 }
 
 .timeline-line {
-  position: absolute;
-  top: 14px;
-  left: 0;
-  right: 0;
-  height: 1px;
+  height: 2px;
   background: #d4d4d4;
   z-index: 1;
+  margin-top: 10vh;
 }
 
 .timeline-items {
@@ -589,7 +586,8 @@ body{
 }
 
 .timeline-items.expanded {
-  gap: 20px; 
+  /* gap: 10px;  */
+  margin-right: -1.5vw;
 }
 
 .timeline-item {
@@ -597,40 +595,60 @@ body{
   width: auto; 
   height: auto; 
   font-family: Gilroy;
+  margin-right: 2vh;
+}
+
+.timeline-item .eighth {
+  margin-left: 10vh;
 }
 
 .dot {
-  width: 12px;
-  height: 12px;
+  width: 20px;   
+  height: 20px;  
   border-radius: 50%;
   background: #8f8f8f;
-  margin-bottom: 28px;
   z-index: -1;
-  margin-top: 7px;
+  margin-top: -0.8vh;
   cursor: pointer;
   transition: background 0.2s ease;
+  margin-left: -0.7vh;
 }
 
 .timeline-item.active .dot {
+  width: 26px;
+  height: 26px;
   background: #2E2BD0;
-  box-shadow: 0 0 0 6px #2E2BD026, 0 0 14px 4px #2E2BD040
+  box-shadow: 0 0 0 14px #2E2BD026, 0 0 28px 0 #2E2BD040;
+  margin-top: -1.1vh;
 }
 .tech-title {
-  font-size: 18px;
-  line-height: 130%;
+  font-size: 0.8vw;
+  line-height: 1vw;
+  letter-spacing: 2px;
   color: #6b6b6b;
   font-weight: 300;
-  width: 202px;
   cursor: pointer;
   transition: font-size 0.2s ease, color 0.2s ease;
+  margin-top: 3.2vh;
+  margin-left: -0.5vh;
+  font-weight: bold;
 }
 
+
+
+
+
 .timeline-item.active .tech-title {
-  font-size: 26px;
+  font-size: 1.2vw;
   color: black;
   font-weight: 300;
-  width: 255px;
+  width: 14.3vw;
   font-family: myFont;
+  line-height: 3vh;
+  margin-top: 2.8vh;
+  margin-left: -1vh;
+  line-height: 3.5vh;
+  /* margin-left: 0vh; */
 }
 
 .firstTitle {
@@ -640,19 +658,20 @@ body{
 }
 
 .icon-box {
-  width: 80px;
-  height: 80px;
-  border: 1.5px solid #5b4dff;
-  border-radius: 16px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #5b4dff;
+  border-radius: 27px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 3vh;
+  margin-left: -1vh;
 }
 
 .icon-box img {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 74px;
 }
 
 
