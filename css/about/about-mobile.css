@@ -1,0 +1,11 @@
+@media (max-width: 1080px) {
+    /* common */
+    #tabNames {
+        margin: 0;
+        font-family: "Neue Machina";
+        font-size: 4.1667vw;
+        line-height: auto;
+        color: var(--dark_grey)
+    }
+
+}

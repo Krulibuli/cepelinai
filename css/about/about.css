@@ -35,7 +35,7 @@ body {
     margin: 0 0 0 7.8125vw;
     font-family: "Neue Machina";
     font-size: 3.125vw;
-    line-height: 3.125vw;
+    line-height: auto;
     color: var(--dark_grey)
 }
 
@@ -87,8 +87,8 @@ body {
 }
 
 .info {
-    border: 1px solid var(--grey);
-    border-radius: 2.5rem;
+    border: .0521vw solid var(--grey);
+    border-radius: 2.0833vw;
     height: 12.2396vw;
     width: 18.6458vw;
 }
@@ -123,7 +123,7 @@ body {
 .wWBall {
     width: 9.375vw;
     height: 9.375vw;
-    border: .1875rem solid var(--white);
+    border: .1563vw solid var(--white);
     border-radius: 100%;
     margin-left: -2.5521vw;
 }
@@ -147,11 +147,12 @@ body {
     align-items: center;
 }
 
-
-/* !!!!!!!!!needs fixing!!!!!!!!! */
 .wWPlus{
     color: #2e2bd0;
-    padding-left: 1.8229vw;
+    text-align: center;
+    padding-left: 1.5625vw;
+    height: 6.5104vw;
+    width: 6.5104vw;
 }
 
 
@@ -183,8 +184,8 @@ body {
     margin: 0 auto;
     background: url(../../img/our_team.png);
     background-size: cover;
-    border: .125rem solid var(--blue);
-    border-radius: 4.375rem;
+    border: .1042vw solid var(--blue);
+    border-radius: 3.6458vw;
 }
 
 /* Cards */
@@ -203,7 +204,7 @@ body {
     /* Line */
     width: 0;
     height: 29.5833vw;
-    border: .0625rem solid var(--blue);
+    border: .0521vw solid var(--blue);
 }
 
 .oTCardTop {
@@ -256,8 +257,8 @@ body {
     margin: auto;
     height: 39.4271vw;
     width: 96.875vw;
-    border: .0625rem solid var(--blue);
-    border-radius: 4.375rem;
+    border: .0521vw solid var(--blue);
+    border-radius: 3.6458vw;
     background-color: var(--blue);
 }
 
@@ -348,7 +349,7 @@ body {
 .rVBox {
     height: 36.6146vw;
     width: 28.125vw;
-    border: .0625rem solid #909398;
+    border: .0521vw solid #909398;
     border-radius: 2.8125rem;
     float: left;
 }
@@ -359,8 +360,8 @@ body {
 }
 
 .rVImg {
-    border: .0625rem solid var(--blue);
-    border-radius: 6.25rem;
+    border: .0521vw solid var(--blue);
+    border-radius: 5.2083vw;
     width: 4.6875vw;
     height: 4.6875vw;
     margin: 5.2083vw 20.8333vw 0 2.6042vw;
@@ -399,8 +400,8 @@ body {
     margin: 5.9375vw 0rem 0rem 2.6042vw;
     height: 3.0208vw;
     width: 16.5625vw;
-    border-radius: .625rem;
-    border: .0625rem solid var(--blue);
+    border-radius: .5208vw;
+    border: .0521vw solid var(--blue);
     font-family: 'Neue Machina';
     font-size: 1.0417vw;
     line-height: .9896vw;
@@ -429,8 +430,8 @@ body {
     height: 2.1354vw;
     width: 2.1354vw;
     text-align: center;
-    border: .125rem solid var(--light_Blue);
-    border-radius: .625rem;
+    border: .1042vw solid var(--light_Blue);
+    border-radius: .5208vw;
     font-size: 1.0417vw;
     color: var(--light_Blue);
     transition: 0.3s;
