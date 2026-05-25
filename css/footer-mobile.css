@@ -1,14 +1,38 @@
-@media (max-width: 1080px){
-.logotipe{
-    width: 100%;
+@media (max-width: 1080px) {
+  /* Footer */
+
+  footer {
+    display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
   }
 
-  .size-logo{
+  .logotipe {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .rightt {
+    display: flex;
+    margin: 2rem 40px;
+    width: 100%;
+    max-width: 1080px;
+
+  }
+
+  .size-logo {
     display: none;
-}
-  .support-logo{
+  }
+
+  .size-logo1 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+  }
+
+  .support-logo {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -17,35 +41,150 @@
     max-height: 100px;
   }
 
-  .logotipe{
-    flex-direction: row;
+  .logotipe {
+    flex-direction: column;
     justify-content: space-between;
     width: 100%;
     max-width: 1080px;
 
   }
 
-  .leftt{
+  .leftt {
     width: 100%;
     max-width: 1080px;
   }
 
-  .link-email{
+  .link-email {
     font-size: 24px;
     display: flex;
     align-self: flex-end;
   }
 
-  .lineslogo{
-    margin-left: 20px;
+  .information3 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 0 40px;
+    padding: 0;
   }
 
-  .information3 {
+  .information3 h4 {
+    font-size: 30px;
+  }
+
+  .row_lineg {
     display: flex;
-    justify-content: center;
+    width: 92%;
+    justify-content: space-between;
+  }
+
+  .row_line {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .lineslogo {
+    display: flex;
+    gap: 22px;
+    width: 100%;
     max-width: 1080px;
   }
-  
-  
+
+  .linkedin,
+  .facebook,
+  .viber,
+  .instragam {
+    width: 80px;
+    height: 80px;
+  }
+
+  .gmail_it {
+    display: flex;
+    align-items: flex-end;
+    font-size: 24px;
+  }
+
+  .space_btw {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .space_btw h3 {
+    width: 48%;
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+
+
+  .space_btw1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .space_btw2 h3,
+  .space_btw2 p {
+    margin-bottom: 10px;
+    font-size: 27px;
+  }
+
+  .information3 h4{
+    margin-top: 15px;
+  }
+
+  .ouroffice {
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    padding: 0;
+    margin: 0 40px;
+    box-sizing: border-box;
+  }
+
+  .space_btw2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+  }
+
+  .information {
+    color: #646668;
+    font-family: myFont;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1rem 11rem 0 0;
+  }
+
+  .information p {
+    font-size: 30px;
+  }
+
+  .row_lines{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ouroffice h2, .servicess h2 {
+    font-size: 40px;
+    margin: 5rem 0;
+    position: relative;
+    top: 1rem;
+  }
+  .information h3 {
+    margin: 0;
+  }
+
+  .footer-line{
+    max-width: 1000px;
+  }
+
 }
+
+
