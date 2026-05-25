@@ -1,11 +1,150 @@
+:root {
+    --blue: #2e2bd0;
+    --light_Blue: #CBCAF3;
+    --dark_grey: #2f353f;
+    --grey: #2F353F;
+    --light_grey: #c1c2c5;
+    --white: #FFFFFF;
+}
 @media (max-width: 1080px) {
-    /* common */
-    #tabNames {
-        margin: 0;
-        font-family: "Neue Machina";
-        font-size: 4.1667vw;
-        line-height: auto;
-        color: var(--dark_grey)
-    }
+/* common */
+#tabNames {
+    font-weight: 400;
+    margin: 0;
+    font-family: "Neue Machina";
+    font-size: 7.4074vw;
+}
+.aboutBox {
+    margin: 0 auto;
+    width: 100vw;
+}
+/* we are */
 
+.wWTab {
+    margin: 5vw auto auto auto;
+    width: 92.5926vw;
+    height: 346.0185vw;
+}
+.wWMain {
+    flex-wrap: wrap;
+    margin-top: 5.2083vw;
+    margin-bottom: 10vw;
+}
+.wWText {
+    margin: 0;
+    height: 55.5556vw;
+    width: 92.5926vw;
+    font-family: "Neue Machina";
+    font-size: 3.7037vw;
+    line-height: 3.7037vw;
+}
+
+.wWInfo {
+    margin: 9.2593vw auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info{
+    border-radius: 8.3333vw;
+    border: .1852vw solid var(--light_grey);
+    height: 57.8704vw;
+    width: 92.5926vw;
+}
+.wWText p {
+    margin-top: 0;
+    margin-bottom: 7.4074vw;
+    line-height: 150%;
+    width: 100%;
+    height: auto;
+}
+.decoration {
+    margin: 0 auto;
+    height: 24.6296vw;
+    width: 92.5926vw;
+}
+.wWBall:first-child {
+    margin: 0 auto;
+}
+.wWBall{
+    border: .463vw solid white;
+    margin-left: -7.8704vw;
+    display: none;
+}
+.mobilewW {
+    height: 24.6296vw;
+    width: 24.6296vw;
+    display: block;
+}
+.wWBallLast {
+    display: block;
+}
+.wWPlus{
+    height: 14.8148vw;
+    width: 14.8148vw;
+    padding: 0;
+    margin-top: 4.6296vw;
+}
+.wWInfoTop {
+    margin: 9.2593vw 0 20.463vw 9.2593vw;
+    font-family: "Neue Machina";
+    font-size: 16.2963vw;
+    line-height: 70%;
+}
+.wWInfoBottom, .wWInfoBtm{
+    font-family: "Gilroy";
+    font-size: 4.6296vw;
+    margin-left: 9.2593vw;
+}
+.wWInfoBtm{
+    width: 50.9259vw;
+    line-height: 4.6296vw;
+}
+.oTTab{
+    width: 92.5926vw;
+    height: 296.5741vw;
+    margin: 23.1481vw auto 0 auto;
+}
+#oTTopTxt{
+    height: 22.2222vw;
+    width: 92.5926vw;
+    font-weight: 400;
+    margin: 9.2593vw auto 0 auto;
+    font-size: 3.7037vw;
+    line-height: 150%;
+}
+.oTImg{
+    border-radius: 8.3333vw;
+    height: 66.2037vw;
+    width: 92.5926vw;
+    margin: 9.2593vw auto 0 auto;
+}
+.oTCard{
+    height: 40.463vw;
+}
+.oTCards{
+    margin-top: 9.375rem;
+    display: flex;
+    flex-direction: column;
+}
+.oTCardTop{
+    margin-bottom: 9.2593vw;
+    font-size: 7.4074vw;
+    line-height: 70%;
+}
+.oTCardMiddle{
+    line-height: normal;
+    margin-bottom: 4.6296vw;
+    font-size: 5.5556vw;
+}
+.oTCardBottom{
+    font-size: 4.6296vw;
+    line-height: 150%;
+}
+#oTLine{
+    margin: 13.4259vw auto 13.8889vw auto;
+    border: .2778vw solid var(--blue);
+    height: 0;
+    width: 92.5926vw;
+}
 }

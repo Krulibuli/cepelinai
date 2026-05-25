@@ -44,7 +44,6 @@ body {
 
 /* Main box */
 .aboutBox {
-
     margin: 0 auto;
     width: 100vw;
 }
@@ -350,7 +349,7 @@ body {
     height: 36.6146vw;
     width: 28.125vw;
     border: .0521vw solid #909398;
-    border-radius: 2.8125rem;
+    border-radius: 2.3438vw;
     float: left;
 }
 
@@ -397,7 +396,7 @@ body {
 
 .rVBtn {
     cursor: pointer;
-    margin: 5.9375vw 0rem 0rem 2.6042vw;
+    margin: 5.9375vw 0 0 2.6042vw;
     height: 3.0208vw;
     width: 16.5625vw;
     border-radius: .5208vw;
