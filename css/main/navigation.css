@@ -2,7 +2,7 @@
     height: 155px;
     border-bottom: 1px solid white;
     display: flex;
-    font-size: 34px;
+    font-size: 29px;
     position: absolute;
     left: 30px;
     right: 30px;
@@ -10,7 +10,7 @@
 
 .left-side {
     display: flex;
-    width: 73%;
+    width: 70%;
     align-items: center;
     justify-content: space-between;
 }
@@ -25,7 +25,7 @@
 .left-side ul {
     display: flex;
     list-style-type: none;
-    gap: 135px;
+    gap: 80px;
 }
 
 .links {
@@ -45,15 +45,15 @@
 .white-line {
     width: 1px;
     background-color: white;
-    margin: 0px 100px;
+    margin: 0px 80px;
+    align-self: stretch;
 }
 
 .right-side {
     display: flex;
     align-items: center;
-    justify-content: left;
-    width: 27%;
-    gap: 130px;
+    justify-content: space-between;
+    width: 30%;
 }
 
 .right-side .language {
@@ -61,10 +61,6 @@
     align-items: center;
 }
 
-.nav-bar .main-lang {
-    padding-top: 7px;
-}
-    
 .right-side .language p {
     margin: 0;
 }
@@ -109,7 +105,7 @@
 
 .nav-bar button {
     height: 80px;
-    width: 340px;
+    width: 330px;
     border: 0;
     background-color: #2e2bd0;
     color: white;
