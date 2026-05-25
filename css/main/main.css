@@ -119,7 +119,7 @@ header * {
   margin: 12.5rem 9.375rem;
 }
 .waog-title-header {
-  margin: 0 0 6.25rem 0;
+  margin-bottom: 6.25rem;
   font-style: normal;
   font-weight: 400;
   font-size: 3.750rem;
