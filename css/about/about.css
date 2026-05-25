@@ -15,7 +15,8 @@ body {
     font-family: Gilroy;
     src: url(../../Fonts/Gilroy-Light.otf);
 }
-.nav-bar{
+
+.nav-bar {
     top: 0;
 }
 
@@ -31,10 +32,10 @@ body {
 
 /* common */
 #tabNames {
-    margin: 0 0 0 9.375rem;
+    margin: 0 0 0 7.8125vw;
     font-family: "Neue Machina";
-    font-size: 3.75rem;
-    line-height: 3.75rem;
+    font-size: 3.125vw;
+    line-height: 3.125vw;
     color: var(--dark_grey)
 }
 
@@ -43,9 +44,9 @@ body {
 
 /* Main box */
 .aboutBox {
-    position: relative;
+
     margin: 0 auto;
-    width: 120rem;
+    width: 100vw;
 }
 
 
@@ -53,119 +54,132 @@ body {
 
 /* Who we are */
 .wWTab {
-    margin-top: 16.8125rem;
-    height: 62rem;
+    margin-top: 14.0104vw;
+    height: 51.6667vw;
 }
 
-.wWMain{
+.wWMain {
     display: flex;
-    margin-top: 4rem;
-    margin-bottom: 12.5rem;
+    margin-top: 3.3333vw;
+    margin-bottom: 10.4167vw;
 }
 
-.wWText{
-    margin-left: 9.375rem;
+.wWText {
+    margin-left: 7.8125vw;
     font-family: "Gilroy";
-    font-size: 1.5rem;
-    line-height: 2.25rem;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
     color: var(--grey);
 }
-.wWText p{
-    width: 47rem;
+
+.wWText p {
+    width: 39.1667vw;
 }
-.wWInfo{
-    margin-left: 9.375rem;
+
+.wWInfo {
+    margin-left: 7.8125vw;
     flex-wrap: wrap;
     display: flex;
     font-family: "Gilroy";
-    font-size: 1.5rem;
-    line-height: 2.25rem;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
     color: var(--grey);
 }
 
-.info{
+.info {
     border: 1px solid var(--grey);
     border-radius: 2.5rem;
-    height: 14.6875rem;
-    width: 22.375rem;
+    height: 12.2396vw;
+    width: 18.6458vw;
 }
-.wWInfoText{
- margin-left: 3.125rem;
- font-family: "Gilroy";
+
+.wWInfoText {
+    margin-left: 2.6042vw;
+    font-family: "Gilroy";
 }
-.wWInfoTop{
-    margin: 3.125rem 0 0 3.125rem;
+
+.wWInfoTop {
+    margin: 2.6042vw 0 0 2.6042vw;
     color: var(--blue);
-    font-size: 3.75rem;
-    line-height: 3.75rem;
+    font-size: 3.125vw;
+    line-height: 3.125vw;
 }
-.wWInfoBottom{
-    margin-top: 2.625rem;
+
+.wWInfoBottom {
+    margin-top: 2.1875vw;
     color: var(--grey);
 }
-.wWBtm{
-    margin-top:  1.5rem;
+
+.wWBtm {
+    margin-top: 1.25vw;
 }
-.decoration{
-    margin-left: 160px;
+
+.decoration {
+    margin-left: 8.3333vw;
     display: flex;
-    height: 11.25rem;
+    height: 9.375vw;
 }
 
-.wWBall{
-    width: 11.25rem;
-    height: 11.25rem;
-    border: 3px solid var(--white);
+.wWBall {
+    width: 9.375vw;
+    height: 9.375vw;
+    border: .1875rem solid var(--white);
     border-radius: 100%;
-    margin-left: -3.0625rem;
+    margin-left: -2.5521vw;
 }
-
-.wWBallBlue{
+.wWBallBlue {
     background-color: var(--blue);
 }
 
-.wWBallBlack{
+.wWBallBlack {
     background-color: var(--dark_grey);
 }
 
-.wWBallGrey{
+.wWBallGrey {
     background-color: var(--light_grey);
 }
 
-.wWBallLast{
+.wWBallLast {
     cursor: pointer;
     background-color: #9995e5;
     text-align: center;
+        display: flex;
+    align-items: center;
 }
 
+
+/* !!!!!!!!!needs fixing!!!!!!!!! */
 .wWPlus{
-    margin-top: 20%;
+    color: #2e2bd0;
+    padding-left: 1.8229vw;
 }
+
+
 
 
 
 /* Our Team */
 .oTTab {
-    margin-top: 18.75rem;
-    height: 120.5625rem;
+    margin-top: 15.625vw;
+    height: 100.4688vw;
 }
 
 /* Text under "Our Team" */
 #oTTopTxt {
-    width: 44.6875rem;
-    height: 6.75rem;
-    margin: 1.125rem 0rem 6.25rem 56.25rem;
+    width: 37.2396vw;
+    height: 5.625vw;
+    margin: 2.6042vw 0 5.2083vw 46.875vw;
     font-family: "Gilroy";
-    font-size: 1.5rem;
-    line-height: 2.25rem;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
     color: var(--grey);
 }
 
 /* Image */
 .oTImg {
     box-sizing: border-box;
-    width: 116.25rem;
-    height: 57.0625rem;
+    width: 96.875vw;
+    height: 47.5521vw;
     margin: 0 auto;
     background: url(../../img/our_team.png);
     background-size: cover;
@@ -175,20 +189,20 @@ body {
 
 /* Cards */
 .oTCards {
-    margin: 9.375rem auto 0 auto;
+    margin: 7.8125vw auto 0 auto;
     justify-content: space-around;
     display: flex;
 }
 
 .oTCard {
-    height: 25.5rem;
-    margin-top: 6.25rem;
+    height: 21.25vw;
+    margin-top: 5.2083vw;
 }
 
 #oTLine {
     /* Line */
-    width: 0rem;
-    height: 35.5rem;
+    width: 0;
+    height: 29.5833vw;
     border: .0625rem solid var(--blue);
 }
 
@@ -196,25 +210,25 @@ body {
     /* top part of a card */
     color: var(--blue);
     font-family: "Neue Machina";
-    font-size: 3.75rem;
-    line-height: 2.875rem;
-    margin: 0rem 0rem 7.125rem 0rem;
+    font-size: 3.125vw;
+    line-height: 2.3958vw;
+    margin: 0 0 5.9375vw 0;
 }
 
 .oTCardMiddle {
     /* middle part of a card */
     font-family: "Neue Machina";
-    font-size: 3.75rem;
-    line-height: 2.875rem;
-    margin: 0 0 4.25rem 0;
+    font-size: 3.125vw;
+    line-height: 2.3958vw;
+    margin: 0 0 3.5417vw 0;
     color: var(--dark_grey)
 }
 
 .oTCardBottom {
     /* bottom part of a card */
     font-family: "Gilroy";
-    font-size: 1.875rem;
-    line-height: 2.875rem;
+    font-size: 1.5625vw;
+    line-height: 2.3958vw;
     color: var(--grey);
     margin: 0;
 }
@@ -224,95 +238,95 @@ body {
 
 /* IT Support Group trough the years */
 .sGTab {
-    margin-top: 18.75rem;
-    height: 71.3rem;
+    margin-top: 15.625vw;
+    height: 59.4167vw;
 }
 
 #sGTop {
-    width: 44.6875rem;
-    height: 6.75rem;
-    margin: 3.125rem 0rem 6.25rem 56.25rem;
+    width: 37.2396vw;
+    height: 5.625vw;
+    margin: 2.6042vw 0 5.2083vw 46.875vw;
     font-family: "Gilroy";
-    font-size: 1.5rem;
-    line-height: 2.25rem;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
     color: var(--grey);
 }
 
 .sGCard {
     margin: auto;
-    height: 47.3125rem;
-    width: 116.25rem;
+    height: 39.4271vw;
+    width: 96.875vw;
     border: .0625rem solid var(--blue);
     border-radius: 4.375rem;
     background-color: var(--blue);
 }
 
 .sGYears {
-    margin: 6.25rem 0 6.25rem 0;
+    margin: 5.2083vw 0 5.2083vw 0;
     display: flex;
-    width: 97.5rem;
+    width: 81.25vw;
 }
 
 #hLYear {
-    margin: 3.75rem 10.9375rem 0 11.4375rem;
+    margin: 3.125vw 9.1146vw 0 9.5313vw;
     font-family: 'Neue Machina';
-    font-size: 5rem;
-    height: 4.8125rem;
-    line-height: 4.8125rem;
+    font-size: 4.1667vw;
+    height: 4.0104vw;
+    line-height: 4.0104vw;
     color: white;
 }
 
 #kk13 {
-    height: 3.625rem;
-    margin: 3.75rem 12.75rem 0 12.1875rem;
+    height: 3.0208vw;
+    margin: 3.125vw 10.625vw 0 10.1563vw;
     font-family: 'Neue Machina';
-    font-size: 3.75rem;
-    line-height: 3.625rem;
+    font-size: 3.125vw;
+    line-height: 3.0208vw;
     color: var(--light_grey);
 }
 
 #kk15 {
-    margin: 3.75rem 0 0 0;
-    height: 3.625rem;
+    margin: 3.125vw 0 0 0;
+    height: 3.0208vw;
     font-family: 'Neue Machina';
-    font-size: 3.75rem;
-    line-height: 3.625rem;
+    font-size: 3.125vw;
+    line-height: 3.0208vw;
     color: var(--light_grey);
 }
 
 #kk20 {
-    margin: 3.75rem 0 0 0;
-    height: 3.625rem;
+    margin: 3.125vw 0 0 0;
+    height: 3.0208vw;
     font-family: 'Neue Machina';
-    font-size: 3.75rem;
-    line-height: 3.625rem;
+    font-size: 3.125vw;
+    line-height: 3.0208vw;
     color: var(--light_grey);
 }
 
 #kk22 {
-    margin: 3.75rem 0 0 8.5rem;
-    height: 3.625rem;
+    margin: 3.125vw 0 0 7.0833vw;
+    height: 3.0208vw;
     font-family: 'Neue Machina';
-    font-size: 3.75rem;
-    line-height: 3.625rem;
+    font-size: 3.125vw;
+    line-height: 3.0208vw;
     color: var(--light_grey);
 }
 
 #sGImg {
-    margin-left: 9.375rem;
-    height: 9.375rem;
-    width: 97.5rem;
+    margin-left: 7.8125vw;
+    height: 7.8125vw;
+    width: 81.25vw;
 
 }
 
 .sGList {
     /* List in bottom of div */
-    margin: 0 0 0 60.9375rem;
-    width: 40.625rem;
-    height: 11.25rem;
+    margin: 0 0 0 50.7813vw;
+    width: 33.8542vw;
+    height: 9.375vw;
     font-family: 'Gilroy';
-    font-size: 1.5rem;
-    line-height: 2.25rem;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
     color: white;
 }
 
@@ -321,21 +335,21 @@ body {
 
 /* What our clients say about us */
 .rVTab {
-    margin-top: 18.75rem;
-    height: 63.1875rem;
+    margin-top: 15.625vw;
+    height: 52.6563vw;
 }
 
 .reviews {
-    width: 102.75rem;
-    height: 43.9375rem;
-    margin: 6.25rem auto 0 auto;
+    width: 85.625vw;
+    height: 36.6146vw;
+    margin: 5.2083vw auto 0 auto;
 }
 
 .rVBox {
-    height: 43.9375rem;
-    width: 33.75rem;
+    height: 36.6146vw;
+    width: 28.125vw;
     border: .0625rem solid #909398;
-    border-radius: 2.875rem;
+    border-radius: 2.8125rem;
     float: left;
 }
 
@@ -347,54 +361,54 @@ body {
 .rVImg {
     border: .0625rem solid var(--blue);
     border-radius: 6.25rem;
-    width: 5.625rem;
-    height: 5.625rem;
-    margin: 6.25rem 25rem 0rem 3.125rem;
+    width: 4.6875vw;
+    height: 4.6875vw;
+    margin: 5.2083vw 20.8333vw 0 2.6042vw;
 }
 
 .rVBoxElem {
     font-family: 'Neue Machina';
-    margin: 0rem;
-    padding-left: 3.125rem;
+    margin: 0;
+    padding-left: 2.6042vw;
 
 }
 
 .rVHl {
     font-family: 'Neue Machina';
-    font-size: 1.625rem;
-    width: 12.8125rem;
+    font-size: 1.3542vw;
+    width: 10.6771vw;
     line-height: 150%;
     color: var(--blue);
 }
 
 .rVPos {
     font-family: 'Gilroy';
-    font-size: 1.25rem;
+    font-size: 1.0417vw;
     line-height: 130%;
 }
 
 .rVQt {
-    padding-top: 3.125rem;
+    padding-top: 2.6042vw;
     font-family: 'Gilroy';
-    font-size: 1.875rem;
+    font-size: 1.5625vw;
     line-height: 150%;
 }
 
 .rVBtn {
     cursor: pointer;
-    margin: 7.125rem 0rem 0rem 3.125rem;
-    height: 3.625rem;
-    width: 19.875rem;
+    margin: 5.9375vw 0rem 0rem 2.6042vw;
+    height: 3.0208vw;
+    width: 16.5625vw;
     border-radius: .625rem;
     border: .0625rem solid var(--blue);
     font-family: 'Neue Machina';
-    font-size: 1.25rem;
-    line-height: 1.1875rem;
+    font-size: 1.0417vw;
+    line-height: .9896vw;
     color: var(--blue);
 }
 
 .rVBtn .fa-solid {
-    padding-left: 1.25rem;
+    padding-left: 1.0417vw;
 }
 
 .rVBtn:hover {
@@ -404,20 +418,20 @@ body {
 }
 
 .rVPages {
-    width: 15.375rem;
-    height: 2.625rem;
-    margin: 6.25rem auto 0 auto;
+    width: 12.8125vw;
+    height: 2.1875vw;
+    margin: 5.2083vw auto 0 auto;
     display: flex;
 }
 
 .rVSlct {
     cursor: pointer;
-    height: 2.5625rem;
-    width: 2.5625rem;
+    height: 2.1354vw;
+    width: 2.1354vw;
     text-align: center;
     border: .125rem solid var(--light_Blue);
     border-radius: .625rem;
-    font-size: 1.25rem;
+    font-size: 1.0417vw;
     color: var(--light_Blue);
     transition: 0.3s;
 }
@@ -428,9 +442,9 @@ body {
 }
 
 #rVInd {
-    margin: 0rem 3.125rem 0rem 3.125rem;
+    margin: 0 2.6042vw 0 2.6042vw;
     font-family: 'Neue Machina';
-    font-size: 2rem;
+    font-size: 1.6667vw;
     line-height: 150%;
-    width: 3.75rem;
+    width: 3.125vw;
 }
