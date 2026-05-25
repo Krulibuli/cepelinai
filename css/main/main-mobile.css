@@ -1,0 +1,90 @@
+@media (max-width: 1080px) {
+.touch-with-us {
+    display: block;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  * {
+    box-sizing: border-box;
+}
+  .touch-with-us{
+    width: 95%;
+    margin-top: 20px;
+  }
+  footer{
+    flex-direction: column;
+  }
+  .left h1{
+    height: 100px;
+  }
+
+  .left,.upload-right {
+    width: 100%;
+    max-width: 1025px;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+  }
+  .left p{
+    width: 100%;
+    height: 80px;
+    max-width: 1000px;
+    font-size: 25px;
+  }
+
+ 
+ .upload-right {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+ .registration {
+  display: contents;
+}
+
+
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+  }
+
+  input {
+    width: 100%;
+  }
+  
+.down {
+    width: 100%;
+    max-width: 1025px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+
+ .submitt {
+    display: none;
+  }
+
+  .submitt1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    margin-top: 40px;
+    align-self: flex-start;
+    order: 10;
+  }
+
+}
