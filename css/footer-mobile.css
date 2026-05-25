@@ -155,11 +155,15 @@
   .information {
     color: #646668;
     font-family: myFont;
-    min-width: 320px;
+    min-width: 375px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin: 1rem 12rem 0 0;
+    margin: 1rem 11rem 0 0;
+  }
+
+  .information p {
+    font-size: 30px;
   }
 
   .row_lines{
