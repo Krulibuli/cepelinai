@@ -1,5 +1,6 @@
 "use strict";
 
+// show & hide language selector 
 let btn = document.getElementById("lang-sel");
 
 btn.addEventListener("click", () => {
@@ -7,6 +8,8 @@ btn.addEventListener("click", () => {
     div.style.display = (div.style.display === "none" || div.style.display === "") ? "block" : "none";
 })
 
+
+// swap languages 
 let mainLanguage = document.querySelector(".main-lang");
 
 let englishSelector = document.getElementById("enl");
@@ -21,10 +24,15 @@ lithuaniaSelector.addEventListener("click", () => {
 })
 
 
-let leftSide = document.querySelector(".left-side");
-let rightSide = document.querySelector(".right-side");
-let logoMobile = document.getElementById("logo-mobile");
+// menu bar show for mobile
 
-if (window.innerWidth >= 1080) {
-    
-}
+let menuBar = document.getElementById("menu-bar");
+let navBarSpace = document.querySelector(".nav-bar-space");
+
+menuBar.addEventListener("click", () => {
+    navBarSpace.style.display = (navBarSpace.style.display === "none" || navBarSpace.style.display === "") ? "flex" : "none";
+})
+
+
+
+
