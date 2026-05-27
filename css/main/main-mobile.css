@@ -102,11 +102,13 @@
   }
 
   .left h1{
-    font-size: 100px;
+    font-size: clamp(48px, 8vw, 100px);
+    line-height: 1;
     height: auto;
   }
 
-  .left,.upload-right {
+  .left,
+  .upload-right {
     width: 100%;
   }
 
@@ -115,10 +117,11 @@
     flex-direction: column;
     gap: 25px;
   }
+
   .left p{
     width: 100%;
-    font-size: 22px;
-    line-height: 1.4;
+    font-size: 18px;
+    line-height: 1.5;
     height: auto;
   }
 
@@ -149,6 +152,7 @@
   
 .down {
     width: 100%;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     gap: 25px;
