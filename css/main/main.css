@@ -436,7 +436,7 @@ header * {
 
 .section-industries {
   width: 100%;
-  margin-bottom: 20vw;
+  margin-bottom: 20vh;
   margin-left: 5.2vw;
 }
 
@@ -450,7 +450,7 @@ header * {
   font-size: 3.15vw;
   margin-left: 2.7vw;
   font-weight: normal;
-  margin-top: 23.34vh;
+  margin-top: 22.34vh;
 }
 
 .flex-container {
@@ -464,18 +464,18 @@ header * {
 
 .industries .item {
   display: flex;
-width: 33rem;
+width: 22vw;
 flex-direction: column;
-margin-left: 15.1vh;
+/* margin-left: 15.1vh; */
 margin-top: 0.9vh;
-margin-left: 8.35vw;
+margin-left: 8.15vw;
 }
 
 .industries img {
   width: 6vw;
   height: 12vh;
   margin-top: 2.4vh;
-  margin-left: -6.25vw;
+  margin-left: -6vw;
   margin-bottom: -0.8vh;
 }
 
@@ -484,7 +484,7 @@ margin-left: 8.35vw;
   color: black;
   font-weight: 100;
   line-height: 150%;
-  margin-left: -5.8vw;
+  margin-left: -5.9vw;
   margin-bottom: 8.9vh;
 }
 
@@ -492,7 +492,7 @@ margin-left: 8.35vw;
   background-color: black;
   width: 26.5vw;
   margin-top: -4.3vh;
-  margin-left: -11.9vh;
+  margin-left: -10.9vh;
   margin-bottom: 3.8vh;
 }
 
@@ -541,7 +541,7 @@ margin-left: 8.35vw;
   font-size: 1.2vw;        
   line-height: 1.5;        
   font-weight: 300;
-  margin-right: 2.25vw;
+  margin-right: 14.25vw;
   margin-top: 7.2vh;
   font-family: Gilroy;
 }
