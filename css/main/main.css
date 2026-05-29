@@ -530,10 +530,10 @@ margin-left: 8.15vw;
   line-height: normal;
 }
 
-.top-content {
+/* .top-content {
   display: flex;
   justify-content: flex-end;
-}
+} */
 
 .description {
   width: 32.03vw;
@@ -541,8 +541,9 @@ margin-left: 8.15vw;
   font-size: 1.2vw;        
   line-height: 1.5;        
   font-weight: 300;
-  margin-right: 14.25vw;
-  margin-top: 7.2vh;
+  margin-left: 40.85vw;
+  margin-top: 13.2vh;
+  margin-bottom: 12.3vh;
   font-family: Gilroy;
 }
 .timeline {
