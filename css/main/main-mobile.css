@@ -188,3 +188,110 @@
     height: clamp(100px, 55vw, 370px);
   }
 }
+
+
+
+
+/* why choose us? */
+@media (max-width: 1080px) {
+
+  .why-choose-us {
+    margin: 48px 24px;
+  }
+
+  .why-choose-us .h1-name {
+    font-size: 36px;
+    margin-left: 0;
+  }
+
+  .why-choose-us .sumarize {
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  .why-choose-us .container {
+    display: block;
+  }
+
+  .why-choose-us .text-box {
+    margin-left: 0;
+  }
+
+
+  /* Horizontal tabs */
+  .why-choose-us .teams {
+    flex-direction: row;
+    margin-left: 0;
+    font-size: 15px;
+    border-top: 1px solid lightgray;
+    margin-bottom: 24px;
+    overflow-x: auto;
+    gap: 0;
+    position: relative;
+    height: 45px;
+  }
+
+  .why-choose-us .teams p {
+    font-size: 15px;
+    padding: 10px 16px;
+    margin: 0;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    border-top: 2px solid transparent;
+  }
+
+  .text-box .team-text,
+  .text-box .communication-text,
+  .text-box .solution-text,
+  .text-box .quality-text {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 0;
+    height: auto;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 24px;
+  }
+
+  .why-choose-us h2 {
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  .why-choose-us .text-box p {
+    font-size: 15px;
+    margin-top: 16px !important;
+  }
+
+  .why-choose-us .team-bar,
+  .why-choose-us .communication-bar,
+  .why-choose-us .solution-bar,
+  .why-choose-us .quality-bar {
+    height: 4px;
+    width: 75px;
+    border-radius: 85px;
+    position: relative;
+    right: 85px;
+    top: 1.7px;
+    z-index: 5;
+  }
+
+  .why-choose-us .team-bar {
+    display: block;
+  }
+
+  .why-choose-us .communication-bar {
+    left: 200.5px;
+    width: 140px;
+  }
+
+  .why-choose-us .solution-bar {
+    left: 564.0px;
+  }
+
+  .why-choose-us .quality-bar {
+    left: 859px;
+    width: 90px;
+  }
+
+}
