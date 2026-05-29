@@ -20,7 +20,6 @@ body {
     src: url("../../Fonts/neue-machina-bold.ttf");
 }
 
-
 @font-face {
   font-family: myFont;
   src: url("../../Fonts/NeueMachina-Light.otf");
@@ -46,6 +45,17 @@ header {
   background-size: cover
 }
 
+header::before {
+  content: '';
+  z-index: 1;
+  background: rgba(47, 53, 63, 0.40);
+  position: absolute;
+  inset: 0;
+}
+
+header * {
+  z-index: 2;
+}
 
 .header p {
   margin: 0;
@@ -53,11 +63,10 @@ header {
 
 .header-section p {
   z-index: 100;
-  position: absolute;
+  position: relative;
   width: 892px;
   height: 130px;
-  left: 150px;
-  top: 365px;
+  margin: 365px 0 0 150px;
   font-family: nueue-machina-bold;
   font-style: normal;
   font-weight: 900;
@@ -68,25 +77,27 @@ header {
 
 .blue-box-area {
   z-index: 1;
-  position: absolute;
-  width: 816px;
+  position: relative;
+  margin-left: 150px;
+  width: 853px;
   height: 65px;
-  left: 150px;
-  top: 447px;
   background: #2e2bd0;
+  top: 467px;
 }
 
 .estimate-project {
-  position: absolute;
+  margin: 67px 150px;
+  position: relative;
   width: 280px;
   height: 280px;
-  left: 150px;
-  top: 645px;
   border: 2px solid #ffffff;
   box-sizing: border-box;
+  transition: background-color 0.1s ease, transform 0.15s ease;
   border-radius: 100%;
 }
-
+.estimate-project:hover {
+  background-color: #2e2bd0;
+}
 .estimate-project a {
   text-decoration: none;
   color: white;
@@ -96,11 +107,10 @@ header {
   line-height: 130%;
   text-align: center;
   text-transform: uppercase;
-  position: absolute;
+  position: relative;
   width: 160px;
   height: 78px;
-  left: 60px;
-  top: 101px;
+  margin: 95px 0 0 67px ;
 }
 /* What are our goals */
 .what-are-our-goals {
@@ -109,7 +119,7 @@ header {
   margin: 12.5rem 9.375rem;
 }
 .waog-title-header {
-  margin: 0 0 6.25rem 0;
+  margin-bottom: 6.25rem;
   font-style: normal;
   font-weight: 400;
   font-size: 3.750rem;
@@ -653,7 +663,7 @@ margin-left: 8.35vw;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 60px;
-  width: 100%;
+  width: 97%;
   max-width: 1900px;
   padding: 80px;
   background: linear-gradient(135deg, #5e5be6, #6c68f3);
@@ -736,10 +746,23 @@ margin-left: 8.35vw;
   padding: 10px 0;
   font-size: 32px;
   color: white;
-  outline: none;
+  font-family: myFont;
+}
+
+.Upload_file {
+  width: 100%;
+  display: block;
+  background: transparent;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  padding: 10px 0;
+  font-size: 32px;
+  color: #a9a7f2;
+  cursor: pointer;
+  font-family: myFont;
+
 }
  
-.registration input::placeholder,.px::placeholder, .px-download::placeholder {
+.registration input::placeholder,.px::placeholder, .px-download::placeholder,.Upload_file {
   color: #a9a7f2;
 }
 
