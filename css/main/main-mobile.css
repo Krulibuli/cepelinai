@@ -121,18 +121,18 @@
     height: auto;
   }
 
- 
- .upload-right {
+
+  .upload-right {
     width: 100%;
     max-width: 1000px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-}
+  }
 
- .registration {
-  display: contents;
-}
+  .registration {
+    display: contents;
+  }
 
 
   .column1 {
@@ -145,8 +145,8 @@
   input {
     width: 100%;
   }
-  
-.down {
+
+  .down {
     width: 100%;
     max-width: 600px;
     display: flex;
@@ -155,7 +155,7 @@
   }
 
 
- .submitt {
+  .submitt {
     display: none;
   }
 
@@ -170,6 +170,21 @@
     order: 10;
 
   }
+  .main_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ .gri1:hover, 
+.gri2:hover,
+.gri3:hover,
+.gri4:hover,
+.gri5:hover{
+    top: 50px;
+    left: 0;
+    right: 0;
+}
 
 }
 @media (max-width: 600px) {
