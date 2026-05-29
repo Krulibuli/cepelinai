@@ -183,7 +183,7 @@
     .nav-bar .white-box {
         width: 64px;
         height: 64px;
-        background-color: white;
+        background-color: #2e2bd0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -202,6 +202,6 @@
     }
 
     .nav-bar .logo-mobile img {
-        width: 220px;
+        width: 65px;
     }
 }
