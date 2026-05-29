@@ -192,12 +192,11 @@
 
 
 
-
-/* why choose us? */
-@media (max-width: 1080px) {
-
+/* Mobile */
+@media (max-width: 1472px) {
   .why-choose-us {
     margin: 48px 24px;
+    display: block;
   }
 
   .why-choose-us .h1-name {
@@ -208,18 +207,30 @@
   .why-choose-us .sumarize {
     font-size: 16px;
     margin-left: 0;
+    margin-bottom: 32px;
   }
+
+  .why-choose-us p {
+    margin-left: 0;
+    font-size: 16px;
+  }
+
 
   .why-choose-us .container {
     display: block;
   }
 
-  .why-choose-us .text-box {
-    margin-left: 0;
+  .why-choose-us .menu-section {
+    display: none;
   }
 
+  .why-choose-us .team-bar,
+  .why-choose-us .communication-bar,
+  .why-choose-us .solution-bar,
+  .why-choose-us .quality-bar {
+    display: none;
+  }
 
-  /* Horizontal tabs */
   .why-choose-us .teams {
     flex-direction: row;
     margin-left: 0;
@@ -228,17 +239,25 @@
     margin-bottom: 24px;
     overflow-x: auto;
     gap: 0;
-    position: relative;
-    height: 45px;
+    height: auto;
+    justify-content: space-between;
   }
 
   .why-choose-us .teams p {
     font-size: 15px;
     padding: 10px 16px;
     margin: 0;
-    border-bottom: 2px solid transparent;
-    margin-bottom: -1px;
-    border-top: 2px solid transparent;
+    color: lightgray;
+    border-top: 2.5px solid transparent;
+  }
+
+  .why-choose-us .team-section p {
+    color: #2E2BD0;
+    border-top-color: #2E2BD0;
+  }
+
+  .why-choose-us .text-box {
+    margin-left: 0;
   }
 
   .text-box .team-text,
@@ -261,38 +280,146 @@
 
   .why-choose-us .text-box p {
     font-size: 15px;
-    margin-top: 16px !important;
+    margin-top: 16px;
   }
+}
+
+
+@media (min-width: 1473px) and (max-width: 1862px) {
+  .why-choose-us {
+    margin: 250px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .why-choose-us .teams p {
+    color: lightgray;
+    font-size: larger;
+  }
+
+  .why-choose-us p {
+    color: gray;
+    margin-left: 84px;
+    font-size: 25px;
+  }
+
+  .why-choose-us .h1-name {
+    font-size: 60px;
+    font-weight: normal;
+    color: black;
+    margin-left: 84px;
+  }
+
+  .why-choose-us .text-box p {
+    margin: 0;
+    margin-top: 35px !important;
+    font-size: 30px;
+  }
+
+  .why-choose-us .text-box h2 {
+    margin: 0;
+    font-size: 35px;
+  }
+
+  .why-choose-us .container {
+    display: flex;
+    width: 100%;
+  }
+
+  .gray-bar {
+    width: 2.5px;
+    height: 100%;
+    background-color: lightgray;
+    border-radius: 15px;
+  }
+
+  .why-choose-us .text-box {
+    margin-left: 150px;
+  }
+
+  .text-box .team-text {
+    display: block;
+    width: 80%;
+    height: 100%;
+
+  }
+
+  .text-box .communication-text,
+  .text-box .solution-text,
+  .text-box .quality-text {
+    border: 1px solid gray;
+    border-radius: 80px;
+    margin-left: 84px;
+    width: 80%;
+    height: 83%;
+    padding: 45px;
+    display: none;
+  }
+
+  .why-choose-us h2 {
+    margin-left: 80px;
+    color: #2E2BD0;
+  }
+
 
   .why-choose-us .team-bar,
   .why-choose-us .communication-bar,
   .why-choose-us .solution-bar,
   .why-choose-us .quality-bar {
-    height: 4px;
-    width: 75px;
-    border-radius: 85px;
+    background-color: #2E2BD0;
+    height: 85px;
+    width: 5px;
     position: relative;
-    right: 85px;
-    top: 1.7px;
-    z-index: 5;
-  }
-
-  .why-choose-us .team-bar {
-    display: block;
+    right: 1.2px;
+    border-radius: 85px;
+    display: none;
   }
 
   .why-choose-us .communication-bar {
-    left: 200.5px;
-    width: 140px;
+    top: 155px;
   }
 
   .why-choose-us .solution-bar {
-    left: 564.0px;
+    top: 310px;
   }
 
   .why-choose-us .quality-bar {
-    left: 859px;
-    width: 90px;
+    top: 458px;
   }
 
+
+  .why-choose-us .sumarize {
+    margin-bottom: 65px;
+  }
+
+  .why-choose-us .teams {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -25px;
+  }
+
+  .why-choose-us .menu-section {
+    margin-left: 84px;
+    height: 544px;
+  }
+
+  .why-choose-us .team-section p {
+    color: #2E2BD0;
+  }
+
+  .team-name,
+  .communication-name,
+  .solution-name,
+  .quality-name {
+    cursor: pointer;
+  }
+
+  .why-choose-us .gilroy-text {
+    font-family: 'Gilroy';
+  }
+  
 }
