@@ -474,45 +474,27 @@ header * {
 
 
 .section-industries {
-  max-width: 1920px;
-  margin-bottom: 250px;
-  position: relative;
-  margin-left: -10rem;
+  width: 100%;
+  margin-bottom: 20vh;
+  margin-left: 5.2vw;
 }
 
 .industries {
-  box-sizing: border-box;
-  padding-left: 0;
-  max-width: 1920px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 0;
-  /* width: 100%; */
-  max-width: 1920px;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  margin-left: 5vh;
+  width: 100%
 }
 
 .title {
-  padding-left: 21vh;
-  font-size: 60px;
-  margin: 0px;
-  padding-bottom: 80px;
+  font-size: 3.15vw;
+  margin-left: 2.7vw;
   font-weight: normal;
-  width: 100%;
-  text-align: left;
-  margin-top: 40px;
+  margin-top: 22.34vh;
 }
 
 .flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 0;
-  width: min(100%, 506px);
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -520,46 +502,47 @@ header * {
 }
 
 .industries .item {
-  width: 506px;
-  height: 460px;
-  padding: 30px;
-  margin: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding-left: 16vh;
+width: 22vw;
+flex-direction: column;
+margin-top: 0.9vh;
+margin-left: 8.15vw;
 }
 
 .industries img {
-  width: 100px;
-  height: 100px;
+  width: 6vw;
+  height: 12vh;
+  margin-top: 2.4vh;
+  margin-left: -6vw;
+  margin-bottom: -0.8vh;
 }
 
 .industries h2 {
-  font-size: 40px;
-  margin-top: 10px;
+  font-size: 2.1vw;
   color: black;
-  padding-top: 20px;
-  padding-bottom: 20px;
   font-weight: 100;
-  padding-top: 25px;
   line-height: 150%;
-  margin-left: 0;
+  margin-left: -5.9vw;
+  margin-bottom: 8.9vh;
 }
 
 .industries hr {
-  width: 100%;
   background-color: black;
+  width: 26.5vw;
+  margin-top: -4.3vh;
+  margin-left: -10.9vh;
+  margin-bottom: 3.8vh;
 }
 
 .industries p {
-  font-size: 24px;
+  font-size: 1.2vw;
   color: gray;
   line-height: 1.3;
-  letter-spacing: 2px;
   font-family: Gilroy;
-  letter-spacing: 3px;
-  width: 506px;
+  letter-spacing: 1px;
+  margin-top: 0vh;
+  line-height: 150%;
+  margin-left: -5.8vw;
 }
 
 
@@ -574,22 +557,21 @@ header * {
 }
 
 .title-technologies {
-  font-size: 81px;
+  font-size: 3.18vw;
   font-weight: 400;
-  margin-bottom: 70px;
+  margin-bottom: 6vh;
   width: 44vw;
-  height: 58px;
+  height: 4.7vh;
   margin-top: 1.5vh;
-  margin-left: 3.5vh;
+  margin-left: 1.9vw;
   color: black;
-line-height: normal;
+  line-height: normal;
 }
 
-.top-content {
+/* .top-content {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 110px;
-}
+} */
 
 .description {
   width: 32.03vw;
@@ -597,8 +579,9 @@ line-height: normal;
   font-size: 1.2vw;        
   line-height: 1.5;        
   font-weight: 300;
-  margin-right: 4.3vh;
-  margin-top: 8.5vh;
+  margin-left: 40.85vw;
+  margin-top: 13.2vh;
+  margin-bottom: 12.3vh;
   font-family: Gilroy;
 }
 .timeline {
@@ -624,7 +607,6 @@ line-height: normal;
 }
 
 .timeline-items.expanded {
-  /* gap: 10px;  */
   margin-right: -1.5vw;
 }
 
@@ -641,8 +623,8 @@ line-height: normal;
 }
 
 .dot {
-  width: 20px;   
-  height: 20px;  
+  width: 0.8vw;   
+  height: 1.5vh;  
   border-radius: 50%;
   background: #8f8f8f;
   z-index: -1;
@@ -653,8 +635,8 @@ line-height: normal;
 }
 
 .timeline-item.active .dot {
-  width: 26px;
-  height: 26px;
+  width: 1vw;  
+  height: 2vh;  
   background: #2E2BD0;
   box-shadow: 0 0 0 14px #2E2BD026, 0 0 28px 0 #2E2BD040;
   margin-top: -1.1vh;
@@ -683,10 +665,9 @@ line-height: normal;
   width: 14.3vw;
   font-family: myFont;
   line-height: 3vh;
-  margin-top: 2.8vh;
-  margin-left: -1vh;
+  margin-top: 3vh;
+  margin-left: -0.7vw;
   line-height: 3.5vh;
-  /* margin-left: 0vh; */
 }
 
 .firstTitle {
@@ -696,20 +677,20 @@ line-height: normal;
 }
 
 .icon-box {
-  width: 100px;
-  height: 100px;
+  width: 4vw;
+  height: 7.8vh;
   border: 3px solid #5b4dff;
-  border-radius: 27px;
+  border-radius: 1vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3vh;
-  margin-left: -1vh;
+  margin-top: 2.7vh;
+  margin-left: -0.8vw;
 }
 
 .icon-box img {
-  width: 70px;
-  height: 74px;
+  width: 2.6vw;
+  height: 5.6vh;
 }
 
 

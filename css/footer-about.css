@@ -1,0 +1,384 @@
+@font-face {
+    font-family: nueue-machina-bold;
+    src: url(../../Fonts/neue-machina-bold.ttf);
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../../Fonts/NeueMachina-Light.otf);
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../Fonts/Gilroy-Light.otf) format('opentype');
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    max-width: 1860px;
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+
+.logotipe {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 50px;
+    width: 100%;
+    max-width: 450px;
+    max-height: 395px;
+}
+
+.leftt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 20px;
+    max-width: 350px;
+    max-height: 395px;
+}
+
+.centerr {
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.ouroffice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.rightt {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+}
+
+
+
+.contact-us {
+    width: 254px;
+    height: 59px;
+    border: 0;
+    background-color: #2E2BD0;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: myFont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.size-logo {
+    width: 39px;
+    height: 40px;
+}
+
+h2 {
+    color: black;
+    margin-left: 0;
+    font-family: Gilroy;
+}
+
+h3 {
+    color: #2E2BD0;
+}
+
+.information p {
+    color: #94969c;
+    font-family: myFont;
+}
+
+.information3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h4 {
+    color: #bcbdc1;
+}
+
+.footer-line {
+    height: 2px;
+    width: 97%;
+    background-color: #94969c;
+    margin: 0 auto;
+}
+
+.row_line {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+a {
+    display: flex;
+}
+
+.size-logo1 {
+    display: none;
+}
+
+.lineslogo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.space_btw {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+
+.linkedin,
+.facebook,
+.viber,
+.instragam {
+    width: 60px;
+    height: 60px;
+}
+
+.row_lineg {
+    display: contents;
+}
+
+.space_btw2{
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.servicess h3, .ouroffice h3{
+    font-family: Gilroy;
+}
+
+
+@media (max-width: 1080px) {
+    /* Footer */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logotipe {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .rightt {
+        display: flex;
+        margin: 2rem 40px;
+        width: 100%;
+        max-width: 1080px;
+
+    }
+
+    .size-logo {
+        display: none;
+    }
+
+    .size-logo1 {
+        display: flex;
+        width: 300px;
+        height: 100px;
+    }
+
+    .support-logo {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 50%;
+        max-width: 350px;
+        max-height: 100px;
+    }
+
+    .logotipe {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1080px;
+
+    }
+
+    .leftt {
+        width: 100%;
+        max-width: 1080px;
+    }
+
+    .link-email {
+        font-size: 24px;
+        display: flex;
+        align-self: flex-end;
+    }
+
+    .information3 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        margin: 0 40px;
+        padding: 0;
+    }
+
+    .information3 h4 {
+        font-size: 30px;
+    }
+
+    .row_lineg {
+        display: flex;
+        width: 92%;
+        justify-content: space-between;
+    }
+
+    .row_line {
+        width: 100%;
+        max-width: 1080px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .lineslogo {
+        display: flex;
+        gap: 22px;
+        width: 100%;
+        max-width: 1080px;
+    }
+
+    .linkedin,
+    .facebook,
+    .viber,
+    .instragam {
+        width: 80px;
+        height: 80px;
+    }
+
+    .gmail_it {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: flex-end;
+        font-size: clamp(16px, 3vw, 24px);
+    }
+
+    .space_btw {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-family: Gilroy;
+    }
+
+    .space_btw h3 {
+        width: 48%;
+        margin-bottom: 20px;
+        font-size: clamp(24px, 4vw, 35px);
+        font-family: Gilroy ;
+
+    }
+
+
+    .space_btw1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .space_btw2 h3,
+    .space_btw2 p {
+        margin-bottom: 10px;
+        font-size: 27px;
+    }
+
+    .information3 h4 {
+        margin-top: 15px;
+    }
+
+    .ouroffice {
+        position: relative;
+        bottom: 100px;
+        display: flex;
+        padding: 0;
+        margin: 0 40px;
+        box-sizing: border-box;
+    }
+
+    .space_btw2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .information {
+        color: #646668;
+        font-family: myFont;
+        min-width: 375px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 1rem 5rem 0 0;
+    }
+
+    .information p {
+        width: 100%;
+        font-size: clamp(18px, 3vw, 22px);
+    }
+
+    .row_lines {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ouroffice h2,
+    .servicess h2 {
+        font-size: 40px;
+        margin: 5rem 0;
+        position: relative;
+        top: 1rem;
+        font-family: Gilroy;
+    }
+
+    .information h3 {
+        margin: 0;
+    }
+
+    .footer-line {
+        max-width: 1000px;
+    }
+
+    @media (max-width: 800px) {
+
+        .space_btw2 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ouroffice h2 {
+            margin-top: 20px;
+        }
+    }
+}
