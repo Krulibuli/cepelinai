@@ -35,6 +35,7 @@
     background: linear-gradient(135deg, #5e5be6, #6c68f3);
     border-radius: 80px;
     margin: 0 auto;
+    margin-top: 75px;
 }
 
 
@@ -62,9 +63,10 @@
     width: 48%;
 }
 
+
 .left p {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 20px;
     line-height: 1.1;
     color: #c3c0f4;
