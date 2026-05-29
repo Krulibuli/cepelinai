@@ -466,7 +466,6 @@ header * {
   display: flex;
 width: 22vw;
 flex-direction: column;
-/* margin-left: 15.1vh; */
 margin-top: 0.9vh;
 margin-left: 8.15vw;
 }
@@ -639,10 +638,10 @@ margin-left: 8.15vw;
 }
 
 .icon-box {
-  width: 4.2vw;
-  height: 8vh;
+  width: 4vw;
+  height: 7.8vh;
   border: 3px solid #5b4dff;
-  border-radius: 27px;
+  border-radius: 1vw;
   display: flex;
   align-items: center;
   justify-content: center;

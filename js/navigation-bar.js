@@ -30,9 +30,8 @@ let menuBar = document.getElementById("menu-bar");
 let navBarSpace = document.querySelector(".nav-bar-space");
 
 menuBar.addEventListener("click", () => {
-    navBarSpace.style.display = (navBarSpace.style.display === "none" || navBarSpace.style.display === "") ? "flex" : "none";
+    const isOpen = navBarSpace.style.display === "flex";
+    navBarSpace.style.display = isOpen ? "none" : "flex";
 })
-
-
 
 
