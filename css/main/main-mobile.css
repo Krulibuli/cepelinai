@@ -80,11 +80,6 @@
   ;
 }
 
-.touch-with-us {
-    display: block;
-    flex-direction: column;
-    margin: 0 auto;
-  }
 
   * {
     box-sizing: border-box;
@@ -121,7 +116,7 @@
 
   .left p{
     width: 100%;
-    font-size: 18px;
+    font-size: clamp(12px, 8vw, 18px);
     line-height: 1.5;
     height: auto;
   }
