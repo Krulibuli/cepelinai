@@ -202,6 +202,7 @@ body {
 
 #oTLine {
     /* Line */
+    margin: 0 4.6296vw 0 4.6296vw;
     width: 0;
     height: 29.5833vw;
     border: .0521vw solid var(--blue);
