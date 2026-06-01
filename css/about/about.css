@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 
@@ -29,6 +30,8 @@ body {
     --light_grey: #909398;
     --white: #FFFFFF;
 }
+
+
 
 /* common */
 #tabNames {

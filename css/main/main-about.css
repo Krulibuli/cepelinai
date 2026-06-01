@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: nueue-machina-bold;
+    src: url(../../Fonts/neue-machina-bold.ttf);
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../../Fonts/NeueMachina-Light.otf);
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../Fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../../Fonts/Gilroy-Light.otf);
+}
+
+.touch-with-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
+    width: 97%;
+    max-width: 1900px;
+    padding: 80px;
+    background: linear-gradient(135deg, #5e5be6, #6c68f3);
+    border-radius: 80px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+
+.left {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left h1 {
+    min-width: 700px;
+    font-size: 100px;
+    line-height: 1.1;
+    color: white;
+    font-family: myFont;
+}
+
+
+.down {
+    min-width: 700px;
+    min-height: 61.5px;
+    font-size: 24px;
+    width: 48%;
+}
+
+
+.left p {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 1.1;
+    color: #c3c0f4;
+    font-family: Gilroy;
+}
+
+.left strong {
+    color: white;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 300px;
+    height: 55px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    gap: 12px;
+}
+
+.upload-right {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+}
+
+
+.registration,
+.column1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 42%;
+}
+
+.registration input,
+.px,
+.px-download {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 0;
+    font-size: 32px;
+    color: white;
+    font-family: myFont;
+}
+
+.Upload_file {
+    width: 100%;
+    display: block;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 0;
+    font-size: 32px;
+    color: #a9a7f2;
+    cursor: pointer;
+    font-family: myFont;
+
+}
+
+.registration input::placeholder,
+.px::placeholder,
+.px-download::placeholder,
+.Upload_file {
+    color: #a9a7f2;
+}
+
+
+.px-download {
+    width: 100%;
+    display: flex;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 0;
+    font-size: 32px;
+    color: #a9a7f2;
+}
+
+.px-download::placeholder {
+    font-family: myFont;
+}
+
+
+.submitt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 55px;
+    margin-top: 40px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    color: #2e2bd0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+}
+
+.submitt1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 55px;
+    margin-top: 20px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    color: #2e2bd0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    display: none;
+}
+
+.support-logo {
+    display: none;
+}
+
+
+@media (max-width: 1080px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .touch-with-us {
+        width: 97%;
+        margin: 20px auto 0;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        background: linear-gradient(135deg, #6a5ae0, #6f6fe8);
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .left h1 {
+        font-size: clamp(48px, 8vw, 100px);
+        line-height: 1;
+        height: auto;
+    }
+
+    .left,
+    .upload-right {
+        width: 100%;
+        background: transparent;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .left p {
+        width: 100%;
+        font-size: clamp(12px, 8vw, 18px);
+        line-height: 1.5;
+        height: auto;
+    }
+
+
+    .upload-right {
+        width: 100%;
+        max-width: 1000px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .registration {
+        display: contents;
+    }
+
+
+    .column1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .down {
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+
+    .submitt {
+        display: none;
+    }
+
+    .submitt1 {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 55px;
+        margin-top: 40px;
+        align-self: flex-start;
+        order: 10;
+
+    }
+}
