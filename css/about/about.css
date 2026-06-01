@@ -26,7 +26,7 @@ body {
     --light_Blue: #CBCAF3;
     --dark_grey: #2f353f;
     --grey: #2F353F;
-    --light_grey: #c1c2c5;
+    --light_grey: #909398;
     --white: #FFFFFF;
 }
 
@@ -349,7 +349,7 @@ body {
 .rVBox {
     height: 36.6146vw;
     width: 28.125vw;
-    border: .0521vw solid #909398;
+    border: .0521vw solid var(--light_grey);
     border-radius: 2.3438vw;
     float: left;
 }
@@ -383,12 +383,14 @@ body {
 }
 
 .rVPos {
+    color: var(--light_grey);
     font-family: 'Gilroy';
     font-size: 1.0417vw;
     line-height: 130%;
 }
 
 .rVQt {
+    color: var(--light_grey);
     padding-top: 2.6042vw;
     font-family: 'Gilroy';
     font-size: 1.5625vw;
@@ -396,6 +398,7 @@ body {
 }
 
 .rVBtn {
+
     cursor: pointer;
     margin: 5.9375vw 0 0 2.6042vw;
     height: 3.0208vw;
