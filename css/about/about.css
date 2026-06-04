@@ -54,7 +54,106 @@ body {
 
 /* Who we are */
 .wWTab {
-    height: 61.1875rem;
+    margin-top: 14.0104vw;
+    height: 51.6667vw;
+}
+ 
+.wWMain {
+    display: flex;
+    margin-top: 3.3333vw;
+    margin-bottom: 10.4167vw;
+}
+ 
+.wWText {
+    margin-left: 7.8125vw;
+    font-family: "Gilroy";
+    font-size: 1.25vw;
+    line-height: 1.875vw;
+    color: var(--grey);
+}
+ 
+.wWText p {
+    width: 39.1667vw;
+}
+ 
+.wWInfo {
+    margin-left: 7.8125vw;
+    flex-wrap: wrap;
+    display: flex;
+    font-family: "Gilroy";
+    font-size: 1.25vw;
+    line-height: 1.875vw;
+    color: var(--grey);
+}
+ 
+.info {
+    border: .0521vw solid var(--grey);
+    border-radius: 2.0833vw;
+    height: 12.2396vw;
+    width: 18.6458vw;
+}
+ 
+.wWInfoText {
+    margin-left: 2.6042vw;
+    font-family: "Gilroy";
+}
+ 
+.wWInfoTop {
+    margin: 2.6042vw 0 0 2.6042vw;
+    color: var(--blue);
+    font-size: 3.125vw;
+    line-height: 3.125vw;
+}
+ 
+.wWInfoBottom {
+    margin-top: 2.1875vw;
+    color: var(--grey);
+}
+ 
+.wWBtm {
+    margin-top: 1.25vw;
+}
+ 
+.decoration {
+    margin-left: 8.3333vw;
+    display: flex;
+    height: 9.375vw;
+}
+ 
+.wWBall {
+    width: 9.375vw;
+    height: 9.375vw;
+    border: .1563vw solid var(--white);
+    border-radius: 100%;
+    margin-left: -2.5521vw;
+}
+ 
+.wWBallBlue {
+    background-color: var(--blue);
+}
+ 
+.wWBallBlack {
+    background-color: var(--dark_grey);
+}
+ 
+.wWBallGrey {
+    background-color: var(--light_grey);
+}
+ 
+.wWBallLast {
+    cursor: pointer;
+    background-color: #9995e5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+ 
+.wWPlus {
+    color: #2e2bd0;
+    text-align: center;
+    padding-left: 1.5625vw;
+    height: 6.5104vw;
+    width: 6.5104vw;
 }
 
 
