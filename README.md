@@ -24,9 +24,9 @@ Projektas buvo kuriamas pagal pateiktą **Figma** dizaino šabloną. Mūsų užd
 ## Komandos nariai
 
 
-* *Karolis Beliavskij* - Team Lead, kūrė: "Header", "What are our goals"
-* *Lukas Bludnickas* - Developer, kūrė: "Navigation bar", "Why choose us?"
-* *Edgaras Stimburys* - Developer, kūrė: "Footer", "Get in touch with us"
-* *Ignas Tikanov* - Developer, kūrė: "Industries", "Used technologies"
-* *Nojus Vaitonis* - Developer, kūrė: "How we work?"
-* *Rokas Ilgarūbis* - Developer, kūrė: "Who we are?", "Our Team", "IT Support Group trough the years", "What out clients say about us"
+* **Karolis Beliavskij** - Team Lead, kūrė: "Header", "What are our goals"
+* **Lukas Bludnickas** - Developer, kūrė: "Navigation bar", "Why choose us?"
+* **Edgaras Stimburys** - Developer, kūrė: "Footer", "Get in touch with us"
+* **Ignas Tikanov** - Developer, kūrė: "Industries", "Used technologies"
+* **Nojus Vaitonis** - Developer, kūrė: "How we work?"
+* **Rokas Ilgarūbis** - Developer, kūrė: "Who we are?", "Our Team", "IT Support Group trough the years", "What out clients say about us"
