@@ -32,3 +32,28 @@ Projektą vykdėme **vieną mėnesį**, dirbdami **dvi darbo dienas per savaitę
 * **Nojus Vaitonis** – programuotojas (Developer), kūrė: „**How We Work?**“
 * **Rokas Ilgarūbis** – programuotojas (Developer), kūrė: „**Who We Are?**“, „**Our Team**“, „**IT Support Group Through the Years**“, „**What Our Clients Say About Us**“
  
+
+
+## Ekrano nuotraukos
+
+
+
+<details>
+
+<summary>Paspauskite čia norėdami peržiūrėti, kaip atrodo svetaine</summary>
+
+<br>
+
+![header](./.screenshots/header.png)
+![our-goals](./.screenshots/our-goals.png)
+![why-choose-us](./.screenshots/why-choose-us.png)
+![how-we-work](./.screenshots/how-we-work.png)
+![used-technologies](./.screenshots/used-technologies.png)
+![industries](./.screenshots/Industries.png)
+![touch-with-us](./.screenshots/touch-with-us.png)
+![footer](./.screenshots/footer.png)
+![clients](./.screenshots/clients.png)
+
+</details>
+
+
